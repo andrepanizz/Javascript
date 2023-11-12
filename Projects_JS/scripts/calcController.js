@@ -1,5 +1,5 @@
 class CalcController {
-
+    // Construtor:
     constructor(){
         /* $this.e comum dentro de orientação a objetos*/
         this.displayCalc = "0";
