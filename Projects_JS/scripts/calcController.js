@@ -2,15 +2,16 @@ class CalcController {
     // metodo Construtor:
     constructor(){
         /* $this.e comum dentro de orientação a objetos*/
+        let displayCalcEl = document.querySelector("#display");
+        let dateEl = document.querySelector("#data");
+        let timeEl = document.querySelector("#hora");
         this.displayCalc = "0";
         this.currentDate;
         this.initialize();
       }
     initialize(){
         // Document object Model: or DOM
-            let displayCalcEl = document.querySelector("#display");
-            let dateEl = document.querySelector("#data");
-            let timeEl = document.querySelector("#hora");
+           
 
             displayCalcEl.innerHTML = "123456";
             dateEl.innerHTML = "01/05/2020";
