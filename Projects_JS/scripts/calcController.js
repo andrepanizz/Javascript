@@ -26,11 +26,11 @@ set displaycalc(value){
 
 }
 
-get currentDate(){
+get Date(){
     return this._currentDate;
 }
 
-set currentDate(value){
+set Date(value){
     this._currentDate = value;
 }
 
