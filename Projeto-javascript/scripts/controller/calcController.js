@@ -17,7 +17,6 @@ constructor(){
         
      
     }
-
     // Metodos get and set:
     // Criaremos agora o get do DisplayTime:
     get displayTime(){
