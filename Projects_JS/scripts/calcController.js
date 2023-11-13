@@ -1,6 +1,7 @@
 class CalcController {
 
     constructor(){
+        /*Metodo construtor */
 
         this._displaycalcE1 = document.querySelector("");
         this._dateE1 = document.querySelector("");
