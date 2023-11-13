@@ -15,7 +15,9 @@ constructor(){
         let dateEl = document.querySelector("#data");
         let timeEl = document.querySelector("#hora");
 
-        displayCalcEl.innerHTML = "1234567"; 
+        displayCalcEl.innerHTML = "1234567";
+        dateEl.innerHTML = "01/01/2009";
+        timeEl.innerHTML = "00:00"; 
 
     }
 
