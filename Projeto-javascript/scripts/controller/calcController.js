@@ -11,9 +11,11 @@ constructor(){
 
     initialize(){
 
-        document.querySelector("#display");
-        document.querySelector("#display");
-        document.querySelector("#display");
+        let displayCalcEl = document.querySelector("#display");
+        let dateEl = document.querySelector("#data");
+        let timeEl = document.querySelector("#hora");
+
+        displayCalcEl.innerHTML = "1234567"; 
 
     }
 
