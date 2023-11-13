@@ -19,5 +19,13 @@ constructor(){
         this.displayCalc = valor;
     }
 
+    get dataAtual() {
+        return this._dataAtual;
+    }
+
+    set dataAtual(valor) {
+        this._dataAtual = (valor);
+    }
+
 
 }
