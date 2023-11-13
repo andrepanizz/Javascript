@@ -33,5 +33,6 @@ get Date(){
 set Date(value){
     this._currentDate = value;
 }
-// fim dos getters and setters.
+// fim dos getters and setters.:
+// end script.
 }
