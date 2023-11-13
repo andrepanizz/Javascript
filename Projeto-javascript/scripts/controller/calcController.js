@@ -15,9 +15,7 @@ constructor(){
                
 
         
-        this._dateEl.innerHTML = "01/01/2009";
-        this._timeEl.innerHTML = "00:00"; 
-
+     
     }
 
     // Metodos get and set:
@@ -37,7 +35,7 @@ constructor(){
     set displayDate(value){
         return this._dateEl.innerHTML = value;
     }
-    
+
     //
 
     get displayCalc(){
