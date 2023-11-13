@@ -2,7 +2,6 @@ class CalcController {
 
     constructor(){
         
-
         this._displaycalcE1 = document.querySelector("");
         this._dateE1 = document.querySelector("");
         this._timeE1 = document.querySelector("");
@@ -15,7 +14,7 @@ class CalcController {
 
     }
 
-// getters and setters:
+
 
 get displaycalc(){
     return this._displaycalc;
