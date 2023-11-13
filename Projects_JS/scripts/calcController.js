@@ -14,8 +14,6 @@ class CalcController {
 
     }
 
-
-
 get displaycalc(){
     return this._displaycalc;
 }
@@ -32,5 +30,7 @@ get Date(){
 set Date(value){
     this._currentDate = value;
 }
+
+
 
 }
