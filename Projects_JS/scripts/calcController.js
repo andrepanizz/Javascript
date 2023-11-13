@@ -10,7 +10,6 @@ class CalcController {
         this.initialize();
     }
     /* function initialize: */
-
     initialize(){
 
 
@@ -19,7 +18,7 @@ class CalcController {
 // getters and setters:
 
 get displaycalc(){
-    return this._displaycalc
+    return this._displaycalc;
 }
 
 set displaycalc(value){
@@ -27,6 +26,9 @@ set displaycalc(value){
 
 }
 
-get 
+get currentDate(){
+    return this._currentDate;
+}
+
 
 }
