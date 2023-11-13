@@ -30,5 +30,8 @@ get currentDate(){
     return this._currentDate;
 }
 
+set currentDate(value){
+    this._currentDate = value;
+}
 
 }
