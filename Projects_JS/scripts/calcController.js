@@ -25,10 +25,10 @@ set displaycalc(value){
 
 get Date(){
     return this._currentDate;
-}
+    }
 
 set Date(value){
     this._currentDate = value;
-}
+    }
 
 }
