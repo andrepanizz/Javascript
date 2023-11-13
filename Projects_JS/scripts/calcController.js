@@ -9,7 +9,7 @@ class CalcController {
         this._currentDate;
         this.initialize();
     }
-    /*function initialize: */
+    /*function initialize..: */
 
     initialize(){
 
