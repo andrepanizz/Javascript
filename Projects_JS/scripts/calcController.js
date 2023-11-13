@@ -31,6 +31,4 @@ set Date(value){
     this._currentDate = value;
 }
 
-
-
 }
