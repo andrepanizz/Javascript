@@ -8,6 +8,7 @@ class CalcController {
         this._currentDate;
         this.initialize();
     }
+    /*function initialize*/
 
     initialize(){
 
