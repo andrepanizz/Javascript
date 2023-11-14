@@ -15,7 +15,8 @@ constructor(){
         
      
     }
-    // Metodos get and set:
+    
+    
     // Criaremos agora o get do DisplayTime:
     get displayTime(){
         return this._timeEl.innerHTML;
