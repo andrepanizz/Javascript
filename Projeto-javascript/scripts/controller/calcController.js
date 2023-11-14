@@ -14,8 +14,6 @@ constructor(){
     
         
     }
-    
-
     get displayTime(){
         return this._timeEl.innerHTML;
     }
