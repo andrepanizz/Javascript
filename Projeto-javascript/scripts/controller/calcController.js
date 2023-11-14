@@ -30,7 +30,6 @@ constructor(){
         return this._dateEl.innerHTML = value;
     }
     
-
     get displayCalc(){
 
         return this._displayCalcEl.innerHTML;
