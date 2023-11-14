@@ -13,10 +13,9 @@ constructor(){
     initialize(){
     
         
-     
     }
     
-    
+
     get displayTime(){
         return this._timeEl.innerHTML;
     }
