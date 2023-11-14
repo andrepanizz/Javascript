@@ -17,7 +17,6 @@ constructor(){
     }
     
     
-    // Criaremos agora o get do DisplayTime:
     get displayTime(){
         return this._timeEl.innerHTML;
     }
