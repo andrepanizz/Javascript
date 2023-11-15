@@ -44,6 +44,17 @@ constructor(){
         */
         
     }
+     /*Multiplos eventos: */
+
+     addEventListenerAll(element, events, fn){
+
+        
+
+     }
+
+
+
+
     // metodos:
     // evento de botões;
     initButtonsEvents(){
@@ -71,7 +82,7 @@ constructor(){
 
         buttons.forEach((btn)=>{
             // utilizando o forEach para percorer nossos buttons:(nodelist);
-            btn.addEventListener('click', e=>{
+            btn.addEventListenerAll(btn,"click drag", e=>{
                 console.log(btn.className.baseVal.replace("btn-",""));
                 
             });
