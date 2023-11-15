@@ -9,7 +9,6 @@ constructor(){
     this.initialize();
         
     }
-
     initialize(){
 
         this.setdisplayDateTime();
@@ -48,7 +47,7 @@ constructor(){
      /*Multiplos eventos metodo: */
 
 
-     
+
     // meu metodo de data e hora:
     setdisplayDateTime(){
 
