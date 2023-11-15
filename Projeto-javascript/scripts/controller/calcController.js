@@ -1,7 +1,7 @@
 class CalcController {
 
 constructor(){
-   
+    this._locale = ("pt-BR");
     this._displayCalcEl = document.querySelector("#display");
     this._dateEl = document.querySelector("#data");
     this._timeEl = document.querySelector("#hora");
@@ -11,14 +11,57 @@ constructor(){
     }
 
     initialize(){
+
+        this.setdisplayDateTime();
+
         setInterval(()=>{
-            this.displayDate = this.currentDate.toLocaleDateString("pt-BR");
-            this.displayTime = this.currentDate.toLocaleTimeString("pt-BR");
+
+        this.setdisplayDateTime();    
+
         }, 1000);
-        
-    
+
+        /*
+        Aqui e um exemplo de que com o setTimeout, em 1 segundo ele começa a rodar, e 
+        pode parar no 7 ou 8 seg. 
+        este e só um teste desabilitei, pois utilizo agora o metodo setdisplayDateTime ao invés de:
+
+        "this.displayDate = this.currentDate.tolocaleDateString(this.locale)";
+        "this.displayTime = this.currentDate.tolocaleTimeString(this.locale)";
+        -------------------------------------------------------------------------------------------
+        Sendo que o atributo locale dentro do construtor vou utilizar varias vezes.
+        pra cortar a redundancia utilizo o metodo.
+
+
+        let interval = setInterval(()=>{
+
+        }, 1000);
+
+        setTimeout(()=>{
+            clearInterval(interval);
+
+        }, 10000);
+        */
         
     }
+    // metodos:
+    // evento de botões;
+    initButtonsEvents(){
+
+
+    }
+    // meu metodo de data e hora:
+    setdisplayDateTime(){
+
+        this.displayDate = this.currentDate.toLocaleDateString(this._locale,{
+            day: "2-digit",
+            month: "long",
+            year: "numeric"
+        });
+        this.displayTime = this.currentDate.toLocaleTimeString(this._locale);
+
+
+    }
+    
     get displayTime(){
         return this._timeEl.innerHTML;
     }
