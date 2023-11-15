@@ -69,11 +69,21 @@ constructor(){
             /* - Primeiro devemos percorrer a lista, pois ele e um evento de 1 elemento.
             não de uma lista de elementos - precisaremos criar um laço aqui: */
 
-        buttons.forEach((btn,index)=>{
+        buttons.forEach((btn)=>{
             // utilizando o forEach para percorer nossos buttons:(nodelist);
             btn.addEventListener('click', e=>{
-                console.log(index,btn);
+                console.log(btn.className.baseVal.replace("btn-",""));
+                
             });
+
+            // podemos criar eventos de teclado com drag:
+            /*
+            btn.addEventListener('drag', e=>{
+                
+                console.log(btn.className.baseVal.replace("btn-",""));
+
+            });
+            */
         });
     }
     // meu metodo de data e hora:
