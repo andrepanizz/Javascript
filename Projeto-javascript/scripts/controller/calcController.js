@@ -57,7 +57,7 @@ constructor(){
         dentro de Buttons e todos os "g" que estão dentro de parts.
         // por isso temos o querySelectorAll
          */
-        document.querySelectorAll('#buttons > g, #parts > g');
+        let buttons = document.querySelectorAll('#buttons > g, #parts > g');
         // a diferença entre o querySelector() e o querySelectorAll();
         // Ele ira trazer todos os elementos que casam com este conceito;
 
