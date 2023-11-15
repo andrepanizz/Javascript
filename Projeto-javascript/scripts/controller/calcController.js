@@ -46,6 +46,22 @@ constructor(){
     // metodos:
     // evento de botões;
     initButtonsEvents(){
+        /*
+        Para entender melhor o QuerySelector, a estrutura basica e:
+        Posso pegar o ID buttons *Lembrando de selectores filhos"
+
+        document.querySelector("#buttons > g"), pegue todas as 
+        tags "g" que são filhas de buttons;
+        além desses temos os #parts > g.
+        Pois a resposta que esperamos e pegar todos os "g" que estão
+        dentro de Buttons e todos os "g" que estão dentro de parts.
+        // por isso temos o querySelectorAll
+         */
+        document.querySelectorAll('#buttons > g, #parts > g');
+        // a diferença entre o querySelector() e o querySelectorAll();
+        // Ele ira trazer todos os elementos que casam com este conceito;
+
+
 
 
     }
