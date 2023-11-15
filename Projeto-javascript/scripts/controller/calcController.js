@@ -7,6 +7,7 @@ constructor(){
     this._timeEl = document.querySelector("#hora");
     this._currentDate;
     this.initialize();
+    this.initButtonsEvents();
     
     }
 
@@ -58,12 +59,22 @@ constructor(){
         // por isso temos o querySelectorAll
          */
         let buttons = document.querySelectorAll('#buttons > g, #parts > g');
-        // a diferença entre o querySelector() e o querySelectorAll();
-        // Ele ira trazer todos os elementos que casam com este conceito;
+        /* a diferença entre o querySelector() e o querySelectorAll();
+         Ele ira trazer todos os elementos que casam com este conceito; 
+         
+         
+         O addEnventListerner - recebe 02 parametros: 1° qual evento que queremos.
+         2° O que eu devo fazer quando este evento acontecer arrowFuction ou envento direto ()=>{}, e=>
+         */
+            /* - Primeiro devemos percorrer a lista, pois ele e um evento de 1 elemento.
+            não de uma lista de elementos - precisaremos criar um laço aqui: */
 
-
-
-
+        buttons.forEach(btn=>{
+            // utilizando o forEach para percorer nossos buttons:(nodelist);
+            btn.addEventListener('click', e=>{
+                console.log(e);
+            });
+        });
     }
     // meu metodo de data e hora:
     setdisplayDateTime(){
