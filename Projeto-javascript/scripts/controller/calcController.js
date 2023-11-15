@@ -47,6 +47,15 @@ constructor(){
      /*Multiplos eventos: */
 
      addEventListenerAll(element, events, fn){
+        /*vamos fazer um forEach no split do meu events:
+            events.split('') => irá me retornar um array:
+            agora consigo fazer um foreach;
+        */
+
+        events.split(' ').forEach(event => {
+            // passando em cada {event} eu quero passar o meu evento;
+            event.addEventListener(event, fn, false); //o primeiro parametro vai ser o nome do evento, e a function
+        })
 
         
 
