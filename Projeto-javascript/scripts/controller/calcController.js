@@ -46,60 +46,6 @@ constructor(){
     }
      /*Multiplos eventos: */
 
-     addEventListenerAll(element, events, fn){
-        /*vamos fazer um forEach no split do meu events:
-            events.split('') => irá me retornar um array:
-            agora consigo fazer um foreach;
-        */
-
-        events.split(' ').forEach(event => {
-            // passando em cada {event} eu quero passar o meu evento;
-            event.addEventListener(event, fn, false); //o primeiro parametro vai ser o nome do evento, e a function
-        });
-     }
-
-    // metodos:
-    // evento de botões;
-    initButtonsEvents(){
-        /*
-        Para entender melhor o QuerySelector, a estrutura basica e:
-        Posso pegar o ID buttons *Lembrando de selectores filhos"
-
-        document.querySelector("#buttons > g"), pegue todas as 
-        tags "g" que são filhas de buttons;
-        além desses temos os #parts > g.
-        Pois a resposta que esperamos e pegar todos os "g" que estão
-        dentro de Buttons e todos os "g" que estão dentro de parts.
-        // por isso temos o querySelectorAll
-         */
-        let buttons = document.querySelectorAll('#buttons > g, #parts > g');
-        /* a diferença entre o querySelector() e o querySelectorAll();
-         Ele ira trazer todos os elementos que casam com este conceito; 
-         
-         
-         O addEnventListerner - recebe 02 parametros: 1° qual evento que queremos.
-         2° O que eu devo fazer quando este evento acontecer arrowFuction ou envento direto ()=>{}, e=>
-         */
-            /* - Primeiro devemos percorrer a lista, pois ele e um evento de 1 elemento.
-            não de uma lista de elementos - precisaremos criar um laço aqui: */
-
-        buttons.forEach((btn)=>{
-            // utilizando o forEach para percorer nossos buttons:(nodelist);
-            this.addEventListenerAll(btn,"click drag mouseover", e => {
-                console.log(btn.className.baseVal.replace("btn-",""));
-                
-            });
-
-            // podemos criar eventos de teclado com drag:
-            /*
-            btn.addEventListener('drag', e=>{
-                
-                console.log(btn.className.baseVal.replace("btn-",""));
-
-            });
-            */
-        });
-    }
     // meu metodo de data e hora:
     setdisplayDateTime(){
 
