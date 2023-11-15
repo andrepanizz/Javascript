@@ -7,7 +7,7 @@ constructor(){
     this._timeEl = document.querySelector("#hora");
     this._currentDate;
     this.initialize();
-    this.initButtonsEvents();
+    
     
     }
 
@@ -47,6 +47,7 @@ constructor(){
      /*Multiplos eventos: */
 
     // meu metodo de data e hora:
+
     setdisplayDateTime(){
 
         this.displayDate = this.currentDate.toLocaleDateString(this._locale,{
