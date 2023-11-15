@@ -46,5 +46,4 @@ constructor(){
         this._currentDate = valor;
     }
 
-}  // fim do construtor..:
-/* continuando o desenvolvimento do codigo. */
+}  
