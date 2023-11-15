@@ -61,9 +61,6 @@ constructor(){
 
      }
 
-
-
-
     // metodos:
     // evento de botões;
     initButtonsEvents(){
@@ -91,7 +88,7 @@ constructor(){
 
         buttons.forEach((btn)=>{
             // utilizando o forEach para percorer nossos buttons:(nodelist);
-            btn.addEventListenerAll(btn,"click drag", e=>{
+            this.addEventListenerAll(btn,"click drag mouseover", e=>{
                 console.log(btn.className.baseVal.replace("btn-",""));
                 
             });
