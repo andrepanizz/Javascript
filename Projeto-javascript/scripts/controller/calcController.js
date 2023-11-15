@@ -56,9 +56,6 @@ constructor(){
             // passando em cada {event} eu quero passar o meu evento;
             event.addEventListener(event, fn, false); //o primeiro parametro vai ser o nome do evento, e a function
         })
-
-        
-
      }
 
     // metodos:
@@ -88,7 +85,7 @@ constructor(){
 
         buttons.forEach((btn)=>{
             // utilizando o forEach para percorer nossos buttons:(nodelist);
-            this.addEventListenerAll(btn,"click drag mouseover", e=>{
+            this.addEventListenerAll(btn,"click drag mouseover", e => {
                 console.log(btn.className.baseVal.replace("btn-",""));
                 
             });
