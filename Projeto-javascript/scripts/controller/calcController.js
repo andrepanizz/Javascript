@@ -55,7 +55,7 @@ constructor(){
         events.split(' ').forEach(event => {
             // passando em cada {event} eu quero passar o meu evento;
             event.addEventListener(event, fn, false); //o primeiro parametro vai ser o nome do evento, e a function
-        })
+        });
      }
 
     // metodos:
