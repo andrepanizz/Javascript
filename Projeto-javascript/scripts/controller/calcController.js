@@ -40,14 +40,16 @@ constructor(){
             clearInterval(interval);
 
         }, 10000);
+
         */
         
     }
-     /*Multiplos eventos: */
 
+     /*Multiplos eventos metodo: */
+
+
+     
     // meu metodo de data e hora:
-
-
     setdisplayDateTime(){
 
         this.displayDate = this.currentDate.toLocaleDateString(this._locale,{
