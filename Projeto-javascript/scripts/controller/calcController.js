@@ -7,8 +7,7 @@ constructor(){
     this._timeEl = document.querySelector("#hora");
     this._currentDate;
     this.initialize();
-    
-    
+        
     }
 
     initialize(){
@@ -48,6 +47,7 @@ constructor(){
 
     // meu metodo de data e hora:
 
+
     setdisplayDateTime(){
 
         this.displayDate = this.currentDate.toLocaleDateString(this._locale,{
@@ -56,7 +56,6 @@ constructor(){
             year: "numeric"
         });
         this.displayTime = this.currentDate.toLocaleTimeString(this._locale);
-
 
     }
     
