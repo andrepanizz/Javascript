@@ -7,7 +7,7 @@ constructor(){
     this._timeEl = document.querySelector("#hora");
     this._currentDate;
     this.initialize();
-        
+    this.initButtonsEvents();    
     }
     initialize(){
 
@@ -44,8 +44,20 @@ constructor(){
         
     }
      /*Multiplos eventos metodo: */
-     
+     initButtonsEvents(){
 
+        let buttons = document.querySelector("#buttons > g.btn-9");
+        // O add eventlisterner pega somente um evento, não uma lista de elementos.
+        // vamos percorrer a lista. Para cada botão adiciono 
+
+
+        buttons.forEach(btn=>{
+            btn.addEventListener('click', e=>{
+
+                console.log(e);
+            });
+        })
+     }
 
     /* meu metodo de data e hora: */
     setdisplayDateTime(){
