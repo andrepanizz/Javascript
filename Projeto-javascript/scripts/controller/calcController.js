@@ -43,7 +43,13 @@ constructor(){
         */
         
     }
-     /*Multiplos eventos metodo: */
+     /*Criando Multiplos Eventos:
+     */
+     
+
+
+
+
      initButtonsEvents(){
 
         let buttons = document.querySelectorAll("#buttons > g, #parts > g");
