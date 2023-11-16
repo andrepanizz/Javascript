@@ -8,7 +8,7 @@ constructor(){
     this._currentDate;
     this.initialize();
     this.initButtonsEvents();
-    this.addEventListenerAll();
+   
     }
     initialize(){
 
