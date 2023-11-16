@@ -8,6 +8,8 @@ constructor(){
     this._currentDate;
     this.initialize();
     this.initButtonsEvents();
+    // this.addEventListenerAll(); propriedade não pode ser lida e indefinida!
+    
    
     }
     initialize(){
