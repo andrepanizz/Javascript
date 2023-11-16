@@ -57,7 +57,7 @@ constructor(){
         // O add eventlisterner pega somente um evento, não uma lista de elementos.
         // vamos percorrer a lista. Para cada botão adiciono o envento a este botão (btn)
 
-
+        // a.split(' '); recebe um parametro que e um separador; 
         buttons.forEach((btn, index)=>{
 
             this.addEventListener(btn, "click drag", e=>{
