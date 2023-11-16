@@ -46,17 +46,18 @@ constructor(){
      /*Multiplos eventos metodo: */
      initButtonsEvents(){
 
-        let buttons = document.querySelector("#buttons > g.btn-9");
+        let buttons = document.querySelectorAll("#buttons > g, #parts > g");
         // O add eventlisterner pega somente um evento, não uma lista de elementos.
-        // vamos percorrer a lista. Para cada botão adiciono 
+        // vamos percorrer a lista. Para cada botão adiciono o envento a este botão (btn)
 
 
-        buttons.forEach(btn=>{
+        buttons.forEach((btn, index)=>{
+            
             btn.addEventListener('click', e=>{
 
-                console.log(e);
+                console.log(btn);
             });
-        })
+        });
      }
 
     /* meu metodo de data e hora: */
