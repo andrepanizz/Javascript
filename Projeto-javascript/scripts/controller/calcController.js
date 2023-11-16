@@ -46,9 +46,14 @@ constructor(){
     
     //Podemos criar os nossos eventos
      addEventListenerAll(element, events, fn){
-        
+        events.split(' ').forEach(event =>{
+            // vou passar em cada el. eu quero adicionar o meu evento = events:
+            // events = todos os eventos.
+            // element = cada um dos eventos (elemento);
+            element.addEventListener(envent, fn, false);
+        });       
 
-        
+        // como temos o botão 
      }
 
      initButtonsEvents(){
