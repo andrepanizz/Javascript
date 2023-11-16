@@ -53,7 +53,9 @@ constructor(){
             element.addEventListener(envent, fn, false);
         });       
 
-        // como temos o botão 
+        /* como temos o botão, como o texto do botão, pode ser que aconteça nos dois
+        ao mesmo tempo e passamos um false pra abortar este evento. */
+        
      }
 
      initButtonsEvents(){
