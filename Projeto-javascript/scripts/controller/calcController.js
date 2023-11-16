@@ -43,10 +43,8 @@ constructor(){
         */
         
     }
-     /*Criando Multiplos Eventos:
-     */
-
-     //Podemos criar os nossos eventos:
+    
+    //Podemos criar os nossos eventos
      addEventListenerAll(element, events, fn){
         
 
@@ -57,7 +55,7 @@ constructor(){
 
         let buttons = document.querySelectorAll("#buttons > g, #parts > g");
         // O add eventlisterner pega somente um evento, não uma lista de elementos.
-        // vamos percorrer a lista. Para cada botão adiciono o envento a este botão (btn);
+        // vamos percorrer a lista. Para cada botão adiciono o envento a este botão (btn)
 
 
         buttons.forEach((btn, index)=>{
