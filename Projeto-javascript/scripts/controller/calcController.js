@@ -71,7 +71,7 @@ constructor(){
         // a.split(' '); recebe um parametro que e um separador; 
         buttons.forEach((btn, index)=>{
             
-            this.addEventListener(btn,"click drag mouseover",e=>{
+            this.addEventListenerAll(btn,"click drag mouseover",e=>{
 
                 console.log(btn.className.baseVal.replace("btn-",""));
             });
