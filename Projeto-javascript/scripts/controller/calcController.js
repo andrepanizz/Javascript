@@ -8,7 +8,7 @@ constructor(){
     this._currentDate;
     this.initialize();
     this.initButtonsEvents();
-
+    this.addEventListenerAll();
     }
     initialize(){
 
@@ -52,7 +52,7 @@ constructor(){
             // events = todos os eventos.
             // element = cada um dos eventos (elemento);
             element.addEventListener(event, fn, false);
-            
+
         });       
 
         /* como temos o botão, como o texto do botão, pode ser que aconteça nos dois
