@@ -45,8 +45,10 @@ constructor(){
     }
      /*Criando Multiplos Eventos:
      */
-     addEventListenerAll(element, events, fn){
 
+     //Podemos criar os nossos eventos:
+     addEventListenerAll(element, events, fn){
+        
 
         
      }
@@ -60,7 +62,7 @@ constructor(){
 
         buttons.forEach((btn, index)=>{
 
-            btn.addEventListener('click', e=>{
+            this.addEventListener(btn, "click drag", e=>{
 
                 console.log(btn.className.baseVal.replace("btn-",""));
             });
