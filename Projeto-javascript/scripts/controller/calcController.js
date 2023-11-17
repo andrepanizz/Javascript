@@ -76,6 +76,7 @@ constructor(){
     }
     // ClearEntry:
     clearEntry(){
+
         this._operation.pop();
 
         // O pop elimina o ultimo elemento do Array = [];
@@ -83,10 +84,7 @@ constructor(){
     }
 
     addOperation(value){
-        // note que o operation e nosso array = [];
         this._operation.push(value);
-
-        console.log(this.addOperation);
     }
 
 
@@ -135,10 +133,6 @@ constructor(){
                 
                         
             break;
-            default:
-                this.setError()
-            break;
-
             // Este case em especial não terá break, so no seu final. para executar no ultimo comando:
             case '0':
             case '1':
@@ -155,6 +149,10 @@ constructor(){
                para virar um numero o meu value; */
             this.addOperation(parseInt(value));
             break;
+            default:
+                this.setError()
+            break;
+
             
         }
     }
