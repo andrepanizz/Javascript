@@ -10,8 +10,11 @@ constructor(){
     this.initButtonsEvents();
     // this.addEventListenerAll(); propriedade não pode ser lida e indefinida!
     
-   
-    }
+
+    
+  
+}
+
     initialize(){
 
         this.setdisplayDateTime();
@@ -46,24 +49,29 @@ constructor(){
         */
         
     }
-    
-    //Podemos criar os nossos eventos
+/////////////////////////////////////  - LISTA DE EVENTOS  - ///////////////////////////////////////////////////////
+
+    //Podemos criar os nossos eventos:
     // vou passar em cada el. eu quero adicionar o meu evento = events:
             // events = todos os eventos.
-            // element = cada um dos eventos (elemento)..
-     addEventListenerAll(element, events, fn){
+            // element = cada um dos eventos (elemento):
+
+    addEventListenerAll(element, events, fn){
         
         events.split(' ').forEach(event => {
             
             element.addEventListener(event, fn, false);
 
-        });       
+        }); 
+
         /* como temos o botão, como o texto do botão, pode ser que aconteça nos dois
         ao mesmo tempo e passamos um false pra abortar este evento. */
-     
-    }
-
     
+
+    execBtn(value)    
+    }
+    
+//////////////////////////////////// - BUTTONS & GETTERS AND SETTERS - ////////////////////////////////////////
      initButtonsEvents(){
 
         // O add eventlisterner pega somente um evento, não uma lista de elementos.
@@ -76,12 +84,19 @@ constructor(){
             
             this.addEventListenerAll(btn,"click drag", e=>{
 
-                console.log(btn.className.baseVal.replace("btn-",""));
-            });
+                let textBtn = console.log(btn.className.baseVal.replace("btn-","botão:  "));
 
+                //estou criando aqui um metodo para utilizar uma ação do meu botão:
+                this.execBtn(textBtn);
+            });
                       
             /* - reaproveitando o mesmo metodo, estou colocando outro envento acima: */
+            this.addEventListenerAll(btn, "mouseover mouseup mousedown", e=>{
+                btn.style.cursor = "pointer";
+            });
         });
+      
+
     }
 
     /* meu metodo de data e hora: */
