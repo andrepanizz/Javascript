@@ -60,11 +60,10 @@ constructor(){
         });       
         /* como temos o botão, como o texto do botão, pode ser que aconteça nos dois
         ao mesmo tempo e passamos um false pra abortar este evento. */
-
+     
     }
 
     
-
      initButtonsEvents(){
 
         // O add eventlisterner pega somente um evento, não uma lista de elementos.
@@ -80,12 +79,7 @@ constructor(){
                 console.log(btn.className.baseVal.replace("btn-",""));
             });
 
-            this.addEventListernerAll(btn, "mouseover mouseup mousedown", e =>{
-
-                btn.style.cursor = "pointer";
-
-            });
-
+                      
             /* - reaproveitando o mesmo metodo, estou colocando outro envento acima: */
         });
     }
