@@ -137,6 +137,23 @@ constructor(){
                 this.setError()
             break;
 
+            // Este case em especial não terá break, so no seu final. para executar no ultimo comando:
+            case '0':
+            case '1':
+            case '2':
+            case '3':
+            case '4':
+            case '5':
+            case '6':
+            case '7':
+            case '8':
+            case '9':
+            /* agora eu vou colocar o addOperation e adicionar o (value)
+               que o valor que recebi do meu botão (Adicionaremos um ParseInt());
+               para virar um numero o meu value; */
+            this.addOperation(parseInt(value));
+            break;
+            
         }
     }
 
