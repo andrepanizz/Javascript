@@ -74,6 +74,9 @@ constructor(){
     }
     // ClearEntry:
     clearEntry(){
+        this._operation.pop();
+
+        // O pop elimina o ultimo elemento do Array = [];
 
     }
 
