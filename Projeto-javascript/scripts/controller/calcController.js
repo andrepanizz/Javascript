@@ -76,6 +76,13 @@ constructor(){
     clearEntry(){
 
     }
+
+    addOperation(value){
+        // note que o operation e nosso array = [];
+        this._operation.push(value);
+    }
+
+
     // SetError:
     setError(){
         //vou mostrar na tela com o displayCalc o erro!
