@@ -69,6 +69,7 @@ constructor(){
     
 //////////////////////////////////// - BUTTONS & GETTERS AND SETTERS - ////////////////////////////////////////
     /* Metodo que saiba Limpar tudo: */
+
     clearAll(){
 
         this._operation = [];
@@ -83,7 +84,7 @@ constructor(){
 
     }
 
-    addOperation(value){
+    add_Operation(value){
         this._operation.push(value);
     }
 
@@ -148,7 +149,7 @@ constructor(){
             /* agora eu vou colocar o addOperation e adicionar o (value)
                que o valor que recebi do meu botão (Adicionaremos um ParseInt());
                para virar um numero o meu value; */
-            this.addOperation(parseInt(value));
+            this.add_Operation(parseInt(value));
             break;
             default:
                 this.setError()
