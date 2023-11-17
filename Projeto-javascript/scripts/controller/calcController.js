@@ -81,7 +81,7 @@ constructor(){
             
             this.addEventListenerAll(btn,"click drag", e=>{
 
-                let textBtn = console.log(btn.className.baseVal.replace("btn-","botão:  "));
+                let textBtn = console.log(btn.className.baseVal.replace("btn-","erica  "));
 
                 //estou criando aqui um metodo para utilizar uma ação do meu botão:
                 this.execBtn(textBtn);
