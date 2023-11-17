@@ -89,10 +89,10 @@ constructor(){
 
 
     // SetError mensagem de erro:
-    
+
     setError(){
         //vou mostrar na tela com o displayCalc o erro!
-        this.displayCalc = "Error";
+        this.displayCalc = "Error!";
         
     }
 
