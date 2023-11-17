@@ -67,11 +67,11 @@ constructor(){
 
      initButtonsEvents(){
 
-        let buttons = document.querySelectorAll("#buttons > g, #parts > g");
         // O add eventlisterner pega somente um evento, não uma lista de elementos.
         // vamos percorrer a lista. Para cada botão adiciono o envento a este botão (btn)
 
         // a.split(' '); recebe um parametro que e um separador;
+        let buttons = document.querySelectorAll("#buttons > g, #parts > g");
 
         buttons.forEach((btn, index)=>{
             
@@ -80,12 +80,13 @@ constructor(){
                 console.log(btn.className.baseVal.replace("btn-",""));
             });
 
-            this.addEnventListernerAll(btn, "mouseover mouseup mousedown", e => {
+
+            this.addEventListernerAll(btn, "mouseover mouseup mousedown", e =>{
 
                 btn.style.cursor = "pointer";
-            });
-            /* - reaproveitando o mesmo metodo, estou colocando outro envendo acima: */
 
+            });
+            /* - reaproveitando o mesmo metodo, estou colocando outro envento acima: */
 
         });
      }
