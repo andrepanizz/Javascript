@@ -88,7 +88,8 @@ constructor(){
     }
 
 
-    // SetError:
+    // SetError mensagem de erro:
+    
     setError(){
         //vou mostrar na tela com o displayCalc o erro!
         this.displayCalc = "Error";
@@ -101,7 +102,7 @@ constructor(){
        textBtn = console.log(btn.className.baseVal.replace("btn-","botão: "));*/
     execBtn(value){
         // start switch:
-        
+
         switch (value){
             case 'ac':
                 this.clearAll();
