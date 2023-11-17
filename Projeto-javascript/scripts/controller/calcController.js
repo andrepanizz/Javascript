@@ -61,8 +61,6 @@ constructor(){
         /* como temos o botão, como o texto do botão, pode ser que aconteça nos dois
         ao mesmo tempo e passamos um false pra abortar este evento. */
 
-
-
      }
 
     
@@ -73,10 +71,11 @@ constructor(){
         // O add eventlisterner pega somente um evento, não uma lista de elementos.
         // vamos percorrer a lista. Para cada botão adiciono o envento a este botão (btn)
 
-        // a.split(' '); recebe um parametro que e um separador; 
+        // a.split(' '); recebe um parametro que e um separador;
+
         buttons.forEach((btn, index)=>{
             
-            this.addEventListenerAll(btn,"click drag", e=>{
+            this.addEventListenerAll(btn,"click drag", e =>{
 
                 console.log(btn.className.baseVal.replace("btn-",""));
             });
@@ -85,7 +84,7 @@ constructor(){
 
                 btn.style.cursor = "pointer";
             });
-            //
+            /* - reaproveitando o mesmo metodo, estou colocando outro envendo acima: */
 
 
         });
