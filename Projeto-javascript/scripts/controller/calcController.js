@@ -11,8 +11,7 @@ constructor(){
     // this.addEventListenerAll(); propriedade não pode ser lida e indefinida!
 }
 
-
-
+/////////////////////////////////////// - INITIALIZE - ////////////////////////////////////////////
     initialize(){
 
         this.setdisplayDateTime();
