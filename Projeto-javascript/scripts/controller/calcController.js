@@ -85,13 +85,15 @@ constructor(){
     addOperation(value){
         // note que o operation e nosso array = [];
         this._operation.push(value);
+
+        console.log(this.addOperation);
     }
 
 
     // SetError:
     setError(){
         //vou mostrar na tela com o displayCalc o erro!
-        this.displayCalc = "DEU UM ERRO!";
+        this.displayCalc = "Error";
         
     }
 
@@ -110,27 +112,27 @@ constructor(){
                 
             break;
             case 'soma':
-                this();
+                
                 
             break;
             case 'subtracao':
-                this();
+                
                     
             break;
             case 'divisão':
-                this();
+                
                     
             break;
             case 'multiplicacao':
-                this();
+                
                     
             break;
             case 'porcento':
-                this();
+                
                         
             break;
             case 'igual':
-                this();
+                
                         
             break;
             default:
@@ -170,7 +172,7 @@ constructor(){
             
             this.addEventListenerAll(btn,"click drag", e=>{
 
-                let textBtn = console.log(btn.className.baseVal.replace("btn-","botão: "));
+                let textBtn = console.log(btn.className.baseVal.replace("btn-",""));
 
                 this.execBtn();
 
