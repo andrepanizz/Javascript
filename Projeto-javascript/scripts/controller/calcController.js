@@ -71,6 +71,8 @@ constructor(){
     /* Metodo que saiba Limpar tudo: */
     clearAll(){
 
+        this._operation = [];
+
     }
     // ClearEntry:
     clearEntry(){
