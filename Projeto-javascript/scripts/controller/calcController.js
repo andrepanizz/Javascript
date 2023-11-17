@@ -1,6 +1,7 @@
 class CalcController {
 
 constructor(){
+    this.operation = []; // vamos popular nosso array com as operações;
     this._locale = ("pt-BR");
     this._displayCalcEl = document.querySelector("#display");
     this._dateEl = document.querySelector("#data");
@@ -63,12 +64,23 @@ constructor(){
 
         /* como temos o botão, como o texto do botão, pode ser que aconteça nos dois
         ao mesmo tempo e passamos um false pra abortar este evento. */
-    
-
-    execBtn(value)    
+       
     }
     
 //////////////////////////////////// - BUTTONS & GETTERS AND SETTERS - ////////////////////////////////////////
+    /** */
+
+    /* Este e o switch do metodo execBtn que esta abaixo do:
+       textBtn = console.log(btn.className.baseVal.replace("btn-","botão: "));*/
+    execBtn(value){
+        switch (value){
+            case 'ac':
+
+            break;
+        }
+    }
+
+
      initButtonsEvents(){
 
         // O add eventlisterner pega somente um evento, não uma lista de elementos.
@@ -81,11 +93,11 @@ constructor(){
             
             this.addEventListenerAll(btn,"click drag", e=>{
 
-                let textBtn = console.log(btn.className.baseVal.replace("btn-","erica  "));
+                let textBtn = console.log(btn.className.baseVal.replace("btn-","botão: "));
 
-                //estou criando aqui um metodo para utilizar uma ação do meu botão:
-                this.execBtn(textBtn);
-            });
+                this.execBtn();
+
+        });
                       
             /* - reaproveitando o mesmo metodo, estou colocando outro envento acima: */
             this.addEventListenerAll(btn, "mouseover mouseup mousedown", e=>{
