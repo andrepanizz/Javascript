@@ -96,8 +96,6 @@ constructor(){
         
     }
 
-
-
     /* Este e o switch do metodo execBtn que esta abaixo do:
        textBtn = console.log(btn.className.baseVal.replace("btn-","botão: "));*/
     execBtn(value){
