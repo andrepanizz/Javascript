@@ -68,15 +68,63 @@ constructor(){
     }
     
 //////////////////////////////////// - BUTTONS & GETTERS AND SETTERS - ////////////////////////////////////////
-    /** */
+    /* Metodo que saiba Limpar tudo: */
+    clearAll(){
+
+    }
+    // ClearEntry:
+    clearEntry(){
+
+    }
+    // SetError:
+    setError(){
+        //vou mostrar na tela com o displayCalc o erro!
+        this.displayCalc = "DEU UM ERRO!";
+        
+    }
+
+
 
     /* Este e o switch do metodo execBtn que esta abaixo do:
        textBtn = console.log(btn.className.baseVal.replace("btn-","botão: "));*/
     execBtn(value){
         switch (value){
             case 'ac':
-
+                this.clearAll();
+            
             break;
+            case 'ce':
+               this.clearEntry();
+                
+            break;
+            case 'soma':
+                this();
+                
+            break;
+            case 'subtracao':
+                this();
+                    
+            break;
+            case 'divisão':
+                this();
+                    
+            break;
+            case 'multiplicacao':
+                this();
+                    
+            break;
+            case 'porcento':
+                this();
+                        
+            break;
+            case 'igual':
+                this();
+                        
+            break;
+            default:
+                this.setError()
+            break;
+
         }
     }
 
@@ -154,6 +202,7 @@ constructor(){
 
 }  
 /*
+<!-- tabela do Ids dos Buttons -->
 <html>
     <body>
         <g id="buttons">
