@@ -61,7 +61,7 @@ constructor(){
         /* como temos o botão, como o texto do botão, pode ser que aconteça nos dois
         ao mesmo tempo e passamos um false pra abortar este evento. */
 
-     }
+    }
 
     
 
@@ -75,21 +75,20 @@ constructor(){
 
         buttons.forEach((btn, index)=>{
             
-            this.addEventListenerAll(btn,"click drag", e =>{
+            this.addEventListenerAll(btn,"click drag", e=>{
 
                 console.log(btn.className.baseVal.replace("btn-",""));
             });
-
 
             this.addEventListernerAll(btn, "mouseover mouseup mousedown", e =>{
 
                 btn.style.cursor = "pointer";
 
             });
-            /* - reaproveitando o mesmo metodo, estou colocando outro envento acima: */
 
+            /* - reaproveitando o mesmo metodo, estou colocando outro envento acima: */
         });
-     }
+    }
 
     /* meu metodo de data e hora: */
     setdisplayDateTime(){
