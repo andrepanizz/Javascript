@@ -61,7 +61,11 @@ constructor(){
         /* como temos o botão, como o texto do botão, pode ser que aconteça nos dois
         ao mesmo tempo e passamos um false pra abortar este evento. */
 
+
+
      }
+
+    
 
      initButtonsEvents(){
 
@@ -72,10 +76,18 @@ constructor(){
         // a.split(' '); recebe um parametro que e um separador; 
         buttons.forEach((btn, index)=>{
             
-            this.addEventListenerAll(btn,"click drag mouseover",e=>{
+            this.addEventListenerAll(btn,"click drag", e=>{
 
                 console.log(btn.className.baseVal.replace("btn-",""));
             });
+
+            this.addEnventListernerAll(btn, "mouseover mouseup mousedown", e => {
+
+                btn.style.cursor = "pointer";
+            });
+            //
+
+
         });
      }
 
