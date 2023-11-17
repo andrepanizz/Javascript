@@ -87,7 +87,6 @@ constructor(){
         this._operation.push(value);
     }
 
-
     // SetError mensagem de erro:
 
     setError(){
@@ -97,7 +96,8 @@ constructor(){
     }
 
     /* Este e o switch do metodo execBtn que esta abaixo do:
-       textBtn = console.log(btn.className.baseVal.replace("btn-","botão: "));*/
+       textBtn = console.log(btn.className.baseVal.replace("btn-","botão: ")); */
+       
     execBtn(value){
         // start switch:
 
