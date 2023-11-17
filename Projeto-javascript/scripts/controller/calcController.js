@@ -50,7 +50,7 @@ constructor(){
     //Podemos criar os nossos eventos
     // vou passar em cada el. eu quero adicionar o meu evento = events:
             // events = todos os eventos.
-            // element = cada um dos eventos (elemento);
+            // element = cada um dos eventos (elemento)..
      addEventListenerAll(element, events, fn){
         
         events.split(' ').forEach(event => {
@@ -58,7 +58,6 @@ constructor(){
             element.addEventListener(event, fn, false);
 
         });       
-
         /* como temos o botão, como o texto do botão, pode ser que aconteça nos dois
         ao mesmo tempo e passamos um false pra abortar este evento. */
 
