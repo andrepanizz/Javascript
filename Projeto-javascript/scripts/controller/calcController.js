@@ -73,13 +73,36 @@ constructor(){
         this._operation = [];
     }
 
+    // Metodo que pega a ultima posição do array => this._operations = [];
+    getLastOperation(){
+
+        return this._operation[this._operation.length-1];
+        
+    }
+    /*NOTA: O isNaN() serve pra achar os botões que não são numericos; */
+
      // Botão Cancelar Entrada.
      clearEntry(){
         this._operation.pop();
     }
     // Push Adcionar Operação.
-    addOperator(value){
+    addOperator(value){   // se não for um numero vai dar False (value). 
+
+        /* Se o ultimo numero não for numero faço a minha verificação com isNaN()
+           pegando o getLastOperation */
+
+           if(isNaN(this.getLastOperation())){
+                //string ->true
+           }else{
+                // vamos pegar o ultimo valor que foi digitado: this.getLastOperation();
+                this.getLastOperation.toString() //converto em string();
+                
+           }
+
+
+
         this._operation.push(value);
+
         console.log(this._operation);
     }
     // Mensagem de Erro na Tela.
@@ -91,28 +114,32 @@ constructor(){
         switch(value) {
             case 'ac':
                 this.clearAll();
-                break;
+            break;
             case 'ce':
                 this.clearEntry();
-                break;
+            break;
             case 'soma':
 
-                break;
+            break;
             case 'subtraçao':
 
-                break;
+            break;
             case 'divisao':
 
-                break;
+            break;
             case 'multiplicacao':
 
-                break;
+            break;
             case 'porcento':
 
-                break;
+            break;
             case 'igual':
 
-                break;
+            break;
+
+            case 'ponto':
+
+            break;
             case '0':
             case '1':
             case '2':
@@ -124,10 +151,10 @@ constructor(){
             case '8':
             case '9':
                 this.addOperation(parseInt(value));
-                break;
+            break;
             default:
                 this.setError();
-                break;
+            break;
         }
     }
    
