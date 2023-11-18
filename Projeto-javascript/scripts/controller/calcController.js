@@ -68,7 +68,7 @@ constructor(){
  
 //////////////////////////////////// - BUTTONS & GETTERS AND SETTERS - ////////////////////////////////////////
     
-    //
+    // Temos o boatão: Limpar tudo!
     clearAll(){
         this._operation = [];
     }
