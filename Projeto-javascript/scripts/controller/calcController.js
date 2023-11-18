@@ -1,7 +1,7 @@
 class CalcController {
 
 constructor(){
-    this.operation = []; // vamos popular nosso array com as operações;
+    this._operation = []; // vamos popular nosso array com as operações;
     this._locale = ("pt-BR");
     this._displayCalcEl = document.querySelector("#display");
     this._dateEl = document.querySelector("#data");
@@ -150,7 +150,7 @@ constructor(){
 
                 let textBtn = console.log(btn.className.baseVal.replace("btn-",""));
 
-                this.execBtn();
+                this.execBtn(textBtn);
 
         });
                       
