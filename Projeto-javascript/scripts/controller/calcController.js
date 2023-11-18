@@ -81,11 +81,11 @@ constructor(){
     add_Operator(value){
         this._operation.push(value);
     }
-    //
+    // Mensagem de Erro na Tela.
      setError(){
         this.displayCalc = "Error!";
     }
-    //
+    // Switch Case no parametro value.
     execBtn(value){
         switch(value) {
             case 'ac':
