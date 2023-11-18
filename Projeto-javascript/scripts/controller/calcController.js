@@ -92,16 +92,19 @@ constructor(){
            pegando o getLastOperation */
 
            if(isNaN(this.getLastOperation())){
-                //string ->true
+                /*Se este valor for um operador (+ ou - ou . etc..) */
            }else{
-                // vamos pegar o ultimo valor que foi digitado: this.getLastOperation();
-                this.getLastOperation.toString() //converto em string();
+                /* Vamos pegar o ultimo valor que foi digitado: this.getLastOperation();
+                   converto ela em string. e armazeno em uma variavel */
+              let newValue =  this.getLastOperation.toString() + value.toString();
+                // esse novo valor eu adiciono no meu array();
                 
-           }
+                this._operation.push(newValue);
+            }
 
 
 
-        this._operation.push(value);
+        
 
         console.log(this._operation);
     }
