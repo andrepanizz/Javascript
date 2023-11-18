@@ -68,12 +68,12 @@ constructor(){
  
 //////////////////////////////////// - BUTTONS & GETTERS AND SETTERS - ////////////////////////////////////////
     
-    // Temos o boatão: Limpar tudo!
+    // Temos o boatão: Limpar tudo.
     clearAll(){
         this._operation = [];
     }
 
-     // 
+     // Botão Cancelar Entrada.
      clearEntry(){
         this._operation.pop();
     }
