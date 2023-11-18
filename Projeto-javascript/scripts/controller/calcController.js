@@ -67,7 +67,7 @@ constructor(){
     }
  
 //////////////////////////////////// - BUTTONS & GETTERS AND SETTERS - ////////////////////////////////////////
-    /* Metodo que saiba Limpar tudo: */
+    
     
     clearAll(){
         this._operation = [];
