@@ -98,7 +98,7 @@ constructor(){
         
     }
     /* Push Adcionar Operação. */
-    addOperator(value){   //se não for um numero vai dar False (value). 
+    addOperation(value){   //se não for um numero vai dar False (value). 
 
         /* Se o ultimo numero não for numero faço a minha verificação com isNaN()
            pegando o getLastOperation */
@@ -144,25 +144,26 @@ constructor(){
                 this.clearEntry();
             break;
             case 'soma':
-
+                this.addOperation('+');
             break;
             case 'subtraçao':
-
+                this.addOperation('-');
             break;
             case 'divisao':
-
+                this.addOperation('/');
             break;
             case 'multiplicacao':
-
+                this.addOperation('*');
             break;
             case 'porcento':
-
+                this.addOperation('%');
             break;
             case 'igual':
-
+                
             break;
 
             case 'ponto':
+                this.addOperation('.');
 
             break;
             case '0':
