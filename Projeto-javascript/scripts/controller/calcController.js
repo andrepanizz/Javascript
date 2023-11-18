@@ -108,10 +108,15 @@ constructor(){
                 if(this.isOperator(value)){
 
                     //eu vou pegar o valor do ultimo item pra mim trocar:
-                    this._operation[this._operation.length-1]
+
+                    this._operation[this._operation.length-1] = value;
+                    /*O meu ultimo item vai ser igual ao meu operador do momento
+                    ele substitui ele trocou (Não adicionou) */
 
 
                 }else{
+                    // Outra coisa;
+                    console.log(value);
 
                 }
            }else{
@@ -119,13 +124,9 @@ constructor(){
                    converto ela em string. e armazeno em uma variavel */
               let newValue =  this.getLastOperation.toString() + value.toString();
                 // esse novo valor eu adiciono no meu array();
-                
-                this._operation.push(newValue);
+              this._operation.push(newValue);
             }
 
-
-
-        
 
         console.log(this._operation);
     }
