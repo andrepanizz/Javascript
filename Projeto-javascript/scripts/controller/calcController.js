@@ -75,6 +75,12 @@ constructor(){
 
     }
 
+     setError(){
+        //vou mostrar na tela com o displayCalc o erro!
+        this.displayCalc = "Error!";
+        
+    }
+
     execBtn(value){
         switch(value) {
             case 'ac':
@@ -102,7 +108,7 @@ constructor(){
 
                 break;
             default:
-
+                this.setError();
                 break;
             
 
@@ -121,13 +127,7 @@ constructor(){
         this._operation.push(value);
     }
 
-    // SetError mensagem de erro:
-
-    setError(){
-        //vou mostrar na tela com o displayCalc o erro!
-        this.displayCalc = "Error!";
-        
-    }
+     
 
     /* Este e o switch do metodo execBtn que esta abaixo do:
        textBtn = console.log(btn.className.baseVal.replace("btn-","botão: ")); */
