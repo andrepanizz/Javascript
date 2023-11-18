@@ -92,7 +92,16 @@ constructor(){
             case 'divisao':
 
                 break;
-            case '':
+            case 'multiplicacao':
+
+                break;
+            case 'porcento':
+
+                break;
+            case 'igual':
+
+                break;
+            default:
 
                 break;
             
