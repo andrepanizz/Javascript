@@ -81,7 +81,7 @@ constructor(){
     addOperator(value){
         this._operation.push(value);
 
-        console.log(this.operation);
+        console.log(this._operation);
     }
     // Mensagem de Erro na Tela.
      setError(){
