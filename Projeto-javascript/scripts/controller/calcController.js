@@ -68,23 +68,24 @@ constructor(){
  
 //////////////////////////////////// - BUTTONS & GETTERS AND SETTERS - ////////////////////////////////////////
     
-    
+    //
     clearAll(){
         this._operation = [];
     }
 
-     // ClearEntry:
+     // 
      clearEntry(){
         this._operation.pop();
     }
-
+    //
     add_Operator(value){
         this._operation.push(value);
     }
-
+    //
      setError(){
         this.displayCalc = "Error!";
     }
+    //
     execBtn(value){
         switch(value) {
             case 'ac':
