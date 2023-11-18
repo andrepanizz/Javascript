@@ -153,7 +153,7 @@ constructor(){
             default:
                 this.setError();
             break;
-            // end switch.
+            // end switch
             
         }
     }
