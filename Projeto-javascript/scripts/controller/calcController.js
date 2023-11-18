@@ -77,7 +77,7 @@ constructor(){
      clearEntry(){
         this._operation.pop();
     }
-    //
+    // Push Adcionar Operação.
     add_Operator(value){
         this._operation.push(value);
     }
