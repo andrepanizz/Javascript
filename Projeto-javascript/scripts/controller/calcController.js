@@ -68,25 +68,23 @@ constructor(){
  
 //////////////////////////////////// - BUTTONS & GETTERS AND SETTERS - ////////////////////////////////////////
     /* Metodo que saiba Limpar tudo: */
-
+    
     clearAll(){
-
         this._operation = [];
+    }
 
+     // ClearEntry:
+     clearEntry(){
+        this._operation.pop();
     }
 
     add_Operator(value){
-
         this._operation.push(value);
-        
     }
 
      setError(){
-        //vou mostrar na tela com o displayCalc o erro!
         this.displayCalc = "Error!";
-        
     }
-
     execBtn(value){
         switch(value) {
             case 'ac':
@@ -116,25 +114,9 @@ constructor(){
             default:
                 this.setError();
                 break;
-            
-
         }
     }
-    // ClearEntry:
-    clearEntry(){
-
-        this._operation.pop();
-
-        // O pop elimina o ultimo elemento do Array = [];
-
-    }
-
-    add_Operation(value){
-        this._operation.push(value);
-    }
-
-     
-
+   
     /* Este e o switch do metodo execBtn que esta abaixo do:
        textBtn = console.log(btn.className.baseVal.replace("btn-","botão: ")); */
        
