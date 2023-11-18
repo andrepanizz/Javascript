@@ -232,7 +232,8 @@ constructor(){
 
 }  
 /*
-<!-- tabela do Ids dos Buttons -->
+<!-- tabela do Ids dos Buttons:
+ -->
 <html>
     <body>
         <g id="buttons">
