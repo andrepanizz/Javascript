@@ -151,7 +151,7 @@ constructor(){
             this.add_Operation(parseInt(value));
             break;
             default:
-                this.setError()
+                this.setError();
             break;
             // end switch.
             
