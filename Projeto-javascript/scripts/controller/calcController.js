@@ -83,6 +83,19 @@ constructor(){
             case 'ce':
                 this.clearEntry();
                 break;
+            case 'soma':
+
+                break;
+            case 'subtraçao':
+
+                break;
+            case 'divisao':
+
+                break;
+            case '':
+
+                break;
+            
 
         }
     }
