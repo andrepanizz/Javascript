@@ -151,14 +151,19 @@ constructor(){
 
                 let txtBtn = console.log(btn.className.baseVal.replace("btn-",""));
                 // adicionei a variavel do botão na function execBtn();
-                this.execBtn(txtBtn);
-            });
 
+                this.execBtn(txtBtn);                
+            });
                       
             /* - reaproveitando o mesmo metodo, estou colocando outro envento acima: */
             this.addEventListenerAll(btn, "mouseover mouseup mousedown", e=>{
                 btn.style.cursor = "pointer";
+
+                
+
             });
+
+            
         });
       
 
