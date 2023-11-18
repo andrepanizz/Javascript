@@ -84,7 +84,7 @@ constructor(){
     }
     // Mensagem de Erro na Tela.
      setError(){
-        this.displayCalc = "Error!";
+        this.displayCalc = "Error";
     }
     // Switch Case no parametro value.
     execBtn(value){
@@ -145,7 +145,7 @@ constructor(){
 
         buttons.forEach((btn, index)=>{
             
-            this.addEventListenerAll(btn,"click drag", e=>{
+            this.addEventListenerAll(btn,"click drag", e => {
 
                 let textBtn = console.log(btn.className.baseVal.replace("btn-",""));
                 // adicionei a variavel do botão na function execBtn();
