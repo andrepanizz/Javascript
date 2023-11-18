@@ -128,7 +128,7 @@ constructor(){
             }
 
 
-        console.log(this._operation);
+        console.log(this._operation); //mostra como ta meu array;
     }
     // Mensagem de Erro na Tela.
      setError(){
@@ -200,7 +200,7 @@ constructor(){
             
             this.addEventListenerAll(btn,"click drag", e => {
 
-                var textBtn = console.log(btn.className.baseVal.replace("btn-",""));
+                let textBtn = console.log(btn.className.baseVal.replace("btn-",""));
                 // adicionei a variavel do botão na function execBtn();
 
                 this.execBtn(textBtn);                
@@ -214,7 +214,6 @@ constructor(){
             
         });
     
-
     }
 
     /* meu metodo de data e hora: */
