@@ -80,7 +80,6 @@ constructor(){
     // Push Adcionar Operação.
     addOperator(value){
         this._operation.push(value);
-
         console.log(this._operation);
     }
     // Mensagem de Erro na Tela.
@@ -148,11 +147,13 @@ constructor(){
             
             this.addEventListenerAll(btn,"click drag", e=>{
 
-                let textBtn = console.log(btn.className.baseVal.replace("btn-",""));
-                // adicionei a variavel do botão na function execBtn();
-                this.execBtn(textBtn);
+                
 
-        });
+                let txtBtn = console.log(btn.className.baseVal.replace("btn-",""));
+                // adicionei a variavel do botão na function execBtn();
+                this.execBtn(txtBtn);
+            });
+
                       
             /* - reaproveitando o mesmo metodo, estou colocando outro envento acima: */
             this.addEventListenerAll(btn, "mouseover mouseup mousedown", e=>{
