@@ -74,6 +74,18 @@ constructor(){
         this._operation = [];
 
     }
+
+    execBtn(value){
+        switch(value) {
+            case 'ac':
+                this.clearAll();
+                break;
+            case 'ce':
+                this.clearEntry();
+                break;
+
+        }
+    }
     // ClearEntry:
     clearEntry(){
 
@@ -98,67 +110,7 @@ constructor(){
     /* Este e o switch do metodo execBtn que esta abaixo do:
        textBtn = console.log(btn.className.baseVal.replace("btn-","botão: ")); */
        
-    execBtn(value){
-        // start switch:
-
-        switch (value){
-            case 'ac':
-                this.clearAll();
-            
-            break;
-            case 'ce':
-               this.clearEntry();
-                
-            break;
-            case 'soma':
-                
-                
-            break;
-            case 'subtracao':
-                
-                    
-            break;
-            case 'divisão':
-                
-                    
-            break;
-            case 'multiplicacao':
-                
-                    
-            break;
-            case 'porcento':
-                
-                        
-            break;
-            case 'igual':
-                
-                        
-            break;
-            // Este case em especial não terá break, so no seu final. para executar no ultimo comando:
-            case '0':
-            case '1':
-            case '2':
-            case '3':
-            case '4':
-            case '5':
-            case '6':
-            case '7':
-            case '8':
-            case '9':
-            /* agora eu vou colocar o addOperation e adicionar o (value)
-               que o valor que recebi do meu botão (Adicionaremos um ParseInt());
-               para virar um numero o meu value; */
-            this.add_Operation(parseInt(value));
-            break;
-            default:
-                this.setError();
-            break;
-            
-            
-        }
-    }
-
-
+    
      initButtonsEvents(){
 
         // O add eventlisterner pega somente um evento, não uma lista de elementos.
