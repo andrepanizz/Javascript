@@ -147,7 +147,7 @@ constructor(){
             
             this.addEventListenerAll(btn,"click drag", e => {
 
-                let textBtn = console.log(btn.className.baseVal.replace("btn-",""));
+                var textBtn = console.log(btn.className.baseVal.replace("btn-",""));
                 // adicionei a variavel do botão na function execBtn();
 
                 this.execBtn(textBtn);                
