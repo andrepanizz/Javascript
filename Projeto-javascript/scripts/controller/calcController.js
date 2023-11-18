@@ -65,7 +65,7 @@ constructor(){
         ao mesmo tempo e passamos um false pra abortar este evento. */
        
     }
-    
+ 
 //////////////////////////////////// - BUTTONS & GETTERS AND SETTERS - ////////////////////////////////////////
     /* Metodo que saiba Limpar tudo: */
 
@@ -73,6 +73,12 @@ constructor(){
 
         this._operation = [];
 
+    }
+
+    add_Operator(value){
+
+        this._operation.push(value);
+        
     }
 
      setError(){
