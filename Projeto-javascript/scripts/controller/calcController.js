@@ -85,14 +85,35 @@ constructor(){
      clearEntry(){
         this._operation.pop();
     }
-    // Push Adcionar Operação.
-    addOperator(value){   // se não for um numero vai dar False (value). 
+
+    /* podemos dentro deste metodo criar um array so pra sinais:*/
+
+    isOperator(value) {
+
+       return (['+','-','*','%','/'].indexOf(value) > -1);
+         /* Este metodo indexof - vai buscar o valor no array
+         value = ['+'], ['-'] 
+         Se ele encontrar, ele vai trazer o index desse elemento.
+         e se ele não encontrar, ele vai trazer -1*/
+        
+    }
+    /* Push Adcionar Operação. */
+    addOperator(value){   //se não for um numero vai dar False (value). 
 
         /* Se o ultimo numero não for numero faço a minha verificação com isNaN()
            pegando o getLastOperation */
 
            if(isNaN(this.getLastOperation())){
                 /*Se este valor for um operador (+ ou - ou . etc..) */
+                if(this.isOperator(value)){
+
+                    //eu vou pegar o valor do ultimo item pra mim trocar:
+                    this._operation[this._operation.length-1]
+
+
+                }else{
+
+                }
            }else{
                 /* Vamos pegar o ultimo valor que foi digitado: this.getLastOperation();
                    converto ela em string. e armazeno em uma variavel */
