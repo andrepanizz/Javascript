@@ -128,7 +128,7 @@ class CalcController {
 
         } else {
             // Number; (Se for um numero, eu não quero somar mais um numero, quero concatenar no final);
-            newValue = this.getLastOperation().toString()+value.toString(); // no exemplo vai dar "10" + "2" = "102"
+            let newValue = this.getLastOperation().toString() + value.toString(); // no exemplo vai dar "10" + "2" = "102"
             // esse novo valor, vou querer adiciona-lo dentro do meu array = this._operation = [];
             this._operation.push(newValue);
         }
