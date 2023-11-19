@@ -86,9 +86,16 @@ class CalcController {
 
         this._operation[this._operation.length-1];
         // vamos precisar tratar. este ultimo numero;
+        // isNaN(); - para fazer a validação do numero
     }
 
     addOperation(value){
+        /* Irei fazer o add, para isso preciso fazer minha verificação: */
+        if(isNaN(this.getLastOperation())){
+            // string;
+        }else{
+            // Number; (Se for um numero, eu não quero somar mais um numero, quero concatenar no final);
+        }
 
         this._operation.push(value);
 
@@ -133,6 +140,11 @@ class CalcController {
             case 'igual':
                 
                 break;
+
+            case 'ponto':
+
+                break;
+
 
             case '0':
             case '1':
