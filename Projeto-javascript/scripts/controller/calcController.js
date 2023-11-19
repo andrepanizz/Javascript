@@ -89,15 +89,37 @@ class CalcController {
         // isNaN(); - para fazer a validação do numero
     }
 
+    isOperator(value){
+        return ['+','-','*','%','/'].indexOf(value) > -1;
+        /*O metodo indexOf vai buscar o value, neste array:
+        ['+','-','*','%','/'], se ele achar ele vai trazer o index desse elemento.
+        Se ele não encontrar ele vai trazer -1 */
+
+    }
+
     addOperation(value){
         /* Irei fazer o add, para isso preciso fazer minha verificação: */
         if(isNaN(this.getLastOperation())){
-            // string;
+
+
+            // string - Se for um Operador, ou um Ponto.
+            // se o ultimo for um operador, preciso trocar o operador;
+            if(this.isOperator(value)){
+
+                this._operation[this._operation.length-1] = value; //Vai ser igual ao meu operador do momento.
+                // ele trocou o item.
+                
+            }else{
+                console.log(value);
+            }
         }else{
             // Number; (Se for um numero, eu não quero somar mais um numero, quero concatenar no final);
+            newValue = this.getLastOperation().toString() + value.toString();
+            // esse novo valor, vou querer adiciona-lo dentro do meu array = this._operation = [];
+            this._operation.push(newValue);
         }
 
-        this._operation.push(value);
+        
 
         console.log(this._operation);
 
@@ -122,19 +144,19 @@ class CalcController {
                 break;
 
             case 'soma':
-                
+                this.addOperation('');
                 break;
 
             case 'subtracao':
-                
+                this.addOperation('');
                 break;
 
             case 'divisao':
-                
+                this.addOperation('');
                 break;
 
             case 'porcento':
-                
+                this.addOperation('');
                 break;
 
             case 'igual':
@@ -142,7 +164,7 @@ class CalcController {
                 break;
 
             case 'ponto':
-
+                this.addOperation('');
                 break;
 
 
