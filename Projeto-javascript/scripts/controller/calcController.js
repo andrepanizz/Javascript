@@ -116,8 +116,6 @@ constructor(){
 
                 }else{
                     // Outra coisa;
-
-                    
                     console.log(value);
 
                 }
@@ -128,7 +126,6 @@ constructor(){
                 // esse novo valor eu adiciono no meu array();
               this._operation.push(newValue);
             }
-
 
         console.log(this._operation); //mostra como ta meu array; 
     }
