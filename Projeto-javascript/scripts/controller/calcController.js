@@ -82,6 +82,12 @@ class CalcController {
 
     }
 
+    getLastOperation(){
+
+        this._operation[this._operation.length-1];
+        // vamos precisar tratar. este ultimo numero;
+    }
+
     addOperation(value){
 
         this._operation.push(value);
