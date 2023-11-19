@@ -99,6 +99,15 @@ class CalcController {
 
     }
 
+    setLastOperation(value){
+
+        this._operation[this._operation.length - 1] = value;
+        // ele ira substituir, pois no console esta desta forma:
+        /*O primeiro numero armazenado cai em true, e depois ele não apaga a posição:
+         [9 , 92] */
+
+    }
+
     addOperation(value){
         /* Irei fazer o add, para isso preciso fazer minha verificação: */
 
@@ -110,7 +119,9 @@ class CalcController {
             // se o ultimo for um operador, preciso trocar o operador;
             if(this.isOperator(value)){
 
-                this._operation[this._operation.length - 1] = value; //Vai ser igual ao meu operador do momento.
+                /* Note que e o mesmo codigo, esse metodo setLastOperation
+                  Por isso que criamos um metodo; */
+                this.setLastOperation(value);  
                 // ele trocou o item.
                 
             }else if(isNaN(value)){
@@ -130,7 +141,7 @@ class CalcController {
             // Number; (Se for um numero, eu não quero somar mais um numero, quero concatenar no final);
             let newValue = this.getLastOperation().toString() + value.toString(); // no exemplo vai dar "10" + "2" = "102"
             // esse novo valor, vou querer adiciona-lo dentro do meu array = this._operation = [];
-            this._operation.push(newValue);
+            this.setLastOperation(newValue);
         }
 
         
