@@ -128,7 +128,7 @@ constructor(){
             }
 
 
-        console.log(this._operation); //mostra como ta meu array;
+        console.log(this._operation); //mostra como ta meu array; 
     }
     // Mensagem de Erro na Tela.
      setError(){
