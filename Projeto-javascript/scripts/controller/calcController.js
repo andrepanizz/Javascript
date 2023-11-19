@@ -121,9 +121,7 @@ class CalcController {
             } else {
                 /*Com isso se eu clicar no numero 03 a primeira vez, ele irá passar 
                 pelo true, e adicionar o numero ao array; */
-                
                 this._operation.push(value);
-
         }
                 
             
