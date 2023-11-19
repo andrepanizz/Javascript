@@ -1,15 +1,16 @@
 class CalcController {
 
 constructor(){
-    this._operation = []; // vamos popular nosso array com as operações;
-    this._locale = ("pt-BR");
-    this._displayCalcEl = document.querySelector("#display");
-    this._dateEl = document.querySelector("#data");
-    this._timeEl = document.querySelector("#hora");
-    this._currentDate;
-    this.initialize();
-    this.initButtonsEvents();
-    // this.addEventListenerAll(); propriedade não pode ser lida e indefinida!
+   
+
+    this._operation = [];
+        this._locale = 'pt-BR';
+        this._displayCalcEl = document.querySelector("#display");
+        this._dateEl = document.querySelector("#data");
+        this._timeEl = document.querySelector("#hora");
+        this._currentDate;
+        this.initialize();
+        this.initButtonsEvents();
 }
 /////////////////////////////////////// - INITIALIZE - ////////////////////////////////////////////
     initialize(){
