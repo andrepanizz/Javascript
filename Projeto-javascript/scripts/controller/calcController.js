@@ -136,7 +136,59 @@ constructor(){
         this.displayCalc = "Error";
     }
     // Switch Case no parametro value.
-      
+    execBtn(value){
+
+        switch (value) {
+
+            case 'ac':
+                this.clearAll();
+                break;
+
+            case 'ce':
+                this.clearEntry();
+                break;
+
+            case 'soma':
+                
+                break;
+
+            case 'subtracao':
+                
+                break;
+
+            case 'divisao':
+                
+                break;
+
+            case 'porcento':
+                
+                break;
+
+            case 'igual':
+                
+                break;
+
+            case '0':
+            case '1':
+            case '2':
+            case '3':
+            case '4':
+            case '5':
+            case '6':
+            case '7':
+            case '8':
+            case '9':
+                this.addOperation(parseInt(value));
+                break;
+
+            default:
+                this.setError();
+                break;
+
+        }
+
+    }
+
     /* Este e o switch do metodo execBtn que esta abaixo do:
        textBtn = console.log(btn.className.baseVal.replace("btn-","botão: ")); */
        
