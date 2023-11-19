@@ -94,7 +94,7 @@ constructor(){
          /* Este metodo indexof - vai buscar o valor no array
          value = ['+'], ['-'] 
          Se ele encontrar, ele vai trazer o index desse elemento.
-         e se ele não encontrar, ele vai trazer -1*/
+         e se ele não encontrar, ele vai trazer -1.*/
         
     }
     /* Push Adcionar Operação. */
@@ -109,6 +109,7 @@ constructor(){
                 if(this.isOperator(value)){
 
                     //eu vou pegar o valor do ultimo item pra mim trocar:
+
 
                     this._operation[this._operation.length-1] = value;
                     /*O meu ultimo item vai ser igual ao meu operador do momento
