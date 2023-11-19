@@ -84,13 +84,14 @@ class CalcController {
 
     getLastOperation(){
 
-        this._operation[this._operation.length-1];
+        return this._operation[this._operation.length-1];
         // vamos precisar tratar. este ultimo numero;
         // isNaN(); - para fazer a validação do numero
     }
 
     isOperator(value){
-        return ['+','-','*','%','/'].indexOf(value) > -1;
+
+        return (['+','-','*','%','/'].indexOf(value) > -1);
         /*O metodo indexOf vai buscar o value, neste array:
         ['+','-','*','%','/'], se ele achar ele vai trazer o index desse elemento.
         Se ele não encontrar ele vai trazer -1 */
@@ -99,9 +100,11 @@ class CalcController {
 
     addOperation(value){
         /* Irei fazer o add, para isso preciso fazer minha verificação: */
+
+        console.log('A',this._operation.length-1);
+
         if(isNaN(this.getLastOperation())){
-
-
+            
             // string - Se for um Operador, ou um Ponto.
             // se o ultimo for um operador, preciso trocar o operador;
             if(this.isOperator(value)){
@@ -144,19 +147,19 @@ class CalcController {
                 break;
 
             case 'soma':
-                this.addOperation('');
+                this.addOperation('+');
                 break;
 
             case 'subtracao':
-                this.addOperation('');
+                this.addOperation('-');
                 break;
 
             case 'divisao':
-                this.addOperation('');
+                this.addOperation('/');
                 break;
 
             case 'porcento':
-                this.addOperation('');
+                this.addOperation('%');
                 break;
 
             case 'igual':
@@ -164,7 +167,7 @@ class CalcController {
                 break;
 
             case 'ponto':
-                this.addOperation('');
+                this.addOperation('.');
                 break;
 
 
