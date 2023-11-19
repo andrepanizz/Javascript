@@ -101,7 +101,8 @@ constructor(){
     addOperation(value){   //se não for um numero vai dar False (value). 
 
         /* Se o ultimo numero não for numero faço a minha verificação com isNaN()
-           pegando o getLastOperation */
+           pegando o getLastOperation.
+            */
 
            if(isNaN(this.getLastOperation())){
                 /*Se este valor for um operador (+ ou - ou . etc..) */
