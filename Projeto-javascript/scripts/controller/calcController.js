@@ -85,6 +85,7 @@ class CalcController {
     getLastOperation(){
 
         return this._operation[this._operation.length-1];
+
         // vamos precisar tratar. este ultimo numero;
         // isNaN(); - para fazer a validação do numero
     }
@@ -103,13 +104,13 @@ class CalcController {
 
         console.log('A',this._operation.length-1);
 
-        if(isNaN(this.getLastOperation())){
+        if(isNaN(this.getLastOperation())) {
             
             // string - Se for um Operador, ou um Ponto.
             // se o ultimo for um operador, preciso trocar o operador;
             if(this.isOperator(value)){
 
-                this._operation[this._operation.length-1] = value; //Vai ser igual ao meu operador do momento.
+                this._operation[this._operation.length - 1] = value; //Vai ser igual ao meu operador do momento.
                 // ele trocou o item.
                 
             }else{
@@ -117,13 +118,12 @@ class CalcController {
             }
         }else{
             // Number; (Se for um numero, eu não quero somar mais um numero, quero concatenar no final);
-            newValue = this.getLastOperation().toString() + value.toString();
+            newValue = this.getLastOperation().toString()+value.toString();
             // esse novo valor, vou querer adiciona-lo dentro do meu array = this._operation = [];
             this._operation.push(newValue);
         }
 
         
-
         console.log(this._operation);
 
     }
