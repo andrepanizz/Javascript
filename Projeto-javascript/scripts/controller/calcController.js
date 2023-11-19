@@ -113,10 +113,22 @@ class CalcController {
                 this._operation[this._operation.length - 1] = value; //Vai ser igual ao meu operador do momento.
                 // ele trocou o item.
                 
-            }else{
+            }else if(isNaN(value)){
+
+                // Outra Coisa;
                 console.log(value);
-            }
-        }else{
+
+            } else {
+                /*Com isso se eu clicar no numero 03 a primeira vez, ele irá passar 
+                pelo true, e adicionar o numero ao array; */
+                
+                this._operation.push(value);
+
+        }
+                
+            
+
+        } else {
             // Number; (Se for um numero, eu não quero somar mais um numero, quero concatenar no final);
             newValue = this.getLastOperation().toString()+value.toString(); // no exemplo vai dar "10" + "2" = "102"
             // esse novo valor, vou querer adiciona-lo dentro do meu array = this._operation = [];
