@@ -102,7 +102,7 @@ class CalcController {
     addOperation(value){
         /* Irei fazer o add, para isso preciso fazer minha verificação: */
 
-        console.log('A',this._operation.length-1);
+        console.log('A',isNaN(this.getLastOperation())); //undefined não e um numero: true;
 
         if(isNaN(this.getLastOperation())) {
             
@@ -118,7 +118,7 @@ class CalcController {
             }
         }else{
             // Number; (Se for um numero, eu não quero somar mais um numero, quero concatenar no final);
-            newValue = this.getLastOperation().toString()+value.toString();
+            newValue = this.getLastOperation().toString()+value.toString(); // no exemplo vai dar "10" + "2" = "102"
             // esse novo valor, vou querer adiciona-lo dentro do meu array = this._operation = [];
             this._operation.push(newValue);
         }
