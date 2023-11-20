@@ -108,6 +108,14 @@ class CalcController {
 
     }
 
+    pushOperator(value){
+        
+        this._operation.push();
+
+        /*este metodo só e resposavel por fazer o push no meu array(),
+          E vamos fazer nossa verificação ao adicionar, se tem mais de 03 elementos; */
+    }
+
     addOperation(value){
         /* Irei fazer o add, para isso preciso fazer minha verificação:*/
 
@@ -132,7 +140,7 @@ class CalcController {
             } else {
                 /*Com isso se eu clicar no numero 03 a primeira vez, ele irá passar 
                 pelo true, e adicionar o numero ao array; */
-                this._operation.push(value);
+                this.pushOperator(value);
         }
                 
             
@@ -145,7 +153,7 @@ class CalcController {
                 
                 */
                 if(this.isOperator(value)){
-                    this._operation.push(value);
+                    this.pushOperator(value);
                 }else{
                     // agora se não e um operador, vamos continuar verificando se o utimo era um numero;
                      // Number; (Se for um numero, eu não quero somar mais um numero, quero concatenar no final);
