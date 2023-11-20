@@ -108,22 +108,10 @@ class CalcController {
 
     }
 
-    pushOperator(value){
-        
-        this._operation.push();
-
-        /*este metodo só e resposavel por fazer o push no meu array(),
-          E vamos fazer nossa verificação ao adicionar, se tem mais de 03 elementos; */
-
-          if (this._operation.length > 3) {
-            console.log(this._operation);
-          }else{
-
-          }
-    }
-
     addOperation(value){
         /* Irei fazer o add, para isso preciso fazer minha verificação:*/
+
+        console.log('A', value, isNaN(this.getLastOperation())); //undefined não e um numero:true;
 
         if(isNaN(this.getLastOperation())) {
             
@@ -138,37 +126,27 @@ class CalcController {
                 
             }else if(isNaN(value)){
 
-                console.log("Outra Coisa");
+                // Outra Coisa;
+                console.log(value);
 
             } else {
                 /*Com isso se eu clicar no numero 03 a primeira vez, ele irá passar 
                 pelo true, e adicionar o numero ao array; */
-                this.pushOperator(value);
+                this._operation.push(value);
         }
                 
             
-        // nota se o sinal que cliquei o (+ ou - ele veio pra este else:)
+
         } else {
-
-             /* -> Nota: se o ultimo numero lá do array: era um operador, e agora eu digito um operador
-             novamente, ele deve tratar de um jeito.
-                -> Mais se o ultimo, e um numero e eu coloco um operador, ele vai cair neste Else.
-                
-                */
-                if(this.isOperator(value)){
-                    this.pushOperator(value);
-                }else{
-                    // agora se não e um operador, vamos continuar verificando se o utimo era um numero;
-                     // Number; (Se for um numero, eu não quero somar mais um numero, quero concatenar no final);
-                        let newValue = this.getLastOperation().toString() + value.toString(); // no exemplo vai dar "10" + "2" = "102"
-                        // esse novo valor, vou querer adiciona-lo dentro do meu array = this._operation = [];
-                        this.setLastOperation(parseInt(newValue));
-                }
-
-           
+            // Number; (Se for um numero, eu não quero somar mais um numero, quero concatenar no final);
+            let newValue = this.getLastOperation().toString() + value.toString(); // no exemplo vai dar "10" + "2" = "102"
+            // esse novo valor, vou querer adiciona-lo dentro do meu array = this._operation = [];
+            this.setLastOperation(parseInt(newValue));
         }
 
-                
+        
+        console.log(this._operation);
+
     }
     // Mensagem de Erro na Tela.
     setError(){
