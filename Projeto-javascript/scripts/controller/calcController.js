@@ -120,7 +120,7 @@ class CalcController {
             if(this.isOperator(value)){
 
                 /* Note que e o mesmo codigo, esse metodo setLastOperation
-                  Por isso que criamos um metodo; */
+                  Por isso que criamos um metodo;*/
                 this.setLastOperation(value);  
                 // ele trocou o item.
                 
