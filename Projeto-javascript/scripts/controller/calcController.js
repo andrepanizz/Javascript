@@ -69,7 +69,7 @@ class CalcController {
     }
 
 
-     //////////////////////////////////// - BUTTONS & GETTERS AND SETTERS - 
+     //                               - BUTTONS & GETTERS AND SETTERS - 
     
     // Temos o botão: Limpar tudo.
 
