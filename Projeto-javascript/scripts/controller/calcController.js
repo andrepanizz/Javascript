@@ -136,8 +136,12 @@ class CalcController {
         }
                 
             
-
+        // nota se o sinal que cliquei o (+ ou - ele veio pra este else:)
         } else {
+
+             /* -> Nota: se o ultimo numero lá do array: era um operador, e agora eu digito um operador
+             novamente, ele deve tratar de um jeito.
+                -> */
             // Number; (Se for um numero, eu não quero somar mais um numero, quero concatenar no final);
             let newValue = this.getLastOperation().toString() + value.toString(); // no exemplo vai dar "10" + "2" = "102"
             // esse novo valor, vou querer adiciona-lo dentro do meu array = this._operation = [];
