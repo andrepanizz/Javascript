@@ -210,17 +210,12 @@ class CalcController {
                 break;
 
         }
-        /* Este e o switch do metodo execBtn que esta abaixo do:
-       textBtn = console.log(btn.className.baseVal.replace("btn-","botão: ")); */
-
+        
     }
 
     initButtonsEvents(){
 
-        // O add eventlisterner pega somente um evento, não uma lista de elementos.
-        // vamos percorrer a lista. Para cada botão adiciono o envento a este botão (btn)
-
-        // a.split(' '); recebe um parametro que e um separador;
+        
         let buttons = document.querySelectorAll("#buttons > g, #parts > g");
 
         buttons.forEach((btn, index)=>{
