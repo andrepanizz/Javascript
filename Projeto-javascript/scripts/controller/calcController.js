@@ -114,12 +114,16 @@ class CalcController {
 
         /*este metodo só e resposavel por fazer o push no meu array(),
           E vamos fazer nossa verificação ao adicionar, se tem mais de 03 elementos; */
+
+          if (this._operation.length > 3) {
+            console.log(this._operation);
+          }else{
+
+          }
     }
 
     addOperation(value){
         /* Irei fazer o add, para isso preciso fazer minha verificação:*/
-
-        console.log('A', value, isNaN(this.getLastOperation())); //undefined não e um numero true;
 
         if(isNaN(this.getLastOperation())) {
             
@@ -134,8 +138,7 @@ class CalcController {
                 
             }else if(isNaN(value)){
 
-                // Outra Coisa;
-                console.log(value);
+                console.log("Outra Coisa");
 
             } else {
                 /*Com isso se eu clicar no numero 03 a primeira vez, ele irá passar 
@@ -165,9 +168,7 @@ class CalcController {
            
         }
 
-        
-        console.log(this._operation);
-
+                
     }
     // Mensagem de Erro na Tela.
     setError(){
