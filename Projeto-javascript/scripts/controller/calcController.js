@@ -237,7 +237,7 @@ class CalcController {
         })
 
     }
-    /* meu metodo de data e hora: */
+    
     setDisplayDateTime(){
 
         this.displayDate = this.currentDate.toLocaleDateString(this._locale, {
@@ -300,52 +300,3 @@ class CalcController {
 }
 
 
-/*
-<!-- tabela do Ids dos Buttons: -->
-<html>
-    <body>
-        <g id="buttons">
-         <g class="btn=ac">_</g>
-            <g class="btn-ce">_</g>
-            <g class="btn-porcento">_</g>
-            <g class="btn-divisão">_</g>
-            <g class="btn-9">_</g>
-            <g class="btn-6">_</g>
-            <g class="btn-3">_</g>
-            <g class="btn-soma">_</g>
-            <g class="btn-igual">_</g>
-            <g class="btn-8">_</g>
-            <g class="btn-5">_</g>
-            <g class="btn-2">_</g>
-            <g class="btn-7">_</g>
-            <g class="btn-4">_</g>
-            <g class="btn-1">_</g>
-            <g class="btn-0">_</g>
-            <g class="btn-multiplicação">_</g>
-            <g class="btn-subtração">_</g>
-
-        </g>
-        <g id="parts">
-            <g class="btn-ac">_</g>
-            <g class="btn-ce">_</g>
-            <g class="btn-porcento">_</g>
-            <g class="btn-divisão">_</g>
-            <g class="btn-7">_</g>
-            <g class="btn-8">_</g>
-            <g class="btn-9">_</g>
-            <g class="btn-multiplicação">_</g>
-            <g class="btn-4">_</g>
-            <g class="btn-5">_</g>
-            <g class="btn-6">_</g>
-            <g class="btn-subtração">_</g>
-            <g class="btn-1">_</g>
-            <g class="btn-3">_</g>
-            <g class="btn-2">_</g>
-            <g class="btn-ponto">_</g>
-            <g class="btn-)">_</g>
-            <g class="btn-igual">_</g>
-            <g class="btn-soma">_</g>
-        </g>
-    </body>
-</html>
-*/
