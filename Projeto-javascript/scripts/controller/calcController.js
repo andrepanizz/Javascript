@@ -119,8 +119,8 @@ class CalcController {
         console.log('A', isNaN(this.getLastOperation()));
 
         if (isNaN(this.getLastOperation())) {
-            // string - Se for um Operador, ou um Ponto.
-            // se o ultimo for um operador, preciso trocar o operador;
+            /* string - Se for um Operador, ou um Ponto.
+             se o ultimo for um operador, preciso trocar o operador; */
 
             if (this.isOperator(value)) {
                  /* Note que e o mesmo codigo, esse metodo setLastOperation
