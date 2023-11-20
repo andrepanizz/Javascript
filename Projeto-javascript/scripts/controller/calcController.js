@@ -12,7 +12,7 @@ class CalcController {
         this.initButtonsEvents();
 
     }
-    /////////////////////////////////////// - INITIALIZE - ////////////////////////////////////////////
+    //                                        - INITIALIZE - 
 
     initialize(){
 
@@ -49,12 +49,12 @@ class CalcController {
 
         */
 
-        /////////////////////////////////////  - LISTA DE EVENTOS  - ///////////////////////////////////////////////////////
-
-    //Podemos criar os nossos eventos:
-    // vou passar em cada el. eu quero adicionar o meu evento = events:
-            // events = todos os eventos.
-            // element = cada um dos eventos (elemento):
+        //                                        - LISTA DE EVENTOS  - 
+    /* 
+        Podemos criar os nossos eventos:
+        vou passar em cada el. eu quero adicionar o meu evento = events:
+         events = todos os eventos.
+        element = cada um dos eventos (elemento): */
 
     addEventListenerAll(element, events, fn){
 
