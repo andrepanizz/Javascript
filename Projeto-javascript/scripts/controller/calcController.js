@@ -141,11 +141,20 @@ class CalcController {
 
              /* -> Nota: se o ultimo numero lá do array: era um operador, e agora eu digito um operador
              novamente, ele deve tratar de um jeito.
-                -> */
-            // Number; (Se for um numero, eu não quero somar mais um numero, quero concatenar no final);
-            let newValue = this.getLastOperation().toString() + value.toString(); // no exemplo vai dar "10" + "2" = "102"
-            // esse novo valor, vou querer adiciona-lo dentro do meu array = this._operation = [];
-            this.setLastOperation(parseInt(newValue));
+                -> Mais se o ultimo, e um numero e eu coloco um operador, ele vai cair neste Else.
+                
+                */
+                if(this.isOperator(value)){
+                    this._operation.push(value);
+                }else{
+                    // agora se não e um operador, vamos continuar verificando se o utimo era um numero;
+                     // Number; (Se for um numero, eu não quero somar mais um numero, quero concatenar no final);
+                        let newValue = this.getLastOperation().toString() + value.toString(); // no exemplo vai dar "10" + "2" = "102"
+                        // esse novo valor, vou querer adiciona-lo dentro do meu array = this._operation = [];
+                        this.setLastOperation(parseInt(newValue));
+                }
+
+           
         }
 
         
