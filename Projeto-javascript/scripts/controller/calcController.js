@@ -138,9 +138,9 @@ class CalcController {
             
 
         } else {
-            // Number; (Se for um numero, eu não quero somar mais um numero, quero concatenar no final);
-            let newValue = this.getLastOperation().toString() + value.toString(); // no exemplo vai dar "10" + "2" = "102"
-            // esse novo valor, vou querer adiciona-lo dentro do meu array = this._operation = [];
+            
+            let newValue = this.getLastOperation().toString() + value.toString(); 
+            
             this.setLastOperation(parseInt(newValue));
         }
 
@@ -148,7 +148,7 @@ class CalcController {
         console.log(this._operation);
 
     }
-    // Mensagem de Erro na Tela.
+    
     setError(){
 
         this.displayCalc = "Error";
@@ -156,7 +156,7 @@ class CalcController {
     }
 
     execBtn(value){
-        // Switch Case no parametro value.
+        
         switch (value) {
 
             case 'ac':
