@@ -111,7 +111,7 @@ class CalcController {
     addOperation(value){
         /* Irei fazer o add, para isso preciso fazer minha verificação:*/
 
-        console.log('A', value, isNaN(this.getLastOperation())); //undefined não e um numero:true;
+        console.log('A', value, isNaN(this.getLastOperation())); //undefined não e um numero true;
 
         if(isNaN(this.getLastOperation())) {
             
