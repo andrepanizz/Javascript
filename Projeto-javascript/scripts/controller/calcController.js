@@ -113,6 +113,12 @@ class CalcController {
 
     }
 
+    
+    pushOperation(value){
+        //Metodo de Adicionar no Array, responsavel por fazer o push
+        this._operation.push(value);
+    }
+
     addOperation(value){
          /* Irei fazer o add, para isso preciso fazer minha verificação:*/
 
