@@ -86,6 +86,11 @@ class CalcController {
 
     }
 
+    add_Operation(){
+
+        this._operation(value);
+    }
+
     getLastOperation(){
 
         return this._operation[this._operation.length-1];
@@ -134,14 +139,22 @@ class CalcController {
 
             } else {
 
-                this._operation.push(value);
+                this.add_Operation(value);
 
             }
 
         } else {
-           
-            let newValue = this.getLastOperation().toString() + value.toString();
-            this.setLastOperation(parseInt(newValue));
+
+            if(this.isOperator(value)){
+                
+                this.add_Operation(value);
+                
+            }else{
+                let newValue = this.getLastOperation().toString() + value.toString();
+                this.setLastOperation(parseInt(newValue));
+                
+            }
+                     
 
         }
 
