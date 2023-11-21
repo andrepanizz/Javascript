@@ -156,10 +156,10 @@ class CalcController {
                 if(this.isOperator(value)){
 
                      this.pushOperation(value);
-                    // Caso não seja: vamos continuar verificando se o ultimo e um numero;
-                    // Adicionando o proximo numero, e assim por diante:
-                    let newValue = this.getLastOperation().toString() + value.toString();
-                    this.setLastOperation(parseInt(newValue));
+                        // Caso não seja: vamos continuar verificando se o ultimo e um numero;
+                        // Adicionando o proximo numero, e assim por diante:
+                      let newValue = this.getLastOperation().toString() + value.toString();
+                      this.setLastOperation(parseInt(newValue));
                 }
                 
         }
@@ -167,7 +167,8 @@ class CalcController {
          /* Number; (Se for um numero, eu não quero somar mais um numero, quero concatenar no final);
          no exemplo vai dar "10" + "2" = "102" 
          esse novo valor, vou querer adiciona-lo dentro do meu array = this._operation = [];*/
-        console.log(this._operation);
+       
+        // tirando este: console.log(this._operation);
 
     }
 
