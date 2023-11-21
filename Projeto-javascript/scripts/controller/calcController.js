@@ -143,7 +143,6 @@ class CalcController {
              no exemplo vai dar "10" + "2" = "102" 
              esse novo valor, vou querer adiciona-lo dentro do meu array = this._operation = [];*/
             let newValue = this.getLastOperation().toString() + value.toString();
-
             this.setLastOperation(parseInt(newValue));
 
         }
