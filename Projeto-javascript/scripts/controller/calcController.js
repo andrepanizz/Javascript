@@ -128,7 +128,7 @@ class CalcController {
     addOperation(value){
          /* Irei fazer o add, para isso preciso fazer minha verificação:*/
 
-        console.log('A', value, isNaN(this.getLastOperation()));
+       // tirando este: console.log('A', value, isNaN(this.getLastOperation()));
 
         if (isNaN(this.getLastOperation())) {
             /* string - Se for um Operador, ou um Ponto.
@@ -142,7 +142,7 @@ class CalcController {
 
             } else if (isNaN(value)){
 
-                console.log("Outra Coisa;");
+                console.log("Outra Coisa;", value);
 
             } else {
                 
