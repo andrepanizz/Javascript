@@ -119,7 +119,10 @@ class CalcController {
         this._operation.push(value);
         // Agora vamos fazer nossa verificação pra ver se tem mais elementos:
 
-        
+        if(this._operation.length > 3){
+
+            console.log(this._operation);
+        }
     }
 
     addOperation(value){
