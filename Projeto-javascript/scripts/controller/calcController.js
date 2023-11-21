@@ -309,8 +309,6 @@ class CalcController {
 
 }
 
-
-
 /*
 
 <!-- tabela do Ids dos Buttons: -->
