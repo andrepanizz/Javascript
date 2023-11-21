@@ -121,7 +121,10 @@ class CalcController {
 
         if(this._operation.length > 3){
 
+            let last = this._operation.pop();
+
             console.log(this._operation);
+            
         }
     }
 
