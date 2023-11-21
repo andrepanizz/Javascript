@@ -369,6 +369,4 @@ class CalcController {
     </body>
 </html>
 */
-
-
 // fim do arquivo;
