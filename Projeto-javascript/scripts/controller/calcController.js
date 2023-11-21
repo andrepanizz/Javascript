@@ -143,7 +143,7 @@ class CalcController {
             // Se for um operador, adiciona outro item no meu array ou seja o sinal:
                 if(this.isOperator(value)){
 
-                    this._operation.push(value);
+                     this._operation.push(value);
                 } else {
                     // Caso não seja: vamos continuar verificando se o ultimo e um numero;
                     // Adicionando o proximo numero, e assim por diante:
