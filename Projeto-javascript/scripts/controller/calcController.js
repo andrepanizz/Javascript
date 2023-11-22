@@ -91,6 +91,12 @@ class CalcController {
 
         // Fazendo nossa verificação, se tem mais de 03 elementos.
         if(this._operation.length > 3) {
+
+            // aqui estamos tirando o ultimo elemento e guardando 
+            let last = this._operation.pop();
+
+
+
             /*1° Operação: 1° numero,
               2° Operação: Operador, 2° numero,
               Maior que 03 significa mais um sinal, eu quero essa operação aqui*/
