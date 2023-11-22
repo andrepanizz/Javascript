@@ -85,6 +85,10 @@ class CalcController {
         this._operation.pop();
 
     }
+    // criando um metodo de this._operator.push(value);
+    add_Operador(value){
+        this._operation.push(value);
+    }
 
     getLastOperation(){
 
