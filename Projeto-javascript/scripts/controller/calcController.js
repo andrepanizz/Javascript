@@ -93,7 +93,10 @@ class CalcController {
         if(this._operation.length > 3) {
             /*1° Operação: 1° numero,
               2° Operação: Operador, 2° numero,
-              Maior que 03 significa mais um sinal, eu quero */
+              Maior que 03 significa mais um sinal, eu quero essa operação aqui*/
+             console.log(this._operation);
+
+             //siginifica
         }
 
     }
