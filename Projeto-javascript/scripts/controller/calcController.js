@@ -93,20 +93,33 @@ class CalcController {
         if(this._operation.length > 3) {
 
             // aqui estamos tirando o ultimo elemento e guardando na variavel;
-            let last = this._operation.pop();
-
+            
             this.calc(); //este metodo calcula quando digitarmos o 4 item do array;
 
             /*1° Operação: 1° numero,
               2° Operação: Operador, 2° numero,
               Maior que 03 significa mais um sinal, eu quero essa operação aqui
               */
-             console.log(this._operation);
+          
 
              /* siginifica que tem 4 itens no nosso array,
                 então quando chegar 4 itens no nosso array a conta vai aparecer;
                 */
         }
+
+    }
+
+    calc(){
+
+        let last = this._operation.pop();  
+        /* a variavel last, retira o utimo e armazena;*/
+        /*Bom agora no nosso codigo vamos colocar o join, que basicamente,
+        e o inverso do split(), que transforma um array em string;
+        Nós utilizamos o  events.split(' ').forEach(event => { 
+            pois o addEventListerner() não consegue pegar varios eventos de uma vez;
+
+            o join e mais adequado:
+            eval(this._operation(value).join());
 
     }
 
