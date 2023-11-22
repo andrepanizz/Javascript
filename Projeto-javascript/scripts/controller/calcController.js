@@ -97,7 +97,8 @@ class CalcController {
              console.log(this._operation);
 
              /* siginifica que tem 4 itens no nosso array,
-                então quando */
+                então quando chegar 4 itens no nosso array,
+                */
         }
 
     }
