@@ -96,7 +96,8 @@ class CalcController {
               Maior que 03 significa mais um sinal, eu quero essa operação aqui*/
              console.log(this._operation);
 
-             //siginifica
+             /* siginifica que tem 4 itens no nosso array,
+                então quando */
         }
 
     }
