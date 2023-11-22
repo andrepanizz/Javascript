@@ -92,7 +92,7 @@ class CalcController {
         // Fazendo nossa verificação, se tem mais de 03 elementos.
         if(this._operation.length > 3) {
 
-            // aqui estamos tirando o ultimo elemento e guardando 
+            // aqui estamos tirando o ultimo elemento e guardando na variavel;
             let last = this._operation.pop();
 
 
