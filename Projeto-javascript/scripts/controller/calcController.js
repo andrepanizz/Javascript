@@ -99,7 +99,8 @@ class CalcController {
 
             /*1° Operação: 1° numero,
               2° Operação: Operador, 2° numero,
-              Maior que 03 significa mais um sinal, eu quero essa operação aqui*/
+              Maior que 03 significa mais um sinal, eu quero essa operação aqui
+              */
              console.log(this._operation);
 
              /* siginifica que tem 4 itens no nosso array,
