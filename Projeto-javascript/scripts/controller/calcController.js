@@ -90,7 +90,12 @@ class CalcController {
         this._operation.push(value);
 
         // Fazendo nossa verificação, se tem mais de 03 elementos.
-        
+        if(this._operation.length > 3) {
+            /*1° Operação: 1° numero,
+              2° Operação: Operador, 2° numero,
+              Maior que 03 significa mais um sinal, eu quero */
+        }
+
     }
 
     getLastOperation(){
