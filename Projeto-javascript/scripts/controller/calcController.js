@@ -88,6 +88,9 @@ class CalcController {
     // criando um metodo de this._operator.push(value);
     add_Operador(value){
         this._operation.push(value);
+
+        // Fazendo nossa verificação, se tem mais de 03 elementos.
+        
     }
 
     getLastOperation(){
