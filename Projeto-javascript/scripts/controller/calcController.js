@@ -119,8 +119,13 @@ class CalcController {
             pois o addEventListerner() não consegue pegar varios eventos de uma vez;
 
             o join e mais adequado:
-            eval(this._operation(value).join());
+            let result = eval(this._operation(value).join()); */
 
+            let result = eval(this._operation(value).join());
+        /*O resultado desse result, vamos colocar no nosso operation, que será um novo array */
+
+        this._operation = [result, last];
+        
     }
 
     getLastOperation(){
