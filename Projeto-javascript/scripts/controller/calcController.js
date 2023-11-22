@@ -95,7 +95,7 @@ class CalcController {
             // aqui estamos tirando o ultimo elemento e guardando na variavel;
             let last = this._operation.pop();
 
-            this.calc();
+            this.calc(); //este metodo calcula quando digitarmos o 4 item do array;
 
             /*1° Operação: 1° numero,
               2° Operação: Operador, 2° numero,
