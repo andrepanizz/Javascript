@@ -133,17 +133,18 @@ class CalcController {
             let result = eval(this._operation(value).join()); */
 
         let last = this._operation.pop();
+        let result = eval(this._operation.join(""));
 
-        if(last == '%'){
-
-        }else{
-            //continua fazendo o que esta funcionando:
-
-            let result = eval(this._operation.join(""));
             /*O resultado desse result, vamos colocar no nosso operation, que será um novo array,
             1° Elemento: a variavel result, o segundo o Last = que retira o ultimo, e os proximos,
               vamos colocar na calculadora;*/
-    
+
+        if(last == '%'){
+
+
+        }else{
+            //continua fazendo o que esta funcionando (aqui fora só salvaremos o resultado!)
+ 
             this._operation = [result, last];
 
         }
