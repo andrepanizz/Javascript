@@ -116,7 +116,7 @@ class CalcController {
         /*Bom agora no nosso codigo vamos colocar o join, que basicamente,
         e o inverso do split(), que transforma um array em string;
         Nós utilizamos o  events.split(' ').forEach(event => { 
-            pois o addEventListerner() não consegue pegar varios eventos de uma vez;
+            pois o addEventListerner(); não consegue pegar varios eventos de uma vez;
 
             o join e mais adequado:
             let result = eval(this._operation(value).join()); */
