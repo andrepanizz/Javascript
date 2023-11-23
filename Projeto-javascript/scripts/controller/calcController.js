@@ -139,10 +139,15 @@ class CalcController {
         }else{
             //continua fazendo o que esta funcionando:
 
+            let result = eval(this._operation.join(""));
+            /*O resultado desse result, vamos colocar no nosso operation, que será um novo array,
+            1° Elemento: a variavel result, o segundo o Last = que retira o ultimo, e os proximos,
+              vamos colocar na calculadora;*/
+    
+            this._operation = [result, last];
+
         }
         
-       
-
         this.setLastNumberToDisplay();
 
     }
