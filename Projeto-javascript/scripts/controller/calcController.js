@@ -214,7 +214,7 @@ class CalcController {
 
                 // Abaixo vamos chamar o displayCalc com o metodo para aparecer na tela:
 
-                etLastNumberToDisplay();
+                setLastNumberToDisplay();
 
             }
 
