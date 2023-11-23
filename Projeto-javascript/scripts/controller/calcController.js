@@ -15,6 +15,8 @@ class CalcController {
  //                                        - INITIALIZE - 
 
     initialize(){
+        //chamado o metodo setLastnumberToDisplay(), 
+        this.setLastNumberToDisplay();
 
         this.setDisplayDateTime()
 
@@ -160,7 +162,7 @@ class CalcController {
 
         }
 
-        /* Se toda vez que for atualizar isto no meu display */
+        
         
         this.setLastNumberToDisplay();
 
@@ -193,6 +195,10 @@ class CalcController {
             }
 
         }
+
+        /* Se toda vez que for atualizar isto no meu display 
+           eu posso fazer uma verficação:*/
+           if(!lastNumber) lastNumber = 0;          
 
         this.displayCalc = lastNumber;
 
