@@ -192,6 +192,9 @@ class CalcController {
                     // Adicionando o proximo numero, e assim por diante:
                     let newValue = this.getLastOperation().toString() + value.toString();
                     this.setLastOperation(parseInt(newValue));
+
+                    //atualizar display;
+                    
                 }
                 
         }
