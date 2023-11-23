@@ -177,7 +177,6 @@ class CalcController {
             }
 
         }
-
                 
         this.setLastNumberToDisplay();
 
