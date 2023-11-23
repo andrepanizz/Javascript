@@ -125,7 +125,7 @@ class CalcController {
         /*O resultado desse result, vamos colocar no nosso operation, que será um novo array,
         1° Elemento: a variavel result, o segundo o Last = que retira o ultimo, e os proximos,
           vamos colocar na calculadora;*/
-        this._operation = [result, last];
+        this._operation = [result,last];
         
     }
 
@@ -173,9 +173,9 @@ class CalcController {
          5° Ou se não for um operador ( ! ) atributo de negação, ai vou colocar na minha variavel
          6° vai ser armazenado em lastNumber, e chamo meu oobjeto (displayCalc = lastNumber);
          */
-        for( let x = this._operation.length-1; x >= 0; x--){
-            if(this.isOperator(this._operation[x])){
-                lastNumber = this._operation[x];
+        for(let i = this._operation.length-1; i >= 0; i--){
+            if(this.isOperator(this._operation[i])){
+                lastNumber = this._operation[i];
                 break;
 
             }
@@ -185,13 +185,11 @@ class CalcController {
 
         this.displayCalc = lastNumber;
 
-
     }
 
 
     addOperation(value){
          /* Irei fazer o add, para isso preciso fazer minha verificação:*/
-
        // console.log('A', value, isNaN(this.getLastOperation()));
 
         if (isNaN(this.getLastOperation())) {
@@ -213,9 +211,7 @@ class CalcController {
                 this.add_Operador(value);
 
                 // Abaixo vamos chamar o displayCalc com o metodo para aparecer na tela:
-
                 this.setLastNumberToDisplay();
-
             }
 
         } else {
@@ -234,8 +230,7 @@ class CalcController {
 
                    this.setLastNumberToDisplay();
 
-                   
-
+                  
                 }
                 
         }
@@ -243,7 +238,8 @@ class CalcController {
          /* Number; (Se for um numero, eu não quero somar mais um numero, quero concatenar no final);
          no exemplo vai dar "10" + "2" = "102" 
          esse novo valor, vou querer adiciona-lo dentro do meu array = this._operation = [];*/
-        console.log(this._operation);
+    
+    //     console.log(this._operation);
 
     }
 
