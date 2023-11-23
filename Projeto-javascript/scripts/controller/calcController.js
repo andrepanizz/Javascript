@@ -167,9 +167,11 @@ class CalcController {
          vamos falar que ele começa no total de itens -1
 
          1° criamos a variavel i com o valor do meu array
-         2° Depois preciso dizer até que momento este for se repita (então)
+         2° Depois preciso dizer até que momento este for se repita (então);
+         3° 
          */
-        for( let i = this._operation.length-1;){
+        for( let i = this._operation.length-1; i >= 0; i--){
+
 
         }
 
