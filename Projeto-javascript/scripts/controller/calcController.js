@@ -72,11 +72,16 @@ class CalcController {
 
         this._operation = [];
 
+        // vamos colocar o metodo setLastNumberDisplay();
+        this.setLastNumberToDisplay();
+
     }
 
     clearEntry(){
 
         this._operation.pop();
+         // vamos colocar o metodo setLastNumberDisplay();
+         this.setLastNumberToDisplay();
 
     }
 
@@ -144,12 +149,18 @@ class CalcController {
             result = result / 100;
             // ou result /= 100 - tambem daria certo;
 
+            //E assim atualizamos nosso array com a variavel result;
+
+            this._operation = [result];
+
         }else{
             //continua fazendo o que esta funcionando (aqui fora só salvaremos o resultado!)
  
             this._operation = [result, last];
 
         }
+
+        /* Se toda vez que for atualizar isto no meu display */
         
         this.setLastNumberToDisplay();
 
