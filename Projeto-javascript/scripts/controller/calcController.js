@@ -199,18 +199,22 @@ class CalcController {
              se o ultimo for um operador, preciso trocar o operador; */
 
             if (this.isOperator(value)) {
-                 /* Note que e o mesmo codigo, esse metodo setLastOperation
-                  Por isso que criamos um metodo;*/
+                 /* Ele pergunta: E um operador? o valor atual?;*/
 
                 this.setLastOperation(value);  // ele trocou o item.
 
             } else if (isNaN(value)){
+                // Isto não e um numero??
 
                 console.log("Outra Coisa;");
 
             } else {
-                
+                // então ele vai cair pra cá:
                 this.add_Operador(value);
+
+                // Abaixo vamos chamar o displayCalc com o metodo para aparecer na tela:
+
+                
 
             }
 
