@@ -163,8 +163,12 @@ class CalcController {
 
         let lastNumber;
 
-        /* */
-        for(){
+        /* Vamos pegar o this._operation.legth, vamos criar a variavel i
+         vamos falar que ele começa no total de itens -1
+
+         1° 
+         */
+        for( let i = this._operation.length-1;){
 
         }
 
