@@ -140,7 +140,9 @@ class CalcController {
               vamos colocar na calculadora;*/
 
         if(last == '%'){
-
+            
+            result = result / 100;
+            // ou result /= 100 - tambem daria certo;
 
         }else{
             //continua fazendo o que esta funcionando (aqui fora só salvaremos o resultado!)
