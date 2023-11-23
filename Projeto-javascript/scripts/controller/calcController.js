@@ -156,6 +156,22 @@ class CalcController {
 
     }
 
+    setLastNumberToDisplay(){
+
+        /*Aqui devemos pegar o ultimo numero que eu digitei, (não o ultimo numero do array!)
+        Eu preciso percorrer este array, do final para o começo procurando o primeiro numero; */
+
+        let lastNumber;
+
+        /* */
+        for(){
+
+        }
+
+
+    }
+
+
     addOperation(value){
          /* Irei fazer o add, para isso preciso fazer minha verificação:*/
 
@@ -193,8 +209,12 @@ class CalcController {
                     let newValue = this.getLastOperation().toString() + value.toString();
                     this.setLastOperation(parseInt(newValue));
 
-                    //atualizar display;
-                    
+                   /* Mostrar o ultimo numero no display: vou utilizar este metodo: */
+
+                   this.setLastNumberToDisplay();
+
+                   
+
                 }
                 
         }
