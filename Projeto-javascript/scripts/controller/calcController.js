@@ -166,7 +166,8 @@ class CalcController {
         /* Vamos pegar o this._operation.legth, vamos criar a variavel i
          vamos falar que ele começa no total de itens -1
 
-         1° 
+         1° criamos a variavel i com o valor do meu array
+         2° Depois preciso dizer até que momento este for se repita (então)
          */
         for( let i = this._operation.length-1;){
 
