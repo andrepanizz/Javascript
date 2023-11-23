@@ -174,7 +174,7 @@ class CalcController {
          6° vai ser armazenado em lastNumber, e chamo meu oobjeto (displayCalc = lastNumber);
          */
         for( let x = this._operation.length-1; x >= 0; x--){
-            if(this.isOperator(this._operatio[x])){
+            if(this.isOperator(this._operation[x])){
                 lastNumber = this._operation[x];
                 break;
 
