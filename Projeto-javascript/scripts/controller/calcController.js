@@ -15,7 +15,7 @@ class CalcController {
  //                                        - INITIALIZE - 
 
     initialize(){
-        //chamado o metodo setLastnumberToDisplay(), 
+        //chamado o metodo setLastnumberToDisplay(), assim que eu inicializo;
         this.setLastNumberToDisplay();
 
         this.setDisplayDateTime()
@@ -25,6 +25,9 @@ class CalcController {
             this.setDisplayDateTime();
 
         }, 1000);
+
+        // assim que eu terminar a inicialização da minha calculadora, chamo o metodo também;
+        this.setLastNumberToDisplay();
 
     }
     /*
@@ -130,6 +133,16 @@ class CalcController {
     }
 
     calc(){
+            /*Só poderei tirar o ultimo se for maior que 03 itens: */
+
+            let last = '';
+            if(this._operation.length > 3){
+                last = this._operation.pop();
+
+            }
+
+        //-----------------------------------------------------------------------
+
          /* a variavel last, retira o utimo e armazena;*/
         /*Bom agora no nosso codigo vamos colocar o join, que basicamente,
         e o inverso do split(), que transforma um array em string;
@@ -139,7 +152,7 @@ class CalcController {
             o join e mais adequado:
             let result = eval(this._operation(value).join()); */
 
-        let last = this._operation.pop();
+        last = this._operation.pop();
         let result = eval(this._operation.join(""));
 
             /*O resultado desse result, vamos colocar no nosso operation, que será um novo array,
@@ -157,13 +170,16 @@ class CalcController {
 
         }else{
             //continua fazendo o que esta funcionando (aqui fora só salvaremos o resultado!)
- 
-            this._operation = [result, last];
+           
+            this._operation = [result];
+
+            if(last){
+                last = this._operation.push(last);
+            }
 
         }
 
-        
-        
+                
         this.setLastNumberToDisplay();
 
     }
@@ -293,7 +309,7 @@ class CalcController {
                 break;
 
             case 'igual':
-                
+                this.calc();
                 break;
 
             case 'ponto':
