@@ -136,6 +136,7 @@ class CalcController {
             /*Só poderei tirar o ultimo se for maior que 03 itens: */
 
             let last = '';
+
             if(this._operation.length > 3){
                 last = this._operation.pop();
 
@@ -151,10 +152,8 @@ class CalcController {
 
             o join e mais adequado:
             let result = eval(this._operation(value).join()); */
-
-        last = this._operation.pop();
-        let result = eval(this._operation.join(""));
-
+            let result = eval(this._operation.join(""));
+                   
             /*O resultado desse result, vamos colocar no nosso operation, que será um novo array,
             1° Elemento: a variavel result, o segundo o Last = que retira o ultimo, e os proximos,
               vamos colocar na calculadora;*/
