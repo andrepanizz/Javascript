@@ -168,12 +168,22 @@ class CalcController {
 
          1° criamos a variavel i com o valor do meu array
          2° Depois preciso dizer até que momento este for se repita (então);
-         3° 
+         3° Vamos usar o operador decremental, e fazer um if() perguntando se e um operador:
+         4° this.isOperator() => quem e o operador: this._operator(), na minha posição i.
+         5° Ou se não for um operador ( ! ) atributo de negação, ai vou colocar na minha variavel
+         6° vai ser armazenado em lastNumber, e chamo meu oobjeto (displayCalc = lastNumber);
          */
-        for( let i = this._operation.length-1; i >= 0; i--){
+        for( let x = this._operation.length-1; x >= 0; x--){
+            if(this.isOperator(this._operatio[x])){
+                lastNumber = this._operation[x];
+                break;
+
+            }
 
 
         }
+
+        this.displayCalc = lastNumber;
 
 
     }
