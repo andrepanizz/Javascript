@@ -183,9 +183,12 @@ class CalcController {
     }
 
     setLastNumberToDisplay(){
+               
+        /*
+        Aqui devemos pegar o ultimo numero que eu digitei, (não o ultimo numero do array!)
+        Eu preciso percorrer este array, do final para o começo procurando o primeiro numero;
         
-        /*Aqui devemos pegar o ultimo numero que eu digitei, (não o ultimo numero do array!)
-        Eu preciso percorrer este array, do final para o começo procurando o primeiro numero; */
+        */
 
         let lastNumber;
 
@@ -196,6 +199,9 @@ class CalcController {
                 lastNumber = this._operation[i];
 
                 break;
+
+            
+                
                 /* Vamos pegar o this._operation.legth, vamos criar a variavel i
          vamos falar que ele começa no total de itens -1
 
