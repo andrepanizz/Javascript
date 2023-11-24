@@ -46,7 +46,7 @@ class CalcController {
         this.setLastNumberToDisplay();
 
     }
-
+    // Botão de Limpar Parcial
     clearEntry(){
 
         this._operation.pop();
