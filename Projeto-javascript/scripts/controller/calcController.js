@@ -121,7 +121,7 @@ class CalcController {
             this.calc();
              /*1° Operação: 1° numero,
               2° Operação: Operador, 2° numero,
-              Maior que 03 significa mais um sinal, eu quero essa operação aqui
+              Maior que 03 significa mais um sinal, eu quero essa operação aqui;
               */
           
 
@@ -134,7 +134,7 @@ class CalcController {
     }
 
     calc(){
-            /*Só poderei tirar o ultimo se for maior que 03 itens: */
+            /* Só poderei tirar o ultimo se for maior que 03 itens: */
 
             let last = '';
 
