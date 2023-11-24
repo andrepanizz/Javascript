@@ -163,8 +163,9 @@ class CalcController {
 
         return lastItem;
 
-    }
-
+    }   
+    
+    // Metodo de mostrar no display;
     setLastNumberToDisplay(){
 
         let lastNumber = this.getLastItem(false);
