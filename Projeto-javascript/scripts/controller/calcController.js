@@ -187,7 +187,7 @@ class CalcController {
 
             } else if (isNaN(value)){
 
-                console.log("outra coisa",value);
+                console.log("outras coisas", value);
 
             } else {
 
