@@ -1,5 +1,5 @@
 issues - Como criar Issues;
-----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 Conversamos bem rapidinho sobre o que é um projeto Open Source,
 algumas de suas vantagens e como o GitHub pode nos ajudar na organização deste tipo de projeto.
 
