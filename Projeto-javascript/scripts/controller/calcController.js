@@ -160,12 +160,11 @@ class CalcController {
 
             o join e mais adequado:
             let result = eval(this._operation(value).join()); */
-            let result = eval(this._operation.join(""));
-                   
             /*O resultado desse result, vamos colocar no nosso operation, que será um novo array,
             1° Elemento: a variavel result, o segundo o Last = que retira o ultimo, e os proximos,
               vamos colocar na calculadora;*/
-
+              
+        let result = this.getResult();
         if(last == '%'){
             
             result = result / 100;
