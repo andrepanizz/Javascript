@@ -133,6 +133,11 @@ class CalcController {
 
     }
 
+    //criando um getresult:
+    getResult(){
+        return eval(this._operation.join(""));
+    }
+
     calc(){
             /* Só poderei tirar o ultimo se for maior que 03 itens: */
 
