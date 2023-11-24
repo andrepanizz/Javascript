@@ -2,6 +2,8 @@ class CalcController {
 
     constructor(){
 
+        this._lastOperator = '';
+        this._lastNumber = '';
         this._operation = [];
         this._locale = 'pt-BR';
         this._displayCalcEl = document.querySelector("#display");
@@ -146,7 +148,7 @@ class CalcController {
             if(this._operation.length > 3){
                 last = this._operation.pop();
 
-                let result = getResult();
+                this._lastNumber = getResult();
 
             }
 
@@ -163,7 +165,7 @@ class CalcController {
             /*O resultado desse result, vamos colocar no nosso operation, que será um novo array,
             1° Elemento: a variavel result, o segundo o Last = que retira o ultimo, e os proximos,
               vamos colocar na calculadora;*/
-              
+
         let result = this.getResult();
         if(last == '%'){
             
@@ -180,7 +182,7 @@ class CalcController {
             this._operation = [result];
 
             if(last){
-                last = this._operation.push(last);
+                 last = this._operation.push(last);
             }
 
         }
@@ -189,21 +191,17 @@ class CalcController {
 
     }
 
-    setLastNumberToDisplay(){
-               
-        /*
-        Aqui devemos pegar o ultimo numero que eu digitei, (não o ultimo numero do array!)
-        Eu preciso percorrer este array, do final para o começo procurando o primeiro numero;
-        
-        */
+    getlastItem(isOperator = true){
 
-        let lastNumber;
+        let lastItem;
 
         for (let i = this._operation.length-1; i >= 0; i--){
 
-            if (!this.isOperator(this._operation[i])) {
+            if(isOperator == true){
+        
+            if (this.isOperator(this._operation[i])) {
 
-                lastNumber = this._operation[i];
+                lastItem = this._operation[i];
 
                 break;
 
@@ -219,9 +217,28 @@ class CalcController {
          5° Ou se não for um operador ( ! ) atributo de negação, ai vou colocar na minha variavel
          6° vai ser armazenado em lastNumber, e chamo meu oobjeto (displayCalc = lastNumber);
          */
+                }
+            }else{
+                if (!this.isOperator(this._operation[i])) {
+                    lastItem = this._operation[i];
+                    break;
+                }
+
             }
 
         }
+        return lastItem;
+    }
+
+    setLastNumberToDisplay(){
+               
+        /*
+        Aqui devemos pegar o ultimo numero que eu digitei, (não o ultimo numero do array!)
+        Eu preciso percorrer este array, do final para o começo procurando o primeiro numero;
+        
+        */
+
+       
 
         /* Se toda vez que for atualizar isto no meu display 
            eu posso fazer uma verficação:*/
