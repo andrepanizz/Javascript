@@ -66,7 +66,7 @@ class CalcController {
         this._operation[this._operation.length-1] = value;
 
     }
-
+    // Operador:
     isOperator(value){
 
         return (['+', '-', '*', '%', '/'].indexOf(value) > -1);
