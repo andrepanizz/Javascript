@@ -120,7 +120,7 @@ class CalcController {
         }
         
         let result = this.getResult();
-
+        // Aqui e a funcão do botão porcentagem quando precionamos
         if (last == '%') {
 
             result /= 100;
