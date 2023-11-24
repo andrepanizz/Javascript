@@ -1,3 +1,12 @@
-- Issues
+issues - Como criar Issues;
 
-Como abrir e fechar, como lidar com ela.
+Conversamos bem rapidinho sobre o que é um projeto Open Source,
+algumas de suas vantagens e como o GitHub pode nos ajudar na organização deste tipo de projeto.
+
+Existem diversos projetos bem sucedidos que são Open Source, 
+inclusive plataformas e linguagens de programação, como PHP, .NET Core, etc.
+
+Material sobre Open Source na web não falta,
+mas só para dar uma referência, este é o link de uma palestra sobre projetos Open Source bem sucedidos, que a Daiane Alves apresentou no Darkmira Tour PHP 2019. Vale a pena conferir e estudar mais sobre o assunto.
+
+
