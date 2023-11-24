@@ -1,0 +1,44 @@
+1 - GitHub e OpenSource:
+
+Issues
+Reportando... problemas?
+Pull Requests
+Para saber mais: Open Source
+Alternativas ao GitHub
+Colaborando com outros projetos
+Unindo commits
+Pull request com um commit
+Para saber mais: Fechando issues
+
+2 - Controle avançado de conflitos:
+
+Pegando um commit
+Cherry-pick
+Encontrando bugs
+Bisect
+Encontrando o culpado
+Blame
+
+3 - Estratégias de branching
+
+Master é produção
+Log visual
+Mais branches
+Git Flow
+Várias branches
+
+4 - Ferramentas visuais:
+
+Git Cola
+GitHub Desktop
+Git Kraken
+Para saber mais: Ferramentas
+
+5 - Hooks e deploy com Git:
+
+Eventos no Git
+Git hooks
+Deploy com Git
+Entrega contínua
+
+
