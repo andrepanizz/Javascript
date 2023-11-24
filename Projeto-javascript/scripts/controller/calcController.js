@@ -4,7 +4,6 @@ class CalcController {
 
         this._lastOperator = '';
         this._lastNumber = '';
-
         this._operation = [];
         this._locale = 'pt-BR';
         this._displayCalcEl = document.querySelector("#display");
@@ -262,7 +261,7 @@ class CalcController {
             case 'ponto':
                 this.addOperation('.');
                 break;
-
+                /* Vamos trabalhar agora com o botão ponto */
             case '0':
             case '1':
             case '2':
