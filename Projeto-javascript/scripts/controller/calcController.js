@@ -218,7 +218,7 @@ class CalcController {
     }
 
     setError(){
-
+        // Mensagem de erro na tela da calculadora:
         this.displayCalc = "Error";
         
     }
