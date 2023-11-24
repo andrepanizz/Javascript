@@ -146,6 +146,8 @@ class CalcController {
             if(this._operation.length > 3){
                 last = this._operation.pop();
 
+                let result = getResult();
+
             }
 
         //-----------------------------------------------------------------------
