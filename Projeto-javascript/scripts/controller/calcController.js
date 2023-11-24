@@ -107,7 +107,8 @@ class CalcController {
         return (['+', '-', '*', '%', '/'].indexOf(value) > -1);
          /*O metodo indexOf vai buscar o value, neste array:
         ['+','-','*','%','/'], se ele achar ele vai trazer o index desse elemento.
-        Se ele não encontrar ele vai trazer -1 */
+        Se ele não encontrar ele vai trazer -1 
+        */
 
     }
 
