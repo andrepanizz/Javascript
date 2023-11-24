@@ -14,7 +14,7 @@ class CalcController {
         this.initButtonsEvents();
 
     }
-
+    //                           Inicialização da Calculadora
     initialize(){
 
         this.setDisplayDateTime()
@@ -38,7 +38,7 @@ class CalcController {
         })
     
     }
-
+    
     clearAll(){
 
         this._operation = [];
