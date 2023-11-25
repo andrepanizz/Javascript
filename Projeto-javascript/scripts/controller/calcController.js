@@ -1,7 +1,7 @@
 class CalcController {
 
     constructor(){
-        // Meu construtor();
+        // Metodo construtor();
         this._lastOperator = '';
         this._lastNumber = '';
         this._operation = [];
