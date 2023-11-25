@@ -4,6 +4,7 @@ class CalcController {
         // Metodo construtor();
         this._lastOperator = '';
         this._lastNumber = '';
+        
         this._operation = [];
         this._locale = 'pt-BR';
         this._displayCalcEl = document.querySelector("#display");
