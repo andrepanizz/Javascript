@@ -377,3 +377,4 @@ class CalcController {
     }
 
 }
+/* -----------------Fim do arquivo JS ------------------------- */
