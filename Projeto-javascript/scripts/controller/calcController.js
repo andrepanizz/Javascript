@@ -17,7 +17,7 @@ class CalcController {
     }
     //                           Inicialização da Calculadora:
     initialize(){
-        
+
         // time de inicialização;
 
         this.setDisplayDateTime()
@@ -147,6 +147,7 @@ class CalcController {
     getLastItem(isOperator = true){
 
         let lastItem;
+        // variavel last item;
 
         for (let i = this._operation.length-1; i >= 0; i--){
 
