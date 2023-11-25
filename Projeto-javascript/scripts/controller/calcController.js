@@ -268,7 +268,8 @@ class CalcController {
             case 'ponto':
                 this.addOperation('.');
                 break;
-                /* Vamos trabalhar agora com o botão ponto */
+                /* Vamos trabalhar agora com o botão ponto: */
+                
             case '0':
             case '1':
             case '2':
