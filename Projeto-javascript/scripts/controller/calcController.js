@@ -72,7 +72,7 @@ class CalcController {
         return (['+', '-', '*', '%', '/'].indexOf(value) > -1);
 
     }
-    // Somente faz o push pra mim para adicionar, metodo de acrecimo
+    // Somente faz o push pra mim para adicionar, metodo de acrecimo.;
     pushOperation(value){
 
         this._operation.push(value);
