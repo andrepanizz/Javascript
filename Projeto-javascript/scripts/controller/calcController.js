@@ -314,7 +314,7 @@ class CalcController {
         })
 
     }
-
+    // setDisplayTime();
     setDisplayDateTime(){
 
         this.displayDate = this.currentDate.toLocaleDateString(this._locale, {
