@@ -230,7 +230,7 @@ class CalcController {
     }
 
     execBtn(value){
-
+        /* Switch passando a function execBtn(value): */
         switch (value) {
 
             case 'ac':
