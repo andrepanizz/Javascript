@@ -269,7 +269,7 @@ class CalcController {
                 this.addOperation('.');
                 break;
                 /* Vamos trabalhar agora com o botão ponto: */
-                
+
             case '0':
             case '1':
             case '2':
@@ -290,7 +290,7 @@ class CalcController {
         }
 
     }
-
+    // function InitButtonsEvents();
     initButtonsEvents(){
 
         let buttons = document.querySelectorAll("#buttons > g, #parts > g");
