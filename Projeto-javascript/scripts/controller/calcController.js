@@ -16,6 +16,7 @@ class CalcController {
     }
     //                           Inicialização da Calculadora
     initialize(){
+        // time de inicialização;
 
         this.setDisplayDateTime()
 
@@ -26,7 +27,7 @@ class CalcController {
         }, 1000);
 
         this.setLastNumberToDisplay();
-
+        // fim da function de inicialização;
     }
 
     addEventListenerAll(element, events, fn){
