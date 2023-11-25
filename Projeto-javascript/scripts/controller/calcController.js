@@ -63,6 +63,7 @@ class CalcController {
 
     }
 
+    // ultimo operador();
     setLastOperation(value){
 
         this._operation[this._operation.length-1] = value;
