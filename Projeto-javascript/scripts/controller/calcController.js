@@ -4,7 +4,7 @@ class CalcController {
         // Metodo construtor();
         this._lastOperator = '';
         this._lastNumber = '';
-        
+
         this._operation = [];
         this._locale = 'pt-BR';
         this._displayCalcEl = document.querySelector("#display");
@@ -15,8 +15,9 @@ class CalcController {
         this.initButtonsEvents();
 
     }
-    //                           Inicialização da Calculadora
+    //                           Inicialização da Calculadora:
     initialize(){
+        
         // time de inicialização;
 
         this.setDisplayDateTime()
