@@ -321,7 +321,7 @@ class CalcController {
             day: "2-digit",
             month: "long",
             year: "numeric"
-            
+
         // passsando os dados da calculadora: dia, mês, Ano!
         });
         this.displayTime = this.currentDate.toLocaleTimeString(this._locale);
@@ -333,7 +333,7 @@ class CalcController {
         return this._timeEl.innerHTML;
 
     }
-
+    // setar displayTime();
     set displayTime(value){
 
         return this._timeEl.innerHTML = value;
