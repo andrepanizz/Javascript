@@ -369,7 +369,7 @@ class CalcController {
         return new Date();
 
     }
-
+    // Setar CurrentDate;
     set currentDate(value){
 
         this._currentDate = value;
