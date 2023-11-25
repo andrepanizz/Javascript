@@ -28,6 +28,7 @@ class CalcController {
 
         this.setLastNumberToDisplay();
         // fim da function de inicialização;
+        //metodo();
     }
 
     addEventListenerAll(element, events, fn){
