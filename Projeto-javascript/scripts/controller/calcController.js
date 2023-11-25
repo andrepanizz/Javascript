@@ -84,7 +84,7 @@ class CalcController {
         }
 
     }
-
+    // result usando o eval e o join("");
     getResult(){
 
 
