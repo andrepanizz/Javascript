@@ -92,7 +92,7 @@ class CalcController {
         return eval(this._operation.join(""));
 
     }
-
+    // função de calcular calc();
     calc(){
 
         let last = '';
