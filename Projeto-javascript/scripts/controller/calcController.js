@@ -304,7 +304,7 @@ class CalcController {
                 this.execBtn(textBtn);
 
             })
-
+            // utilizando "mouseover mouseup mousedown"
             this.addEventListenerAll(btn, "mouseover mouseup mousedown", e => {
 
                 btn.style.cursor = "pointer";
