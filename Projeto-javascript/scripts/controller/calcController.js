@@ -222,6 +222,8 @@ class CalcController {
         }
 
     }
+
+    
     // function setError();
     setError(){
         // Mensagem de erro na tela da calculadora !
