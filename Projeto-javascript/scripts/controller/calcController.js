@@ -290,7 +290,7 @@ class CalcController {
         }
 
     }
-    // function InitButtonsEvents();
+    // function InitButtonsEvents()..;
     initButtonsEvents(){
 
         let buttons = document.querySelectorAll("#buttons > g, #parts > g");
