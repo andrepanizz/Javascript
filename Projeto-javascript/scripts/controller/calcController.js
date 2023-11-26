@@ -143,7 +143,7 @@ class CalcController {
         this.setLastNumberToDisplay();
 
     }
-    //Ultimo numero digitado;
+    //Ultimo numero digitado.;
     getLastItem(isOperator = true){
 
         let lastItem;
