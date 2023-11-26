@@ -322,7 +322,7 @@ class CalcController {
             month: "long",
             year: "numeric"
 
-        // passsando os dados da calculadora: dia, mês, Ano!
+        // passsando os dados da calculadora: dia, mês, Ano..!
         });
         this.displayTime = this.currentDate.toLocaleTimeString(this._locale);
 
