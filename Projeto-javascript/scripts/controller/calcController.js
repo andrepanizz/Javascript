@@ -339,7 +339,7 @@ class CalcController {
         return this._timeEl.innerHTML = value;
 
     }
-    // display Date;
+    // display Date..;
     get displayDate(){
 
         return this._dateEl.innerHTML;
