@@ -351,7 +351,7 @@ class CalcController {
         return this._dateEl.innerHTML = value;
 
     }
-    // recuperar displayCalc();
+    // recuperar displayCalc()..;
     get displayCalc(){
 
         return this._displayCalcEl.innerHTML;
