@@ -211,13 +211,23 @@ class CalcController {
 
                 let newValue = this.getLastOperation().toString() + value.toString();
 
-                this.setLastOperation(parseInt(newValue));
+                this.setLastOperation(parseFloat(newValue));
 
                 this.setLastNumberToDisplay();
 
             }
 
         }
+
+    }
+
+    addDot(){
+
+        let lastOperation = this.getLastOperation();
+
+        
+        console.log(lastOperation);
+
 
     }
 
