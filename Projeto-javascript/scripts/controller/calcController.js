@@ -73,13 +73,13 @@ class CalcController {
         this._operation[this._operation.length-1] = value;
 
     }
-    // Operador:
+    
     isOperator(value){
 
         return (['+', '-', '*', '%', '/'].indexOf(value) > -1);
 
     }
-    // Somente faz o push pra mim para adicionar, metodo de acrecimo.;
+ 
     pushOperation(value){
 
         this._operation.push(value);
