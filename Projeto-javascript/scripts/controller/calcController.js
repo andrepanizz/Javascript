@@ -44,7 +44,7 @@ class CalcController {
         })
     
     }
-    // Botão de Limpar
+    // Botão de Limpar;
     clearAll(){
 
         this._operation = [];
