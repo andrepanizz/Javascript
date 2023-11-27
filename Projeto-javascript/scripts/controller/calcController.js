@@ -200,7 +200,7 @@ class CalcController {
             case '*':
             case '/':
             case '%':
-                this.addOperation('+');
+                this.addOperation(e.key);
                 break;
                            
             case 'Enter':
