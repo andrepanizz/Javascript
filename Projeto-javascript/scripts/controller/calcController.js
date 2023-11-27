@@ -2,6 +2,7 @@ class CalcController {
 
     constructor(){
         // Metodo construtor();
+        
         this._lastOperator = '';
         this._lastNumber = '';
 
@@ -30,7 +31,7 @@ class CalcController {
 
         this.setLastNumberToDisplay();
         // fim da function de inicialização;
-        
+
         //metodo();
     }
 
