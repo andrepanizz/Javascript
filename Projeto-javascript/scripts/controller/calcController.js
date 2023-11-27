@@ -179,12 +179,10 @@ class CalcController {
 
     }   
     // Criação de Metodo para inicializar os metodos de Teclado da calculadora:
-
-
     initKeyboard(){
 
         document.addEventListener('keyup', e=> {
-            console.log(e);
+            console.log(e.key);
 
         });
 
