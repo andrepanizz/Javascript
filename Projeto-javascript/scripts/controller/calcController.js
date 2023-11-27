@@ -30,6 +30,7 @@ class CalcController {
 
         this.setLastNumberToDisplay();
         // fim da function de inicialização;
+        
         //metodo();
     }
 
@@ -50,7 +51,7 @@ class CalcController {
         this.setLastNumberToDisplay();
 
     }
-    // Botão de Limpar Parcial
+    // Botão de Limpar Parcial:
     clearEntry(){
 
         this._operation.pop();
@@ -58,7 +59,7 @@ class CalcController {
         this.setLastNumberToDisplay();
 
     }
-    // Pegar o ultimo numero digitado 
+    // Pegar o ultimo numero digitado:
     getLastOperation(){
 
         return this._operation[this._operation.length-1];
@@ -143,7 +144,7 @@ class CalcController {
         this.setLastNumberToDisplay();
 
     }
-    //Ultimo numero digitado.
+    // Ultimo numero digitado.
     getLastItem(isOperator = true){
 
         let lastItem;
