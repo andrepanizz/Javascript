@@ -222,17 +222,9 @@ class CalcController {
                 this.addOperation(parseInt(e.key));
                 break;
 
-            default:
-                this.setError();
-                break;
-                
-                
-
-                }
-
-
-
-        });
+    
+    }
+});
 
 
     }
