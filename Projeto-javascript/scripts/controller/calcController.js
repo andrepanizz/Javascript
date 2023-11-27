@@ -208,7 +208,8 @@ class CalcController {
                 this.calc();
                 break;
 
-            case 'ponto':
+            case '.':
+            case ',':
                 this.addDot('.');
                 break;
                 /* Vamos trabalhar agora com o botão ponto..:
