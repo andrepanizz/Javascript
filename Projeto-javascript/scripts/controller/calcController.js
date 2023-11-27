@@ -91,7 +91,7 @@ class CalcController {
         }
 
     }
-    // result usando o eval e o join("");
+    
     getResult(){
 
 
@@ -99,7 +99,7 @@ class CalcController {
         return eval(this._operation.join(""));
 
     }
-    // função de calcular calc();
+    
     calc(){
 
         let last = '';
@@ -193,11 +193,7 @@ class CalcController {
 
                 this.setLastOperation(value);
 
-            } else if (isNaN(value)){
-
-                console.log("outra coisa", value);
-
-            } else {
+             } else {
 
                 this.pushOperation(value);
 
@@ -271,9 +267,10 @@ class CalcController {
                 break;
 
             case 'ponto':
-                this.addOperation('.');
+                this.addDot('.');
                 break;
-                /* Vamos trabalhar agora com o botão ponto..: */
+                /* Vamos trabalhar agora com o botão ponto..:
+                criando o metodo addDot(); */
 
             case '0':
             case '1':
