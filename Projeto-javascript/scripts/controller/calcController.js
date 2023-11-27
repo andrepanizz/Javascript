@@ -50,6 +50,8 @@ class CalcController {
         this._operation = [];
 
         this.setLastNumberToDisplay();
+        this.lastNumber = '';
+        this.lastOperation = '';
 
     }
     
@@ -211,7 +213,7 @@ class CalcController {
 
                 let newValue = this.getLastOperation().toString() + value.toString();
 
-                this.setLastOperation(parseFloat(newValue));
+                this.setLastOperation(newValue);
 
                 this.setLastNumberToDisplay();
 
@@ -225,9 +227,13 @@ class CalcController {
 
         let lastOperation = this.getLastOperation();
 
-        
-        console.log(lastOperation);
+        if(this.isOperator(lastOperation) || !lastOperation) {
+           this.pushOperation('0.');
+        }else{
+            this.setLastOperation(lastOperation.toString() + '.');
+        }
 
+        this.setLastNumberToDisplay();
 
     }
 
