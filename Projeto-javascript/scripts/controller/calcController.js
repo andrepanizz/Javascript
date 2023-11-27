@@ -14,6 +14,8 @@ class CalcController {
         this._currentDate;
         this.initialize();
         this.initButtonsEvents();
+        this.initKeyboard();
+
 
     }
 
@@ -22,8 +24,8 @@ class CalcController {
 
     initKeyboard(){
 
-        document.addEventListenerAll('keyup', e=> {
-            
+        document.addEventListener('keyup', e=> {
+            console.log(e);
 
         });
 
