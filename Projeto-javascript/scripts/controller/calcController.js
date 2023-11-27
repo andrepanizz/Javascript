@@ -16,6 +16,19 @@ class CalcController {
         this.initButtonsEvents();
 
     }
+
+    // Criação de Metodo para inicializar os metodos de Teclado da calculadora:
+
+
+    initKeyboard(){
+
+        document.addEventListenerAll('keyup', e=> {
+            
+
+        });
+
+
+    }
     //                           Inicialização da Calculadora:
     initialize(){
 
