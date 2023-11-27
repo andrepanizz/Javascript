@@ -227,6 +227,10 @@ class CalcController {
 
         let lastOperation = this.getLastOperation();
 
+        if(typeof lastOperation === 'string' && lastOperation.split('').indexOf('.') > -1){ return;
+
+        }
+
         if(this.isOperator(lastOperation) || !lastOperation) {
            this.pushOperation('0.');
         }else{
