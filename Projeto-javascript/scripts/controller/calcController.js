@@ -184,6 +184,9 @@ class CalcController {
         document.addEventListener('keyup', e=> {
             console.log(e.key);
 
+            //vamos fazer um switch no e.key:
+            
+
         });
 
 
