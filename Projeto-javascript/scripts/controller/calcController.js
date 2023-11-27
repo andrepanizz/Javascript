@@ -60,7 +60,7 @@ class CalcController {
         this.setLastNumberToDisplay();
 
     }
-    // Pegar o ultimo numero digitado:
+   
     getLastOperation(){
 
         return this._operation[this._operation.length-1];
