@@ -44,7 +44,7 @@ class CalcController {
         })
     
     }
-    // Botão de Limpar;
+   
     clearAll(){
 
         this._operation = [];
@@ -52,7 +52,7 @@ class CalcController {
         this.setLastNumberToDisplay();
 
     }
-    // Botão de Limpar Parcial:
+    
     clearEntry(){
 
         this._operation.pop();
