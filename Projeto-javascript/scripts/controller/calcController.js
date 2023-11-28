@@ -30,6 +30,9 @@ class CalcController {
         document.body.appendChild(input);
 
         input.select();
+
+        document.execCommand("Copy");
+
         
 
 
