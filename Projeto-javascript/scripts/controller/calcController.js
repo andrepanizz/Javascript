@@ -23,7 +23,7 @@ class CalcController {
 
 
     copyToClipBoard(){
-        
+
         // como criamos elementos, desta forma abaixo:
 
         let input = document.createElement('input');
@@ -35,6 +35,7 @@ class CalcController {
         input.select();
 
         /* Question:
+        
         method with failed;
         describe the method:
         executa um comando no documento atual, ou selecionado atualmente;
