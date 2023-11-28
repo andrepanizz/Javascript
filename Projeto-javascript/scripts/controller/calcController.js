@@ -26,14 +26,16 @@ class CalcController {
         // como criamos elementos, desta forma abaixo:
 
         let input = document.createElement('input');
+
         input.value = this.displayCalc();
+        
         document.body.appendChild(input);
 
         input.select();
 
         document.execCommand("Copy");
 
-        
+
 
 
     }
