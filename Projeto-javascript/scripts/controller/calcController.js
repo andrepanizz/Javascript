@@ -438,7 +438,7 @@ class CalcController {
 
             this.addEventListenerAll(btn, "mouseover mouseup mousedown", e => {
                 //funcção de pointer;
-                
+
                 btn.style.cursor = "pointer";
 
             })
@@ -455,11 +455,13 @@ class CalcController {
             year: "numeric"
 
         // passsando os dados da calculadora: dia, mês, Ano..!
+
         });
         this.displayTime = this.currentDate.toLocaleTimeString(this._locale);
 
     }
     // display time;
+    
     get displayTime(){
 
         return this._timeEl.innerHTML;
