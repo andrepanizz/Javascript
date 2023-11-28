@@ -33,7 +33,7 @@ class CalcController {
 
         input.select();
 
-        document.exec
+        document.execCommand("Copy");
 
         
     }
