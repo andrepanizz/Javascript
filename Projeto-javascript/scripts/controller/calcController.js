@@ -461,7 +461,7 @@ class CalcController {
 
     }
     // display time;
-    
+
     get displayTime(){
 
         return this._timeEl.innerHTML;
@@ -474,12 +474,14 @@ class CalcController {
 
     }
     // display Date..;
+
     get displayDate(){
 
         return this._dateEl.innerHTML;
 
     }
     // setar displayDate passando parametro Value..;
+    
     set displayDate(value){
 
         return this._dateEl.innerHTML = value;
