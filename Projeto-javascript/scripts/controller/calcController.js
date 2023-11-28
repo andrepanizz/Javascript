@@ -38,6 +38,8 @@ class CalcController {
         executa um comando no documento atual, ou selecionado atualmente;
                 
         */
+
+        
        // document.execCommand();
         Document.execCommand("Copy");
 
