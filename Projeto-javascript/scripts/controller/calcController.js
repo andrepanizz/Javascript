@@ -288,7 +288,7 @@ class CalcController {
 
     }
     // add Operation (value);
-    
+
     addOperation(value){
 
 
@@ -345,10 +345,12 @@ class CalcController {
     }
 
 
-    // function setError()..;
+    // function setError();
 
     setError(){
         // Mensagem de erro na tela da calculadora !
+
+
         this.displayCalc = "Error";
         
     }
