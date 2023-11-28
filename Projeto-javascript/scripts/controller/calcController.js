@@ -35,7 +35,7 @@ class CalcController {
         input.select();
 
         /* Question:
-        
+
         method with failed;
         describe the method:
         executa um comando no documento atual, ou selecionado atualmente;
@@ -44,6 +44,7 @@ class CalcController {
 
 
        // document.execCommand();
+       
         Document.execCommand("Copy");
 
         input.remove();
