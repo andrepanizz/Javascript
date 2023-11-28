@@ -357,6 +357,7 @@ class CalcController {
 
     execBtn(value){
         /* Switch passando a function execBtn(value): */
+
         switch (value) {
 
             case 'ac':
@@ -394,6 +395,7 @@ class CalcController {
             case 'ponto':
                 this.addDot('.');
                 break;
+
                 /* Vamos trabalhar agora com o botão ponto..:
                 criando o metodo addDot(); */
 
@@ -417,7 +419,8 @@ class CalcController {
         }
 
     }
-    // function InitButtonsEvents().
+    // function InitButtonsEvents():
+    
     initButtonsEvents(){
 
         let buttons = document.querySelectorAll("#buttons > g, #parts > g");
