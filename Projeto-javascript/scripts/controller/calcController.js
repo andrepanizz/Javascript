@@ -23,6 +23,7 @@ class CalcController {
 
 
     copyToClipBoard(){
+        
         // como criamos elementos, desta forma abaixo:
 
         let input = document.createElement('input');
@@ -32,6 +33,7 @@ class CalcController {
         document.body.appendChild(input);
 
         input.select();
+
         /* Question:
         method with failed;
         describe the method:
@@ -39,7 +41,7 @@ class CalcController {
                 
         */
 
-        
+
        // document.execCommand();
         Document.execCommand("Copy");
 
