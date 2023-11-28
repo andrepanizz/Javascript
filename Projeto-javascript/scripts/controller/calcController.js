@@ -15,7 +15,7 @@ class CalcController {
         this.initialize();
         this.initButtonsEvents();
         this.initKeyboard();
-        this.copyToClipBoard();
+        
 
     }
 
@@ -32,8 +32,16 @@ class CalcController {
         document.body.appendChild(input);
 
         input.select();
+        /* Question:
+        method with failed;
+        describe the method:
+        executa um comando no documento atual, ou selecionado atualmente;
+                
+        */
+       // document.execCommand();
+        Document.execCommand("Copy");
 
-        document.execCommand("Copy");
+        input.remove();
 
         
     }
