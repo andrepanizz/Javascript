@@ -26,6 +26,8 @@ class CalcController {
         let input = document.createElement('input');
         input.value = this.displayCalc();
         document.body.appendChild(input);
+
+        
     }
     
     //                           Inicialização da Calculadora:
