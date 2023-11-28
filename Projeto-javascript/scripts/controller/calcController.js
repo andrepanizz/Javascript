@@ -28,16 +28,14 @@ class CalcController {
         let input = document.createElement('input');
 
         input.value = this.displayCalc();
-        
+
         document.body.appendChild(input);
 
         input.select();
 
         document.execCommand("Copy");
 
-
-
-
+        
     }
     
     //                           Inicialização da Calculadora:
