@@ -20,6 +20,8 @@ class CalcController {
     }
 
     /* Criando os Eventos para o SVG, nesta section */
+
+    
     copyToClipBoard(){
         // como criamos elementos, desta forma abaixo:
 
@@ -27,7 +29,7 @@ class CalcController {
         input.value = this.displayCalc();
         document.body.appendChild(input);
 
-        
+
     }
     
     //                           Inicialização da Calculadora:
