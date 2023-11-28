@@ -44,7 +44,7 @@ class CalcController {
 
 
        // document.execCommand();
-       
+
         Document.execCommand("Copy");
 
         input.remove();
@@ -167,7 +167,9 @@ class CalcController {
         }
         
         let result = this.getResult();
-        // Aqui e a funcão do botão porcentagem quando precionamos
+
+        // Aqui e a funcão do botão porcentagem quando precionamos:
+
         if (last == '%') {
 
             result /= 100;
@@ -216,7 +218,8 @@ class CalcController {
     initKeyboard(){
         document.addEventListener('keyup', e =>{
 
-        /* Switch passando a function execBtn(value): */
+        /* Switch passando a function execBtn(value): 
+        */
         switch (e.key) {
 
             case 'Escape':
@@ -285,6 +288,7 @@ class CalcController {
 
     }
     // add Operation (value);
+    
     addOperation(value){
 
 
