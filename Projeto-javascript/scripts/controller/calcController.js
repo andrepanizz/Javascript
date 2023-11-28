@@ -420,7 +420,7 @@ class CalcController {
 
     }
     // function InitButtonsEvents():
-    
+
     initButtonsEvents(){
 
         let buttons = document.querySelectorAll("#buttons > g, #parts > g");
@@ -435,8 +435,10 @@ class CalcController {
 
             })
             // utilizando "mouseover mouseup mousedown: "
+
             this.addEventListenerAll(btn, "mouseover mouseup mousedown", e => {
                 //funcção de pointer;
+                
                 btn.style.cursor = "pointer";
 
             })
