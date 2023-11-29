@@ -24,9 +24,13 @@ $num3 = 3;
 define("2FOO", "alguma coisa");
 
 // este nome e valido mais deve ser evitado, mostrando aqui:
-echo "FOO" . "<br>";
-echo "FOO2" . "<br>";
-echo "FOO_BAR" . "<br>";
+echo constant("FOO"). "<br>";
+echo constant("FOO2"). "<br>";
+echo constant("FOO_BAR"). "<br>";
+echo $separador;
+echo constant("NUMBER"). "<br>";
+echo constant("NUMBER2"). "<br>";
+echo constant("NUMBER3"). "<br>";
 echo $separador;
 
 
