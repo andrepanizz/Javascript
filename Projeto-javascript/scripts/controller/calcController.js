@@ -468,6 +468,7 @@ class CalcController {
 
     }
     // setar displayTime();
+    
     set displayTime(value){
 
         return this._timeEl.innerHTML = value;
