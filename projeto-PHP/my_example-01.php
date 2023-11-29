@@ -57,4 +57,6 @@ endif;
 // Bom agora podemos converter varios valores em outros tipos de dados
 // utilizando settype:
 
+settype($num, "string");
+
 
