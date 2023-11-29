@@ -54,3 +54,7 @@ if(constant("FOO") === 1 || $num1 === 1):
 endif;
 
  echo $separator;
+// Bom agora podemos converter varios valores em outros tipos de dados
+// utilizando settype:
+
+
