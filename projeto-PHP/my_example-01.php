@@ -3,7 +3,7 @@
  Definindo alguns exemplos aqui da documentação, temos:
  nome de constantes validos: */
 
-$separador = "<hr>";
+$separator = "<hr>";
 
 define("FOO", "alguma coisa");
 define("FOO2", "alguma outra coisa!");
@@ -12,10 +12,12 @@ define("FOO_BAR", "alguma coisa mais");
 define("NUMBER", 1);
 define("NUMBER2", 2);
 define("NUMBER3", 3);
+// variaveis comuns:
 
 $num1 = 1;
 $num2 = 2;
 $num3 = 3;
+$num4 = "andre";
 
 /* A function is_string, is_int, is_bool, is_float
    Verifica se o tipo de variavel e string, int, bool ou float
@@ -27,11 +29,21 @@ define("2FOO", "alguma coisa");
 echo constant("FOO"). "<br>";
 echo constant("FOO2"). "<br>";
 echo constant("FOO_BAR"). "<br>";
-echo $separador;
+echo $separator;
 echo constant("NUMBER"). "<br>";
 echo constant("NUMBER2"). "<br>";
 echo constant("NUMBER3"). "<br>";
-echo $separador;
-
-
-?>
+echo $separator;
+echo is_int($num1) . "<br>";
+echo is_int($num2) . "<br>";
+echo is_int($num3) . "<br>";
+echo is_string($num4) . "<br>";
+echo is_string(constant("FOO")) . "<br>";
+echo is_string(constant("FOO2")) . "<br>";
+echo is_string(constant("FOO_BAR")) . "<br>";
+// criaremos um array pra armazenar as variaveis e as constants:
+$numeros = array();
+if(constant("FOO") === 1 || $num1 === 1):
+    array_push($numeros, $num1, $num2, $num3, $num4, constant("FOO"), constant("FOO2"), constant("FOO_BAR"), constant("NUMBER"), constant("NUMBER2"), constant("NUMBER3"));
+endif;
+ echo $separator;
