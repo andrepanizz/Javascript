@@ -47,7 +47,7 @@ if(constant("FOO") === 1 || $num1 === 1):
     array_push($numeros, $num1, $num2, $num3, $num4, constant("FOO"), constant("FOO2"), constant("FOO_BAR"), constant("NUMBER"), constant("NUMBER2"), constant("NUMBER3"));
     foreach($numeros as $value):
         echo "is_string (=";
-        var_export($value);
+        var_export($value) . "<br>";
         echo "(= ";
         echo var_dump(is_string($value));
     endforeach;
