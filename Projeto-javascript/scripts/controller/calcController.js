@@ -34,6 +34,12 @@ class CalcController {
 
         input.select();
 
+        //uma vez que tenho o conteudo selecionado.
+
+        Document.execCommand('');
+
+        input.remove();
+
         /* Question:
 
         method with failed;
@@ -43,13 +49,7 @@ class CalcController {
         */
 
 
-       // document.execCommand();
-
-        Document.execCommand("Copy");
-
-        input.remove();
-
-        
+            
     }
     
     //                           Inicialização da Calculadora:
