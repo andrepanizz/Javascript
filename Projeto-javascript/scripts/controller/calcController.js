@@ -90,16 +90,7 @@ class CalcController {
 
                 this.toggleAudio();
                 
-                //este metodo toggleAudio, vai controlar nosso atributo pra ver se esta ON or OFF;
-
-                /* diminuir o codigo desta forma: this._audioOnOff = (this._audioOnOff) ? false : true; */
-                
-
-                if(this._audioOnOff) {
-                    this._audioOnOff = false;
-                }else{
-                    this._audioOnOff = true;
-                }
+               
 
             });
         }));
@@ -107,6 +98,22 @@ class CalcController {
     }
     // vamos utilizar recursos externos para o audio da nossa calculadora
     toggleAudio(){
+
+         //este metodo toggleAudio, vai controlar nosso atributo pra ver se esta ON or OFF;
+
+                /* diminuir o codigo desta forma: this._audioOnOff = (this._audioOnOff) ? false : true; */
+
+                /* Ou desta forma, por ser um Booleano e se tratar de True ou False:
+
+                this._audioOff = !this._audioOff;   negando a expressão;
+                
+                */
+
+                if(this._audioOnOff) {
+                    this._audioOnOff = false;
+                }else{
+                    this._audioOnOff = true;
+                }
 
         
         
