@@ -98,9 +98,7 @@ $my_exemple_the_match = match($value){
 
 };
 var_dump($my_exemple_the_match);
-
 $var = 'cake2';
-
 $my_example2_for_match = match($var){
     'banana' => 'this is a fruit banana power',
     'mellon' => 'this is a melon contains must water for life the humans',
