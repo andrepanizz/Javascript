@@ -276,7 +276,7 @@ class CalcController {
 
     }   
     // Criação de Metodo para inicializar os metodos de Teclado da calculadora:
-    
+
     initKeyboard(){
         document.addEventListener('keyup', e =>{
 
@@ -548,6 +548,14 @@ class CalcController {
     // setar displayDate passando parametro Value..;
     
     set displayDate(value){
+
+        // se for maior que 10 caracteres do meu texto mostra pra mim na tela:
+        // precisamos converter o value para string para ele não estorar o erro;
+        if(value.toString.length > 10){
+            this.setError();
+            return false;
+          
+        }
 
         return this._dateEl.innerHTML = value;
 

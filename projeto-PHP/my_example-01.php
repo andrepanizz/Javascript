@@ -87,7 +87,7 @@ $value_of_return = match($animal){
 
 var_dump($value_of_return);
 // Mais um exemplo de match
-$variable = "fireguns";
+$variable = 'fireguns';
 
 $my_exemple_the_match = match($value){
     'marchine_gun'=>'This is combat arms this name Super Machine gun',
@@ -96,4 +96,13 @@ $my_exemple_the_match = match($value){
 
 };
 var_dump($my_exemple_the_match);
+
+$var = 'cake2';
+
+$my_example2_for_match = match($var){
+    'banana' => 'this is a fruit banana power',
+    'mellon' => 'this is a melon contains must water for life the humans',
+    'cake2'  => 'this is a sugar cake beatifull an good',
+};
+// just one is thue in options listed here.
 
