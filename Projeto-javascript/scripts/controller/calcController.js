@@ -276,14 +276,13 @@ class CalcController {
 
     }   
     // Criação de Metodo para inicializar os metodos de Teclado da calculadora:
+    
     initKeyboard(){
         document.addEventListener('keyup', e =>{
 
         //evento de audio para tocar: (sempre ira mandar o processo pra lá);
         this.playAudio();
-
-        /* Switch passando a function execBtn(value): 
-        */
+        /* Switch passando a function execBtn(value):*/
         switch (e.key) {
 
             case 'Escape':
