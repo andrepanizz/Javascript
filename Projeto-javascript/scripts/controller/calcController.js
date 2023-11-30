@@ -21,7 +21,17 @@ class CalcController {
 
     /* Criando os Eventos para o SVG, nesta section */
 
+    pastefromClipBoard(){
 
+        document.addEventListener('paste', e=>{
+
+            let text = e.clipboardData.getData('text');
+
+            console.log(text);
+        });
+    
+    
+    }
     copyToClipBoard(){
 
         // como criamos elementos, desta forma abaixo:
@@ -57,7 +67,8 @@ class CalcController {
 
         // time de inicialização;
 
-        this.setDisplayDateTime()
+        this.setDisplayDateTime();
+        this.pastefromClipBoard();
 
         setInterval(()=>{
 
