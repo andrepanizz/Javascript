@@ -102,6 +102,7 @@ class CalcController {
 
     addEventListenerAll(element, events, fn){
         // transformando um array em string e passando um foreach();
+        // O metodo split() transforma um array em string;
         events.split(' ').forEach(event => {
 
             element.addEventListener(event, fn, false);
