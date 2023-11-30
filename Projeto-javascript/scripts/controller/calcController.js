@@ -95,7 +95,7 @@ class CalcController {
         }));
         
     }
-
+    // vamos utilizar recursos externos para o audio da nossa calculadora
     toggleAudio(){
         
     }
