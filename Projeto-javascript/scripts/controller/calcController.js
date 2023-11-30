@@ -72,22 +72,8 @@ class CalcController {
         // time de inicialização;
 
         this.setDisplayDateTime();
-        this.pastefromClipBoard();
-
-        //adicionando o duploclique:
-        document.querySelectorAll('btn-ac'.forEach(btn=>{
-            btn.addEventListener('dblclique', e=>{
-                this.toggleAudio();
-                //este metodo toggleAudio, vai controlar nosso atributo pra ver se esta ON or OFF;
-
-            });
-        }));
-        // metodo abaixo 
-        toggleAudio(){
-
-
-        }
-
+               
+        
         setInterval(()=>{
 
             this.setDisplayDateTime();
@@ -95,9 +81,23 @@ class CalcController {
         }, 1000);
 
         this.setLastNumberToDisplay();
-        // fim da function de inicialização;
+        this.pastefromClipBoard();
+        
 
-        //metodo();
+        //adicionando o duploclique:
+        document.querySelectorAll('btn-ac'.forEach(btn=>{
+            btn.addEventListener('dblclique', e=>{
+
+                this.toggleAudio();
+                //este metodo toggleAudio, vai controlar nosso atributo pra ver se esta ON or OFF;
+
+            });
+        }));
+        
+    }
+
+    toggleAudio(){
+        
     }
 
     addEventListenerAll(element, events, fn){
