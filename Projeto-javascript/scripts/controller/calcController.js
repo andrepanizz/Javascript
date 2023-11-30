@@ -2,7 +2,7 @@ class CalcController {
 
     constructor(){
         // Metodo construtor();
-        
+        this._audioOnOff = false;
         this._lastOperator = '';
         this._lastNumber = '';
 

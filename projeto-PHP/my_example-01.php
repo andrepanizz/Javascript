@@ -72,6 +72,9 @@ $valor_de_retorno = match($comida){
     'bolo' => 'Essa comida e um Bolo',
 
 };
+
+var_dump($valor_de_retorno);
+
 // como se fosse um array podemos ter exemplos diferentes de match;
 
 $animal = 'cat';
@@ -81,3 +84,16 @@ $value_of_return = match($animal){
     'fly' => 'este Animal voa e um Passaro',
     'cat' => 'este Animal e um Gato',
 };
+
+var_dump($value_of_return);
+// Mais um exemplo de match
+$variable = "fireguns";
+
+$my_exemple_the_match = match($value){
+    'marchine_gun'=>'This is combat arms this name Super Machine gun',
+    'subMarchine_gun'=>'this a subMachine use bullets 9mm parabellum',
+    'firegun' => 'this is a firegun arms collectible'
+
+};
+var_dump($my_exemple_the_match);
+
