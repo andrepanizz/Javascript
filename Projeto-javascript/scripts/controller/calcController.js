@@ -36,8 +36,8 @@ class CalcController {
 
         //uma vez que tenho o conteudo selecionado.
 
-        Document.execCommand('');
-
+        Document.execCommand("Copy");
+        //ele vai copiar tudo que esta selecionado
         input.remove();
 
         /* Question:
@@ -267,11 +267,9 @@ class CalcController {
             if (e.ctrlKey) this.copyToClipBoard();
             break;
             
-
         }
 
     
-
         });
     }
 

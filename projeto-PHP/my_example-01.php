@@ -42,6 +42,7 @@ echo is_string(constant("FOO")) . "<br>";
 echo is_string(constant("FOO2")) . "<br>";
 echo is_string(constant("FOO_BAR")) . "<br>";
 // criaremos um array pra armazenar as variaveis e as constants:
+
 $numeros = array();
 if(constant("FOO") === 1 || $num1 === 1):
     array_push($numeros, $num1, $num2, $num3, $num4, constant("FOO"), constant("FOO2"), constant("FOO_BAR"), constant("NUMBER"), constant("NUMBER2"), constant("NUMBER3"));
@@ -58,3 +59,25 @@ endif;
 // utilizando settype:
 
 settype($num, "string");
+echo "<br><br>";
+echo  $separator;
+
+/* Agora neste exemplo temos exemplo basico usando o match  */
+
+$comida = 'bolo';
+
+$valor_de_retorno = match($comida){
+    'apple' => 'Essa comida e uma Maçã!',
+    'bar' => 'Essa comida e um Bar',
+    'bolo' => 'Essa comida e um Bolo',
+
+};
+// como se fosse um array podemos ter exemplos diferentes de match;
+
+$animal = 'cat';
+
+$value_of_return = match($animal){
+    'dog' => 'Este Animal e um Cachorro',
+    'fly' => 'este Animal voa e um Passaro',
+    'cat' => 'este Animal e um Gato',
+};
