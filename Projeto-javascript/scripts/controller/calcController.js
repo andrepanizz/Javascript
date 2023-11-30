@@ -202,6 +202,7 @@ class CalcController {
             console.log(e);
             setTimeout(() => {
                 this.setError();
+                this._displayCalcEl = "Erro na aplicação";
                 
             }, 1);
             
