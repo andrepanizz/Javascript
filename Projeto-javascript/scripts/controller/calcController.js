@@ -2,6 +2,7 @@ class CalcController {
 
     constructor(){
         // Metodo construtor();
+        this._audio = new Audio('this.click.mp3');
         this._audioOnOff = false;
         this._lastOperator = '';
         this._lastNumber = '';
@@ -116,7 +117,18 @@ class CalcController {
                 }
 
         
-        
+    }
+
+    // Criando nosso atributo PlayAudio, para efetivamente tocar o som:
+    playAudio(){
+
+        if(this._audioOnOff){
+
+            this._audio.play();
+            
+        }else{
+
+        }
     }
 
     addEventListenerAll(element, events, fn){
@@ -267,6 +279,9 @@ class CalcController {
     initKeyboard(){
         document.addEventListener('keyup', e =>{
 
+        //evento de audio para tocar: (sempre ira mandar o processo pra lá);
+        this.playAudio();
+
         /* Switch passando a function execBtn(value): 
         */
         switch (e.key) {
@@ -403,6 +418,9 @@ class CalcController {
     }
 
     execBtn(value){
+        //Agora quando um botão e pressionado:
+        this.playAudio();   
+
         /* Switch passando a function execBtn(value): */
 
         switch (value) {
