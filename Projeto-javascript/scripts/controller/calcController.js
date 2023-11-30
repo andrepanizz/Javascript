@@ -89,7 +89,12 @@ class CalcController {
             btn.addEventListener('dblclique', e=>{
 
                 this.toggleAudio();
+                
                 //este metodo toggleAudio, vai controlar nosso atributo pra ver se esta ON or OFF;
+
+                /* diminuir o codigo desta forma: this._audioOnOff = (this._audioOnOff) ? false : true; */
+                
+
                 if(this._audioOnOff) {
                     this._audioOnOff = false;
                 }else{
