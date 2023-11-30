@@ -85,7 +85,9 @@ $value_of_return = match($animal){
     'cat' => 'este Animal e um Gato',
 };
 
+
 var_dump($value_of_return);
+
 // Mais um exemplo de match
 $variable = 'fireguns';
 

@@ -6,8 +6,4 @@ Um exemplo pratico que vimos em aula : */
 
 
 
-
-
-
-
 ?>
