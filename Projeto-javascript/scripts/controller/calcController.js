@@ -90,6 +90,11 @@ class CalcController {
 
                 this.toggleAudio();
                 //este metodo toggleAudio, vai controlar nosso atributo pra ver se esta ON or OFF;
+                if(this._audioOnOff) {
+                    this._audioOnOff = false;
+                }else{
+                    this._audioOnOff = true;
+                }
 
             });
         }));
