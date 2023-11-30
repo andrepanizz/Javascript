@@ -18,6 +18,8 @@ class CalcController {
         
 
     }
+    // trabalhando com API de Audio();
+    
 
     /* Criando os Eventos para o SVG, nesta section */
 
@@ -26,6 +28,8 @@ class CalcController {
         document.addEventListener('paste', e=>{
 
             let text = e.clipboardData.getData('text');
+
+            this.displayCalc = parseFloat(text);
 
             console.log(text);
         });
