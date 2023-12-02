@@ -6,7 +6,7 @@ Um exemplo pratico que vimos em aula : */
 $my_first = array();
 $my_second = array();
 // adicionando itens ao array();
-array_push($my_first, "");
+array_push($my_first, $fruta_1, $fruta_2, $fruta_3);
 array_push($my_second, "");
 // Itens para adicionar ao array:
 $fruta_1 = "abacaxi";
