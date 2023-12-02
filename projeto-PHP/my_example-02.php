@@ -9,6 +9,7 @@ $my_second = array();
 array_push($my_first, "");
 array_push($my_second, "");
 
+//Mostrando os valores do meu array:
 
 
 
