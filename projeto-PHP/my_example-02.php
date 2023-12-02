@@ -11,7 +11,8 @@ array_push($my_second, "");
 
 //Mostrando os valores do meu array:
 var_dump($my_first) . "<br>";
-var_dump($my_second)
+var_dump($my_second) . "<br>";
+
 
 
 
