@@ -12,7 +12,9 @@ array_push($my_second, "");
 $fruta_1 = "abacaxi";
 $fruta_2 = "banana";
 $fruta_3 = "melão";
-$fruta_4 = "";
+$fruta_4 = "Uva";
+$fruta_5 = "carambola";
+$fruta_6 = "limão";
 
 //Mostrando os valores do meu array:
 var_dump($my_first) . "<br>";
