@@ -21,7 +21,7 @@ var_dump($my_first) . "<br>";
 var_dump($my_second) . "<br>";
 
 // O exemplo acima reproduzira:
-/*     */
+/*                             */
 
 
 
