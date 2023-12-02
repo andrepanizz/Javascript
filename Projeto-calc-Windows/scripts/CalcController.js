@@ -2,5 +2,7 @@
 constructor(){
 
 
-    
+
 }
+
+// criação de getters and Setters:
