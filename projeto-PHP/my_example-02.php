@@ -30,6 +30,12 @@ print_r($array);
 echo "<br>";
 
 // Mais exemplos:
+$frutas = array (
+    "frutas"  => array("a" => "laranja", "b" => "banana", "c" => "maçã"),
+    "numeros" => array(1, 2, 3, 4, 5, 6),
+    "buracos" => array("primeiro", 5 => "segundo", "terceiro")
+);
+
 
 
 
