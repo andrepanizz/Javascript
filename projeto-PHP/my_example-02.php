@@ -86,6 +86,8 @@ function arrayToSelect($option, $selected = '', $optgroup = NULL)
     return $returnStatement;
 }
 
+// Exemplo de array_Chunk:
+
 
 
 
