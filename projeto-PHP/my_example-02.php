@@ -39,6 +39,9 @@ $frutas = array (
 $firstquarter = array(1 => 'Janeiro', 'Fevereiro', 'Março');
 print_r($firstquarter);
 
+$foo = array('bar' => 'baz');
+echo "Hello {$foo['bar']}!"; // Hello baz!
+
 
 
 
