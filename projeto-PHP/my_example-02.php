@@ -42,6 +42,9 @@ print_r($firstquarter);
 $foo = array('bar' => 'baz');
 echo "Hello {$foo['bar']}!"; // Hello baz!
 
+$a = [1, 2, 3, 4];
+    print_r($a);
+
 
 
 
