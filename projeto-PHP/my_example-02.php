@@ -21,7 +21,13 @@ var_dump($my_first) . "<br>";
 var_dump($my_second) . "<br>";
 
 // O exemplo acima reproduzira:
-/*                             */
+/*             
+                */
+
+$array = array(1, 1, 1, 1,  1, 8 => 1,  4 => 1, 19, 3 => 13);
+print_r($array);
+
+echo "<br>";
 
 
 
