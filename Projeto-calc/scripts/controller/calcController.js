@@ -2,11 +2,11 @@ class CalcController {
 
     constructor(){
         // Metodo construtor();
-        this._audio = new Audio('this.click.mp3');
+        this._audio = new Audio('click.mp3');
         this._audioOnOff = false;
         this._lastOperator = '';
         this._lastNumber = '';
-
+        this._btnAc = document.querySelector("#btn-ac");
         this._operation = [];
         this._locale = 'pt-BR';
         this._displayCalcEl = document.querySelector("#display");
@@ -86,37 +86,18 @@ class CalcController {
         
 
         //adicionando o duploclique:
-        document.querySelectorAll('btn-ac'.forEach(btn=>{
-            btn.addEventListener('dblclique', e=>{
+        this._btnAc.addEventListener('dblclick', e=>{
 
-                this.toggleAudio();
-                
-               
+            this.toggleAudio();
 
-            });
-        }));
+        });
         
     }
     // vamos utilizar recursos externos para o audio da nossa calculadora
     toggleAudio(){
 
-         //este metodo toggleAudio, vai controlar nosso atributo pra ver se esta ON or OFF;
+        this._audioOnOff = !this._audioOnOff;
 
-                /* diminuir o codigo desta forma: this._audioOnOff = (this._audioOnOff) ? false : true; */
-
-                /* Ou desta forma, por ser um Booleano e se tratar de True ou False:
-
-                this._audioOff = !this._audioOff;   negando a expressão;
-                
-                */
-
-                if(this._audioOnOff) {
-                    this._audioOnOff = false;
-                }else{
-                    this._audioOnOff = true;
-                }
-
-        
     }
 
     // Criando nosso atributo PlayAudio, para efetivamente tocar o som:
@@ -124,6 +105,8 @@ class CalcController {
 
         if(this._audioOnOff){
 
+            this._audio.pause();
+            this._audio.currentTime=0;
             this._audio.play();
             
         }else{
@@ -202,7 +185,7 @@ class CalcController {
             console.log(e);
             setTimeout(() => {
                 this.setError();
-                this._displayCalcEl = "Erro na aplicação";
+                this._displayCalcEl.innerHTML = "ERROR";
                 
             }, 1);
             
@@ -286,7 +269,15 @@ class CalcController {
     // Criação de Metodo para inicializar os metodos de Teclado da calculadora:
 
     initKeyboard(){
+        document.addEventListener("keydown", (e) => {
+            if(e.key == 'Backspace') {
+                e.preventDefault();
+            }
+        });
+    
         document.addEventListener('keyup', e =>{
+
+        e.preventDefault();
 
         //evento de audio para tocar: (sempre ira mandar o processo pra lá);
         this.playAudio();
@@ -398,6 +389,12 @@ class CalcController {
     addDot(){
 
         let lastOperation = this.getLastOperation();
+
+        if(lastOperation === 0) {
+            this._operation[this._operation.length-1] = '0.';
+            this.setLastNumberToDisplay();
+            return;
+        }
 
         if(typeof lastOperation === 'string' && lastOperation.split('').indexOf('.') > -1){ return;
 
@@ -557,26 +554,24 @@ class CalcController {
     
     set displayDate(value){
 
-        // se for maior que 10 caracteres do meu texto mostra pra mim na tela:
-        // precisamos converter o value para string para ele não estorar o erro;
-        if(value.toString.length > 10){
-            this.setError();
-            return false;
-          
-        }
-
         return this._dateEl.innerHTML = value;
 
     }
     // recuperar displayCalc()..;
     get displayCalc(){
-
+        
         return this._displayCalcEl.innerHTML;
 
     }
     // displayCalc;
     set displayCalc(value){
-
+        // se for maior que 10 caracteres do meu texto mostra pra mim na tela:
+        // precisamos converter o value para string para ele não estorar o erro;
+        if(value.toString().length > 10){
+            this.setError();
+            return false;
+          
+        }
         this._displayCalcEl.innerHTML = value;
 
     }
