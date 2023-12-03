@@ -50,6 +50,44 @@ $a = [1, 2, 3, 4];
     print_r($a);
 
 
+// exemplo da documentação do PHP:
+function arrayToSelect($option, $selected = '', $optgroup = NULL)
+{
+    $returnStatement = '';
+
+    if ($selected == '') {
+        $returnStatement .= '<option value="" selected="selected">Select one...</option>';
+    }
+
+    if (isset($optgroup)) {
+        foreach ($optgroup as $optgroupKey => $optgroupValue) {
+            $returnStatement .= '<optgroup label="' . $optgroupValue . '">';
+
+            foreach ($option[$optgroupKey] as $optionKey => $optionValue) {
+                if ($optionKey == $selected) {
+                    $returnStatement .= '<option selected="selected" value="' . $optionKey . '">' . $optionValue . '</option>';
+                } else {
+                    $returnStatement .= '<option value="' . $optionKey . '">' . $optionValue . '</option>';
+                }
+            }
+
+            $returnStatement .= '</optgroup>';
+        }
+    } else {
+        foreach ($option as $key => $value) {
+            if ($key == $selected) {
+                $returnStatement .= '<option selected="selected" value="' . $key . '">' . $value . '</option>';
+            } else {
+                $returnStatement .= '<option value="' . $key . '">' . $value . '</option>';
+            }
+        }
+    }
+
+    return $returnStatement;
+}
+
+
+
 
 
 ?>
