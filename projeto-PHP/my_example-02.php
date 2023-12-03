@@ -36,6 +36,8 @@ $frutas = array (
     "buracos" => array("primeiro", 5 => "segundo", "terceiro")
 );
 
+$firstquarter = array(1 => 'Janeiro', 'Fevereiro', 'Março');
+print_r($firstquarter);
 
 
 
