@@ -1,7 +1,8 @@
 <?php
-// Exemplo basicos de array:
+// All about Arrays:
 
-// Inicializaremos com arrays vazios por enquanto:
+
+
 
 
 
