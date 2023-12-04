@@ -12,13 +12,11 @@ array_push($frutas0, "banana","abacaxi","morango","laranja");
 echo '<hr>';
 asort($frutas0);
 foreach($frutas0 as $value){
-    echo "=> ". $value . "<br>";
-          
+    echo "=> ". $value . "<br>";          
 }
 echo "<hr>";
 
 /* Mostraremos o que tem dentro do array frutas1 */
-
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
