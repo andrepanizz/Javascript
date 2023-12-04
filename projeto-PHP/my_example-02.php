@@ -15,6 +15,10 @@ foreach($frutas0 as $value){
     echo "=> ". $value . "<br>";
           
 }
+echo "<hr>";
+
+/* Mostraremos o que tem dentro do array frutas1 */
+
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
