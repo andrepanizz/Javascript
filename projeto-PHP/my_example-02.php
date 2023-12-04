@@ -36,6 +36,7 @@ array_push($carros, "lamborguini","camaro","Fiat_uno","Opala");
 array_shift($carros); // remove a primeira posição do array();
 // mostrando em json:
 $view = json_encode($carros);
+
 echo($view);
 
 
