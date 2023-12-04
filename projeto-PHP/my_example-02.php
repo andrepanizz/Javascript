@@ -29,6 +29,10 @@ foreach($frutas0 as $key => $value){
         endforeach;
     endif;          
 }
+/**@andrepanizz Agora iremos remover deste array o primeiro elemento dele utilizando array_shift(); */
+
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-echo "<hr>";
+
+
 ?>
