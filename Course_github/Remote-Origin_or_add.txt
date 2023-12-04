@@ -1,0 +1,10 @@
+------------------ Como fazer um Fork e um Pull_request-----------------
+
+1. - Clone o repositorio do progeto, com o git clone https://github.com/my-repository.git
+2. - Depois faça as alterações no seu codigo.
+3. - Quando com o comando git remote get-url origin, descubra qual e a origem do repositorio clonado!..
+4. - Após isso faça um fork do repositorio, para o seu.
+5. - Depois que fazer alterações no codigo, adicione um novo remote: git remote add andre (por exemplo)
+6. - Por ultimo, faça o add, o commit -m " mensagem",  e o push (git push andre main)
+7. - As alterações estarão no seu github (por exemplo: Emannuel2000), vá 
+
