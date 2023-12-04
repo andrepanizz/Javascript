@@ -30,9 +30,10 @@ foreach($frutas0 as $key => $value){
     endif;          
 }
 /**@andrepanizz Agora iremos remover deste array o primeiro elemento dele utilizando array_shift(); */
+
 $carros = array();
 array_push($carros, "lamborguini","camaro","Fiat_uno","Opala");
-array_shift($carros);
+array_shift($carros); //
 // mostrando em json:
 $view = json_encode($carros);
 echo($view);
