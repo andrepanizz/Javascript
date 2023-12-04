@@ -10,3 +10,6 @@
 e faça o Pull_request do codigo. e aguarde aprovação.
 
 
+"O comando para mudar de remote: git remote add 'new remote' ";
+
+
