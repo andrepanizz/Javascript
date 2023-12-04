@@ -6,5 +6,7 @@
 4. - Após isso faça um fork do repositorio, para o seu.
 5. - Depois que fazer alterações no codigo, adicione um novo remote: git remote add andre (por exemplo)
 6. - Por ultimo, faça o add, o commit -m " mensagem",  e o push (git push andre main)
-7. - As alterações estarão no seu github (por exemplo: Emannuel2000), vá 
+7. - As alterações estarão no seu github (por exemplo: Emannuel2000), vá no repositorio (Javascript) por exemplo. 
+e faça o Pull_request do codigo. e aguarde aprovação.
+
 
