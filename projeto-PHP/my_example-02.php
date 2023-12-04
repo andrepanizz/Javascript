@@ -1,16 +1,4 @@
 <?php
 // All about Arrays:
 
-
-
-
-
-
-
-
-
-
-
-
-
 ?>
