@@ -1,3 +1,6 @@
-let valor1 = document.querySelector('#exampleInputName').value;  // eu recupero a informação do id="exampleInputName"
-let valor2 = document.querySelector('#exempleInputName').value = "OK!"; // Aqui estou inserindo o valor "OK" dentro do campo;
- 
+let nome = document.querySelector("#exampleInputName");// eu recupero a informação do id="exampleInputName"
+let nome2 = document.querySelector("#exempleInputName"); // Aqui estou inserindo o valor "OK" dentro do campo;
+
+//console.log(nome.value = "OI");
+console.log(nome.value);
+
