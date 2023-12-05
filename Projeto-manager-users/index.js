@@ -5,6 +5,7 @@ let elemento1 = document.getElementsByClassName("#form-group");
 console.log(nome.value = "OI");
 console.log(nome.value);
 console.log(elemento.value);
+console.log(elemento1.value);
 
 
 
