@@ -4,3 +4,6 @@ let nome2 = document.querySelector("#exempleInputName"); // Aqui estou inserindo
 console.log(nome.value = "OI");
 console.log(nome.value);
 
+
+
+
