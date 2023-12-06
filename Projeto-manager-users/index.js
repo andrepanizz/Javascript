@@ -3,5 +3,5 @@ let nome2 = document.querySelector("#exempleInputName"); // Aqui estou inserindo
 /**@param O console.log mostra informações: */
 console.log(nome.value);
 console.log(nome);
-alert("Olá");
+
 
