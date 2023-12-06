@@ -4,7 +4,7 @@ let nome2 = document.querySelector("#exempleInputName"); // Aqui estou inserindo
 nome.addEventListener("", e =>{
     /**@param O comando addEventEventListerner(), adiciona um evento passando a variavel
      * e => como parametro!
-     * literalmente falando, 
+     * literalmente falando, passando 
     */
    console.log(e);
 });
