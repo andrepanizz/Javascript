@@ -2,7 +2,7 @@ let nome = document.querySelector("#exampleInputName");// eu recupero a informa�
 let nome2 = document.querySelector("#exempleInputName"); // Aqui estou inserindo o valor "OK" dentro do campo;
 /**@param O console.log mostra informações: */
 nome.addEventListener("", e =>{
-    /**@param  */
+    /**@param O comando addEvent */
 });
 
 
