@@ -2,3 +2,4 @@ let valor = document.querySelector("#exampleInputName");// eu recupero a informa
 console.log(valor.value);
 console.log(valor = "OI");
 // continue;
+// this comand console.log make 
