@@ -7,11 +7,13 @@ namespace FimesAPI.Models
         /*- Um filme basicamente tem:
          -> Um titulo;
          -> Tempo de Duração;
-         -> Genero*/
+         -> Genero 
+         */
 
         /*Vamos criando nossa propriedade: Titulo, genero, Duração*/
         public string Titulo { get; set; }
         public string Genero { get; set; }
         public int    Duracao { get; set; }
+        
     }   
 }

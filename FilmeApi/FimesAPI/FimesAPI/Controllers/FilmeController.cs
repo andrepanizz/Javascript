@@ -13,9 +13,9 @@ namespace FimesAPI.Controllers
          * Queremos ter um metodo pronto para cadastrar no sistema*/
         public void AdicionaFilme(Filme filme)
         {
-            /*Precisamos receber alguma informação! vamos receber um parametro  */
+            /*Precisamos receber alguma informação! vamos receber um parametro   */
             filmes.Add(filme);
-            /*Nota que precisamos criar nossa lista de filmes, tanto nosso objeto */
+            /*Nota que precisamos criar nossa lista de filmes, tanto nosso objeto  */
 
         }
     }
