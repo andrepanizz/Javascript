@@ -94,11 +94,11 @@ $variable = 'fireguns';
 $my_exemple_the_match = match($value){
     'marchine_gun'=>'This is combat arms this name Super Machine gun',
     'subMarchine_gun'=>'this a subMachine use bullets 9mm parabellum',
-    'firegun' => 'this is a firegun arms collectible'
+    'firegun' => 'this is a firegun arms collectiblle'
 
 };
 var_dump($my_exemple_the_match);
-$var = 'cake2';
+$var = 'cake-2';
 $my_example2_for_match = match($var){
     'banana' => 'this is a fruit banana power',
     'mellon' => 'this is a melon contains must water for life the humans',
