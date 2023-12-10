@@ -102,7 +102,7 @@ $var = 'cake-2';
 $my_example2_for_match = match($var){
     'banana' => 'this is a fruit banana power',
     'mellon' => 'this is a melon contains must water for life the humans',
-    'cake2'  => 'this is a sugar cake beatifull an good',
+    'cake2'  => 'this is a sugar cake beatifull any good',
 };
 // just one is thue in options listed here.
 
