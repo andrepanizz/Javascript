@@ -35,6 +35,9 @@ public function setPreco($price){
     $this->preco = $price;
 
 }
+public function getPreco(){
+    
+}
 
 
 }
