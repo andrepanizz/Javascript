@@ -41,6 +41,10 @@ public function getPreco(){
 
 }
 
+public function setDiscount($OFF){
+    
+}
+
 
 
 }
