@@ -52,6 +52,7 @@ public function getDiscount(){
 
 }
 
+// Instanciando a variavel;
 
 
  
