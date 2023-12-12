@@ -32,7 +32,7 @@ public function getProduto(){
 }
 
 public function setPreco($price){
-
+    $this->preco = $price;
 
 }
 
