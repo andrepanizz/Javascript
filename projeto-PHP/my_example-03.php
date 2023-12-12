@@ -9,6 +9,12 @@ public string $produto;
 public string $marca;
 public float $preco;
 
+public function setProduto($prod){
+    $this->produto = $prod;
+
+}
+
+
 
 
 
