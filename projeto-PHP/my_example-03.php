@@ -4,10 +4,11 @@
  */
 class Carros {
 
-// Atributos:
+
 public string $produto;
 public string $marca;
 public float $preco;
+
 
 
 
