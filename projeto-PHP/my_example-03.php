@@ -42,8 +42,11 @@ public function getPreco(){
 }
 
 public function setDiscount($OFF){
-    
+    $this->descount = $OFF;
+
 }
+
+
 
 
 
