@@ -3,7 +3,6 @@
  * @andrepanizz
  */
 
-// iniciando com arrays:
 
  
 
