@@ -37,11 +37,6 @@ public function setPreco($price){
 }
 
 
-
-
-
-
-
 }
 
  
