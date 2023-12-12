@@ -46,6 +46,10 @@ public function setDiscount($OFF){
 
 }
 
+public function getDiscount(){
+    return $this->descount;
+}
+
 
 
 
