@@ -15,13 +15,18 @@ public string $vendedor;
 public function __construct($fabri, $marc)
 {
     $this->fabricante = $fabri;
-    $this->
-    
+    $this->marca = $marc;
+        
 }
 
 public function setProduto($prod){
     $this->produto = $prod;
 
+}
+
+public function getProduto(){
+    return $this->produto;
+    
 }
 
 
