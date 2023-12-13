@@ -55,6 +55,7 @@ public function getDiscount(){
 // Instanciando a variavel;
 
 $object = new Carros("","","");
+#object: instancia de uma ckasse;
 
 
 ?>
