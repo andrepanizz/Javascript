@@ -54,6 +54,8 @@ public function getDiscount(){
 
 // Instanciando a variavel;
 
+$object = new 
+
 
  
 
