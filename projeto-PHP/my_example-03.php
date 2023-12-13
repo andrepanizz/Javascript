@@ -23,6 +23,7 @@ is_long($short_long);
 echo "\n";
 
 /* Exibindo tudo aqui:   */
+echo "";
 
 
 
