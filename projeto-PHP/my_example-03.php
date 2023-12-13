@@ -16,6 +16,7 @@ is_int($variable);
 is_array();
 is_float();
 is_bool();
+is_long();
 
 
 
