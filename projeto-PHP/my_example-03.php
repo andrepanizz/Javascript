@@ -14,5 +14,7 @@ $array = array("arrays", 20);
 is_int($variable);
 is_array();
 is_float();
+is_bool();
+
 
 
