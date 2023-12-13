@@ -4,6 +4,8 @@
  * 
  * is_string:
  * is_int:
+ * is_float
+ * 
  */
 
 
