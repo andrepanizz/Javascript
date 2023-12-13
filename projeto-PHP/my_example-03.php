@@ -54,7 +54,7 @@ public function getDiscount(){
 
 // Instanciando a variavel;
 
-$object = new Carros();
+$object = new Carros("","","");
 
 
 
