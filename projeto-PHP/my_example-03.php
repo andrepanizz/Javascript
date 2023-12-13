@@ -57,8 +57,4 @@ public function getDiscount(){
 $object = new Carros("","","");
 
 
-
- 
-
-
 ?>
