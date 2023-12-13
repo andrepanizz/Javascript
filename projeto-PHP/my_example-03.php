@@ -6,7 +6,9 @@
  * is_int:
  * is_float
  * is_bool
- * 
+ *  * 
  */
+$variable = "this is string";
+is_int($variable);
 
 
