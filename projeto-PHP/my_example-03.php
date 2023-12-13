@@ -5,6 +5,7 @@
  * is_string:
  * is_int:
  * is_float
+ * is_bool
  * 
  */
 
