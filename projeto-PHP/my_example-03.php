@@ -9,6 +9,10 @@
  *  * 
  */
 $variable = "this is string";
+$var = 2;
+$array = array("arrays", 20);
 is_int($variable);
+is_array();
+is_float();
 
 
