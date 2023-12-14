@@ -19,12 +19,9 @@ is_array($var);
 is_float($media);
 is_bool($bool);
 is_long($short_long);
-/////////////////////////////////////////////////////////////////////////
+
 echo "\n";
 
 /* Exibindo tudo aqui:   */
-echo "";
-
-
-
-
+echo "<br/>";
+?>
