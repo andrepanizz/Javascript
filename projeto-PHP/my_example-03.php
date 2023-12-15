@@ -24,5 +24,6 @@ echo "\n";
 
 /* Exibindo tudo aqui:   */
 echo "<br/>";
-// instanciando a 
+// instanciando a classe 
+
 ?>
