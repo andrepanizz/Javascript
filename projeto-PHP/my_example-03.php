@@ -30,7 +30,9 @@ class Pessoa {
     public string $cpf;
     public string $nome;
     public string $endereco;
+    public int $numero;
     
+
 
 }
 ?>
