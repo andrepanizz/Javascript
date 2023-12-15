@@ -29,6 +29,8 @@ class Pessoa {
     public string $rg;
     public string $cpf;
     public string $nome;
+    public string $endereco;
+    
 
 }
 ?>
