@@ -26,6 +26,7 @@ echo "\n";
 echo "<br/>";
 // instanciando a classe 
 class Pessoa {
+    public string $rg;
     
 }
 ?>
