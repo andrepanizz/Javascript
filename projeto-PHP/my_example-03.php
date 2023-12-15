@@ -27,6 +27,8 @@ echo "<br/>";
 // instanciando a classe 
 class Pessoa {
     public string $rg;
-    
+    public string $cpf;
+    public string $nome;
+
 }
 ?>
