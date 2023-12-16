@@ -47,11 +47,17 @@ class Pessoa {
     {
 
     }
-    
+
+    public function getCpf()
+    {
+        
+    }
+
     public static function validarCpf($cpf)
     {
 
     }
+
 
 
 
