@@ -68,6 +68,10 @@ class Pessoa {
 
     }
 
+    public function getEndereco(){
+        return $this->
+    }
+
 
     
 }
