@@ -62,7 +62,9 @@ class Pessoa {
 
     }
 
-    public function set
+    public function setEndereco{
+        
+    }
 
 
     
