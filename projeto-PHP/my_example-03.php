@@ -69,7 +69,7 @@ class Pessoa {
     }
 
     public function getEndereco(){
-        return $this->
+        return $this->endereco;
     }
 
 
