@@ -58,6 +58,8 @@ class Pessoa {
     {
         //Aqui vai o validador do Cpf();
 
+        
+
     }
 
     
