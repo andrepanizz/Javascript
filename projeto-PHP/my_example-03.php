@@ -64,7 +64,7 @@ class Pessoa {
 
     public function setEndereco($adress){
 
-        
+        $this->endereco = $adress;
 
     }
 
