@@ -62,8 +62,10 @@ class Pessoa {
 
     }
 
-    public function setEndereco{
+    public function setEndereco($adress){
+
         
+
     }
 
 
