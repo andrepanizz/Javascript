@@ -39,8 +39,11 @@ class Pessoa {
     }
     
     public function getRg(){
-        
+        return this->rg;
+
     }
+
+    public function 
 
 
 
