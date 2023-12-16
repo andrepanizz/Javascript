@@ -38,6 +38,10 @@ class Pessoa {
         $this->rg = $rg;
     }
     
+    public function getRg(){
+        
+    }
+
 
 
 }
