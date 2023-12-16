@@ -56,6 +56,7 @@ class Pessoa {
 
     public static function validarCpf($cpf)
     {
+        //Aqui vai o validador do Cpf();
 
     }
 
