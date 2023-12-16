@@ -39,7 +39,7 @@ class Pessoa {
     }
     
     public function getRg(){
-        return this->rg;
+        return $this->rg;
 
     }
 
@@ -49,7 +49,7 @@ class Pessoa {
     }
     public static function validarCpf($cpf)
     {
-        
+
     }
 
 
