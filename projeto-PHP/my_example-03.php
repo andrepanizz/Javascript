@@ -32,7 +32,8 @@ class Pessoa {
     public string $endereco;
     public int $numero;
 
-    // getters and 
+    // getters and Setters:
+    
 
 
 }
