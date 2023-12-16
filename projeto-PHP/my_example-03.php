@@ -33,6 +33,10 @@ class Pessoa {
     public int $numero;
 
     // getters and Setters:
+    public function setRg($rg)
+    {
+        $this->rg = $rg;
+    }
     
 
 
