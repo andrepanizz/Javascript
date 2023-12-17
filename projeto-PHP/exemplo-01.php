@@ -13,9 +13,12 @@ $stmt = $conn->prepare("INSERT INTO tb_usuarios (deslogin, dessenha) VALUES (':L
 
 # passando como se fosse um ID, desta forma acima:
 $login = "jose";
-$password = "123456";
+$senha = "123456";
 
 # utilizando o BindParam usando no Statement para cada parametro que temos:
 
-$stmt->bindParam();
+$stmt->bindParam(':LOGIN', $login);
+$stmt->bindParam('PASSWORD',$senha);
+
+
 ?>
