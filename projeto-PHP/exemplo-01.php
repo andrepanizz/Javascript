@@ -23,6 +23,7 @@ $stmt->bindParam('PASSWORD',$senha);
 # Executaremos:
 $stmt->execute();
 
-echo "Inserido"
+echo "Inserido OK";
+
 
 ?>
