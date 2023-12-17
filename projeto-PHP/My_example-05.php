@@ -1,5 +1,5 @@
 <?php
-/** @param Exemplo de  */
+/** @param Exemplo de  Arquivo em */
 
 
 
