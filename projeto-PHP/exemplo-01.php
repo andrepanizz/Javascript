@@ -17,5 +17,5 @@ $password = "123456";
 
 # utilizando o BindParam usando no Statement para cada parametro que temos:
 
-$stmt->BindParam();
+$stmt->bindParam();
 ?>
