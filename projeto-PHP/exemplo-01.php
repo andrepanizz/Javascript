@@ -7,7 +7,9 @@ $port = "3307";
 
 $conn = new PDO("$server" . "$hostname", $user, $password);
 
-#stmt será utilizado:
+#stmt será utilizado desta forma:
+
+
 
 
 
