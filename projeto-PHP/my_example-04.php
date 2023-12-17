@@ -4,7 +4,7 @@
  * Podemos utilizar Include Once para chamarmos outro
  * arquivo, Importando ele desta forma:
 */
-inclide_once("");
+// Include_once("");
 
 
 ?>
