@@ -11,9 +11,9 @@ $conn = new PDO("$server" . "$hostname", $user, $password);
 
 $stmt = $conn->prepare("INSERT INTO tb_usuarios (deslogin, dessenha) VALUES (':LOGIN, :PASSWORD')");
 
-# passando como se fosse um ID, desta forma
-
-
+# passando como se fosse um ID, desta forma acima:
+    $login = "jose";
+    $password = "123456";
 
 
 
