@@ -5,7 +5,7 @@ $user = "root";
 $password = "root";
 $port = "3307";
 
-$conn = new PDO("$server" . "$hostname", $user, $password);
+$conn = new PDO("mysql:dbname=dbphp7;host=localhost","root","root");
 
 #stmt será utilizado desta forma:
 
