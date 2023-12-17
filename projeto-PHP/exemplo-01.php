@@ -20,5 +20,9 @@ $senha = "123456";
 $stmt->bindParam(':LOGIN', $login);
 $stmt->bindParam('PASSWORD',$senha);
 
+# Executaremos:
+$stmt->execute();
+
+echo "Inserido"
 
 ?>
