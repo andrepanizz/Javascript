@@ -9,7 +9,11 @@ $conn = new PDO("mysql:dbname=dbphp7;host=localhost","root","root");
 
 #stmt será utilizado desta forma:
 
+
+
 $stmt = $conn->prepare("INSERT INTO tb_usuarios (deslogin, dessenha) VALUES (':LOGIN, :PASSWORD')");
+
+
 
 # passando como se fosse um ID, desta forma acima:
 $login = "jose";
