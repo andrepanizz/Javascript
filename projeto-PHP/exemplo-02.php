@@ -23,7 +23,7 @@ class register_Users {
 
     }
 
-    public function getUser()
+    public function getUser():string
     {
         return $this->user;
 
@@ -35,8 +35,9 @@ class register_Users {
        
     }
 
-    public function getSkinColor()
+    public function getSkinColor():string
     {
+        return $this->color_from_the_skin;
 
     }
 
@@ -46,13 +47,14 @@ class register_Users {
 
     }
 
-    public function getnumero()
+    public function getnumero():string
     {
         return $this->numero;
     }
 
     #function static:
-    public static function Validarcpf($cpf){
+    public static function Validarcpf($cpf)
+    {
 
 
     }
@@ -61,6 +63,8 @@ class register_Users {
 }
 
 // create connections:
+
+
 
 
 
