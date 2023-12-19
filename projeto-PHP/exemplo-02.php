@@ -53,12 +53,14 @@ class register_Users {
 
     #function static:
     public static function Validarcpf($cpf){
-        
+
 
     }
     
 
 }
+
+// create connections:
 
 
 
