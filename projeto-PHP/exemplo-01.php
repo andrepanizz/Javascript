@@ -1,14 +1,9 @@
 <?php
-$server = "mysql:dbname=dbphp7;";
-$hostname = "host=localhost;";
-$user = "root";
-$password = "root";
-$port = "3307";
+
 
 $conn = new PDO("mysql:dbname=dbphp7;host=localhost","root","root");
 
 #stmt será utilizado desta forma:
-
 
 
 $stmt = $conn->prepare("INSERT INTO tb_usuarios (deslogin, dessenha) VALUES (':LOGIN, :PASSWORD')");
@@ -29,13 +24,9 @@ $stmt->execute();
 
 echo "Inserido OK";
 
-class Pessoa {
-  public $cpf;
 
-  public static function($cpf){
-    // Validar CPF:
 
-    if(empty($cpf)) {
+     if(empty($cpf)) {
         return false;
     }
  
@@ -77,7 +68,7 @@ class Pessoa {
         return true;
     }
     
-  }
-}
+  
+
 
 ?>
