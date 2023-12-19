@@ -45,6 +45,8 @@ class register_Users {
     {
         $this->numero = $numero;
 
+        $result = register_Users::validarCpf($numero); //metodo estatico chamado pela classe, passando a variavel $numero;
+
     }
 
     public function getnumero():string
@@ -55,6 +57,37 @@ class register_Users {
     #function static:
     public static function Validarcpf($cpf)
     {
+        if(empty($cpf)) return false;
+
+        # elimina possivel mascara:
+
+        $cpf = preg_replace('[^0-9]','',$cpf);
+        $cpf = str_pad($cpf,11,0,STR_PAD_LEFT);
+        
+        # Verifica se o numero e digitos informados  e igual a 11:
+
+            if(strlen($cpf) != 11):
+                return false;
+            # Verifica se nenhuma das sequencias e invalida:
+            elseif($cpf == '00000000000' ||
+                   $cpf == '11111111111' ||
+                   $cpf == '22222222222' ||
+                   $cpf == '33333333333' ||
+                   $cpf == '44444444444' ||
+                   $cpf == '55555555555' ||
+                   $cpf == '66666666666' ||
+                   $cpf == '77777777777' ||
+                   $cpf == '88888888888' ||
+                   $cpf == '99999999999'):
+                   return false;
+            else:
+
+                #laço for simples:
+                    
+                    
+            endif;          
+
+
 
 
     }
@@ -62,6 +95,13 @@ class register_Users {
 
 }
 
+if($x == 500):
+    echo "ola";
+    elseif($x == 100):
+        echo "ei";
+    else:
+        echo "oia";
+    endif;
 // create connections:
 
 
