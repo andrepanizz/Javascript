@@ -91,30 +91,50 @@ class register_Users {
                             $d - inicializa com 0;
                             $c - inicializa com 0;
                             enquanto $c for menor que $t = 9, incrementa pra mim $c de 1 em 1; ++
-                                              
                             */
+                            $d+= $cpf[$c] * (($t + 1) - $c);
+                            // $d + $d = $cpf[$c] multiplicado por ($t + 1) menos $c
                         endfor;
+
+                            // % significa o resto da divisão;
+                            $d = ((10 * $d) % 11) % 10;
+                            // Se $cpf[$c] for diferente de $d retorna False pra mim;
+                            if($cpf[$c] != $d):
+                                return false;
+                            endif;
                     endfor;
                     
                     
             endif;          
 
-
-
+            return true;
+            
 
     }
     
 
 }
 
-if($x == 500):
-    echo "ola";
-    elseif($x == 100):
-        echo "ei";
-    else:
-        echo "oia";
-    endif;
-// create connections:
+class addInformation extends register_Users {
+
+    // recover all:
+    public function viewAll(){
+        return array(
+            '<strong> Nome do usuario: </strong><br/>'=>$this->user,
+            '<strong> Aniversario: </strong><br/>'=>$this->birth_date,
+            '<strong> Idade: </strong><br/>'=>$this->age,
+            '<strong> Cor: </strong><br/>'=>$this->color_from_the_skin,
+            '<strong> Data de Admissão: </strong><br/>'=>$this->admission_from_the_date
+            
+        );
+        
+        
+    }
+
+}
+
+
+
 
 
 
