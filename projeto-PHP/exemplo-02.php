@@ -19,17 +19,20 @@ class register_Users {
     // getters and Setters:
     public function setUser($user)
     {
+        $this->user = $user;
 
     }
 
     public function getUser()
     {
+        return $this->user;
 
     }
 
     public function setSkinColor($color)
     {
-        
+        $this->color_from_the_skin = $color;
+       
     }
 
     public function getSkinColor()
@@ -46,6 +49,12 @@ class register_Users {
     public function getnumero()
     {
         return $this->numero;
+    }
+
+    #function static:
+    public static function Validarcpf($cpf){
+        
+
     }
     
 
