@@ -135,7 +135,18 @@ class addInformation extends register_Users {
 }
 
 $conn = new PDO("mysql:host=localhost;dbname=register_db;","root","");
-// $stmt = $conn->prepare();
+
+try{
+    if($conn == mysqli_connect_errno()):
+        throw new Exception(ucwords('Não foi possivel estabelecer uma conexão!'));
+    endif;
+}catch(Exception $e) {
+    print("Algo deu errado na conexão com o banco que será tratada \n");
+
+}finally{
+    print("Conexão Estabelecida com sucesso");
+    
+}
 
 
 ?>
