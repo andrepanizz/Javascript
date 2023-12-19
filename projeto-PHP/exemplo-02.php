@@ -83,6 +83,18 @@ class register_Users {
             else:
 
                 #laço for simples:
+                    for ($t=9; $t < 11; $t++):
+                        #note que $t inicializa com 9 enquanto $t for menor que 11, incrementa pra mim;
+                        
+                        for($d = 0; $c = 0; ):
+                            /* @andrepanizz Notação:
+                            $d - inicializa com 0;
+                            $c - inicializa com 0;
+                            enquanto $c for menor que $t = 9, incrementa pra mim $c de 1 em 1; ++
+                                              
+                            */
+                        endfor;
+                    endfor;
                     
                     
             endif;          
