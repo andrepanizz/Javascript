@@ -109,7 +109,7 @@ class register_Users {
 
             return true;
             
-
+            
     }
     
 
