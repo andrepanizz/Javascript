@@ -144,9 +144,10 @@ try{
     print("Algo deu errado na conexão com o banco que será tratada \n");
 
 }finally{
-    print("Conexão Estabelecida com sucesso");
-    
+    print("Connection has been Sucessfully!");
+
 }
+$stmt = $conn->prepare("UPDATE ");
 
 
 ?>
