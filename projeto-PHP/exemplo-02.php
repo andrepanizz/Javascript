@@ -132,8 +132,8 @@ class addInformation extends register_Users {
     }
 
     
-
-
 }
+
+$conn = new PDO("mysql:host=localhost;dbname=register_db","root","root");
 
 ?>
