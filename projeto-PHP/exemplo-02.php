@@ -7,7 +7,7 @@ class register_Users {
     protected string $age;
     protected string $color_from_the_skin;
     protected string $admission_from_the_date;
-    public string    $numero;
+    private   string $numero;
     
     public function __construct($niver,$admin_date,$idade)
     {
@@ -37,14 +37,17 @@ class register_Users {
 
     }
 
-    public function setNumero($cpf)
+    public function setNumero($numero)
     {
-        $this->numero = $cpf;
+        $this->numero = $numero;
 
     }
 
+    public function getnumero()
+    {
+        return $this->numero;
+    }
     
-
 
 }
 
