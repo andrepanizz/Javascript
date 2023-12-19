@@ -7,10 +7,13 @@ class register_Users {
     protected string $age;
     protected string $color_from_the_skin;
     protected string $admission_from_the_date;
+    public string    $numero;
     
     public function __construct($niver,$admin_date,$idade)
     {
-
+        $this->birth_date = $niver;
+        $this->admission_from_the_date = $admin_date;
+        $this->age = $idade;
         
     }
     // getters and Setters:
@@ -33,7 +36,15 @@ class register_Users {
     {
 
     }
+
+    public function setNumero($cpf)
+    {
+        $this->numero = $cpf;
+
+    }
+
     
+
 
 }
 
