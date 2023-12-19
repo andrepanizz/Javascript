@@ -127,17 +127,12 @@ class addInformation extends register_Users {
             '<strong> Data de Admissão: </strong><br/>'=>$this->admission_from_the_date
             
         );
-        
-        
+
+                
     }
+    
+
 
 }
-
-
-
-
-
-
-
 
 ?>
