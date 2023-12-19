@@ -130,6 +130,7 @@ class addInformation extends register_Users {
 
                 
     }
+
     
 
 
