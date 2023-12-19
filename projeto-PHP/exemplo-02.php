@@ -134,7 +134,36 @@ class addInformation extends register_Users {
     
 }
 
-$conn = new PDO("mysql:host=localhost;dbname=register_db","root","root");
+$conn = new PDO("mysql:host=localhost;dbname=register_db;","root","root");
 // $stmt = $conn->prepare();
+
+/*  Banco:
+CREATE DATABASE register_db;
+USE register_db;
+CREATE TABLE table_users(
+
+id INT(1) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+nome VARCHAR(40) NOT NULL,
+endereco VARCHAR(30) NOT NULL,
+dtcadastro TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP(),
+birth_date DATETIME(8) NOT NULL,
+idade INT(2) NOT NULL
+
+);
+
+SELECT * FROM table_users;
+
+INSERT INTO table_users () VALUES ();
+
+UPDATE table_users SET ("");
+
+DELETE from users;
+
+# ATER TABLE  table_users ADD nome  VARCHAR(30);
+# ALTER TABLE table_users ADD email VARCHAR(20);
+# ALTER TABLE table_users ADD cep   VARCHAR(9);
+# ALTER TABLE table_users ADD cidade VARCHAR(15);
+# ALTER TABLE table_users ADD endereco VARCHAR(40);
+*/
 
 ?>
