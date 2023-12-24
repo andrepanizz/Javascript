@@ -149,7 +149,7 @@ try{
 }
 $stmt = $conn->prepare("UPDATE tb_usuarios SET ");
 $stmt->bindParam(":ID", $login);
-///////////////////
+
 
 
 ?>
