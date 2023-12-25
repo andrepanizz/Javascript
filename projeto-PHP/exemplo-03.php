@@ -5,7 +5,7 @@ if($conn == mysqli_connect_error()):
     return "Não foi possivel conectar a base de Dados" . mysqli_connect_error();
 endif;
 
-echo "<center> <b> Conectado com Sucesso! </center>";
+echo "<center> <b> Conectado com Sucesso! </b> </center>";
 
 
 
