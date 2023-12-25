@@ -14,6 +14,7 @@ echo "<center> <b> Connect has been Sucessfully! </b> </center>";
 
 
 /*
+
 CREATE DATABASE db1;
 USE db1;
 CREATE TABLE user(
