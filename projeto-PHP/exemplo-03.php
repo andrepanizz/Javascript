@@ -7,6 +7,7 @@ endif;
 
 echo "<center> <b> Connect has been Sucessfully! </b> </center>";
 
+#stmt = $conn->prepare();
 
 
 
