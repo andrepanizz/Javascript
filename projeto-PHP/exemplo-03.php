@@ -28,6 +28,7 @@ matricula INT(15),
 salario FLOAT(15),
 ctps_n° INT(20)
 );
+
 SELECT * FROM user;
 
 # ATER TABLE  table_users ADD nome  VARCHAR(30);
