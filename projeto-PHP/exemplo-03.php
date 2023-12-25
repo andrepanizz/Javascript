@@ -5,7 +5,7 @@ if($conn == mysqli_connect_error()):
     return "Não foi possivel conectar a base de Dados" . mysqli_connect_error();
 endif;
 
-echo "<center> <b> Connect has been Sucessfully! </b> </center>";
+echo "<center> <b> Connection has been Sucessfully! </b> </center>";
 
 #stmt = $conn->prepare();
 
@@ -31,7 +31,7 @@ salario FLOAT(15),
 ctps_n° INT(20)
 );
 SELECT * FROM user;
-# ATER TABLE  table_users ADD nome  VARCHAR(30);
+# ALTER TABLE  table_users ADD nome  VARCHAR(30);
 # ALTER TABLE table_users ADD email VARCHAR(20);
 # ALTER TABLE table_users ADD cep   VARCHAR(9);
 # ALTER TABLE table_users ADD cidade VARCHAR(15);
