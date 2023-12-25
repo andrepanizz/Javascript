@@ -1,5 +1,9 @@
 <?php
 
+$conn = new PDO();
+if($conn == mysqli_connect_error()):
+    return "Não foi possivel conectar a base de Dados";
+endif;
 
 
 
