@@ -30,9 +30,6 @@ ctps_n° INT(20)
 );
 SELECT * FROM user;
 
-
-
-
 # ATER TABLE  table_users ADD nome  VARCHAR(30);
 # ALTER TABLE table_users ADD email VARCHAR(20);
 # ALTER TABLE table_users ADD cep   VARCHAR(9);
