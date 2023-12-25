@@ -35,7 +35,6 @@ SELECT * FROM user;
 # ALTER TABLE table_users ADD cep   VARCHAR(9);
 # ALTER TABLE table_users ADD cidade VARCHAR(15);
 # ALTER TABLE table_users ADD endereco VARCHAR(40);
-
 */
 
 ?>
