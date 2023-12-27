@@ -9,10 +9,6 @@ echo "<center> <b> Connection has been Sucessfully! </b> </center>";
 
 #stmt = $conn->prepare();
 
-
-
-
-
 /*
 
 CREATE DATABASE db1;
