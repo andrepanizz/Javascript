@@ -44,18 +44,20 @@ public function connect() {
      * usaremos:
      */
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION, PDO::ERRMODE_WARNING);
+        // criei um switch só para ilustrar o erro;
+        switch($pdo):
+            case PDO::ERRMODE_EXCEPTION:
+                echo "Lança PDOExceptions";
+            case PDO::ERRMODE_WARNING:
+                echo "Gera diagnósticos E_WARNING.";
+            case PDO::ATTR_ERRMODE:
+                echo "Modo de relatório de erros do PDO. Pode assumir um dos seguintes valores";
+        endswitch;
 
         return $pdo;
     }
 }
-        switch($pdo):
-            case PDO::ERRMODE_EXCEPTION:
-                echo "";
-            case PDO::ERRMODE_WARNING:
-                echo "";
-            case PDO::ATTR_ERRMODE:
-                echo "";
-        endswitch;
+        
 
 
             
