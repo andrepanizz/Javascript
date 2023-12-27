@@ -55,6 +55,7 @@ public function connect() {
         endswitch;
 
         return $pdo;
+        // retorna o mesmo objeto PDO;
     }
 }
         
