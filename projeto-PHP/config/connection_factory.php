@@ -1,5 +1,6 @@
 <?php
-// Aqui será criada uma classe mais elaborada para efetiva
+// Aqui será criada uma classe mais elaborada para efetiva:
+
 
 
 
