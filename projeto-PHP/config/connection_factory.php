@@ -1,5 +1,5 @@
 <?php
-// Aqui será criada uma classe mais
+// Aqui será criada uma classe mais elabo
 
 
 
