@@ -1,5 +1,5 @@
 <?php
-// Aqui será criada uma classe mais elabora
+// Aqui será criada uma classe mais elaborada 
 
 
 
