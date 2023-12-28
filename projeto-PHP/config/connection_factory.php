@@ -15,7 +15,8 @@ class connection_factory {
             ""
 
         );
-        // Aqui efeti
+        // Aqui efetivamente eu chamo a conexão como connection e um objeto:
+        return $connection->connect();
     }
 }
 
