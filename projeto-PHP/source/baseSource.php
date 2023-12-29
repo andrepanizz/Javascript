@@ -10,7 +10,8 @@ atributos se tiverem sido definidos como:
 -> public
 -> protected
 
-somente os metodos e os atributos podem ser herdados
+somente os metodos e os atributos podem ser herdados e acessados
+
 
 
 */
