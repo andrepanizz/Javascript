@@ -11,7 +11,7 @@ atributos se tiverem sido definidos como:
 -> protected
 
 somente os metodos e os atributos podem ser herdados e acessados
-podemos definir: 
+podemos definir: function abstract ou 
 
 
 
