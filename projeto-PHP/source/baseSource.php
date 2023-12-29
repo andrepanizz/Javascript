@@ -7,6 +7,8 @@ Nota sobre as classes e functions abstratas:
 -> A classe abstrata ou Abstract class e uma classe que 
 não pode ser instanciada, mas poderá ser herdada seus
 atributos se tiverem sido definidos como: 
+-> public
+-> protected
 
 
 */
