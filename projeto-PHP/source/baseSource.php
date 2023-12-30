@@ -12,14 +12,7 @@ atributos se tiverem sido definidos como:
 
 somente os metodos e os atributos podem ser herdados e acessados
 podemos definir: function abstract ou abstract class
-
-
 */
-
-
-
-
-
 
 
 ?>
