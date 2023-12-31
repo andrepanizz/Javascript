@@ -2,5 +2,8 @@
     "source" : "localhost",
     "kind" : "front-end",
     "apiVersion" : "V1",
-    "metadata" : "data"
+    "metadata" : "data",
+    "typeof" : "yaml",
+    "create_data" : "31/12/2023",
+    "information" : "file for based test in PHP"
 }
