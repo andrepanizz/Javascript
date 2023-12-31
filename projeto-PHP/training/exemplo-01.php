@@ -1,5 +1,7 @@
 <?php
-// exemplo de arrays no 
+// exemplo de arrays no PHP:
+
+
 
 
 
