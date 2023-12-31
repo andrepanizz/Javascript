@@ -8,7 +8,7 @@ $array = array();
 array_push($array, "laranja", "acerola", "manga");
 
 print_r($array) . "<br>";
-// A function 
+// A function array_pop() 
 
 
 
