@@ -9,6 +9,7 @@ array_push($array, "laranja", "acerola", "manga");
 // A function array_pop() remove os itens do array;
 array_pop($array);
 // A function array_sum();
+array_sum($array);
 
 
 
