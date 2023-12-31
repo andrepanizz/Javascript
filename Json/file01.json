@@ -1,0 +1,6 @@
+{
+    "source" : "localhost",
+    "kind" : "front-end",
+    "apiVersion" : "V1",
+    "metadata" : "data"
+}

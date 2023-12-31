@@ -1,4 +1,3 @@
 ------------------------------Anotações AWS Certifield Developer Associate---------------------------------------
-- IAM (Identity Acess Managenment)
 
-->
+
