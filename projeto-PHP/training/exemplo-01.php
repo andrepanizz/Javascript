@@ -3,6 +3,8 @@
 
 #arrays basicos:
 
+$array = array();
+// a function array_
 
 
 
