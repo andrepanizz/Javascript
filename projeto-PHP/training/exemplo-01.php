@@ -10,10 +10,6 @@ array_push($array, "laranja", "acerola", "manga");
 array_pop($array);
 // A function array_sum();
 array_sum($array);
-
-
-
-
 print_r($array) . "<br>";
 
 ?>
