@@ -4,7 +4,7 @@
 #arrays basicos:
 
 $array = array();
-// a function array_push adiciona itens 
+// a function array_push adiciona itens ao final do array
 
 
 
