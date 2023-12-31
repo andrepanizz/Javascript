@@ -4,7 +4,7 @@
 #arrays basicos:
 
 $array = array();
-// a function array_
+// a function array_push
 
 
 
