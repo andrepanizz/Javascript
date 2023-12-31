@@ -1,4 +1,4 @@
 ------------------------------Anotações AWS Certifield Developer Associate---------------------------------------
 Inicio do Curso para Ceretificação AWS:
 Instrutor: Stephane Marek.
-Inicio do Curso: 
+Inicio do Curso: 01/01/
