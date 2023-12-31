@@ -6,8 +6,9 @@
 $array = array();
 // a function array_push adiciona itens ao final do array;
 array_push($array, "laranja", "acerola", "manga");
-// A function array_pop();
+// A function array_pop() remove os itens do array;
 array_pop($array);
+// A function array_sum();
 
 
 
