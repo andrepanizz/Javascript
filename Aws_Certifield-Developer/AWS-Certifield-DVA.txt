@@ -5,9 +5,12 @@ Instrutor: Stephane Marek.
 Inicio do Curso: 03/01/2024
 Previsão de realização do Exame: 01/03/2024
 ------------------------------------------------------------------------------------------------------------------
-  AIM - Identity and Acess Managenment: (identidade e gerenciamento de acesso);
+         AIM - Identity and Acess Managenment: (identidade e gerenciamento de acesso);
+
   -> user, groups, policys
-  
+ 
+  IAM - Permissions - aplicamos na AWS principio de Menor privilegio.
+
 
 
 
