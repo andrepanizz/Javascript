@@ -19,7 +19,7 @@ Previsão de realização do Exame: 01/03/2024
    - usuario e Indexado dentro daquele group (admin) herda as politicas dele.
 
  --------------------------------policys in Details--------------------------------------------------------
- Vamos discutir as 
+ Vamos discutir as politicas IAM em detalhes
 
 
 
