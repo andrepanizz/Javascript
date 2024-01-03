@@ -27,6 +27,23 @@ Adicionaremos estes usuarios e eles terão acesso e herdem essa politica.
 Se por ventura tivermos um usuario somente, podemos adicionar uma politica (policy)
 chamada inline policy que possui uma politica que e anexada apenas a um Usuario (user);
 
+Sobre a estrutura da Policy:
+no arquivo Json:
+-> Statement content:
+"Statement": [
+    {
+        "Sid": "1",    -> e um ID de instrução, que e um indentificador para a instrução (optinal)
+        "Effect": "Allow",
+        "Principal": {
+            "AWS": ["arn:aws:iam::12345789012:root"]
+        },
+        "Action": [
+                "s3:GetObject",
+                "s3:PutObject"
+        ],
+        "Resource": ["arn:aws:s3:::mybucket/*"]
+    }
+]
 
 
 
