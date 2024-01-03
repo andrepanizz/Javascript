@@ -34,14 +34,17 @@ no arquivo Json:
     {
         "Sid": "1",           -> e um ID de instrução, que e um indentificador para a instrução (optinal)
         "Effect": "Allow",    -> O efeito da propria politica, se a instrução permite ou nega o acesso a uma API
-        "Principal": {        -> Consiste em Quais contas, usuarios ou Roles
+        "Principal": {        -> Consiste em Quais contas, usuarios ou Roles a qual esta politica será aplicada
             "AWS": ["arn:aws:iam::12345789012:root"]
         },
-        "Action": [
+        "Action": [           -> E a lista de chamadas de API que serão negadas ou permitidas com base no efeito.
+
                 "s3:GetObject",
                 "s3:PutObject"
         ],
-        "Resource": ["arn:aws:s3:::mybucket/*"]
+
+        "Resource": ["arn:aws:s3:::mybucket/*"]   -> Resource e uma lista de recursos a quais as ações serão aplicadas
+        porem neste exemplo e um bucket.
     }
 ]
 
