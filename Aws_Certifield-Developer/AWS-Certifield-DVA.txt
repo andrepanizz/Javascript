@@ -45,9 +45,10 @@ no arquivo Json:
 
         "Resource": ["arn:aws:s3:::mybucket/*"]   -> Resource e uma lista de recursos a quais as ações serão aplicadas
         porém neste exemplo e um bucket poderia ser qualquer outra coisa.
+
     }
 ]
-
+---------------------------------------------IAM Roles Hads on-------------------------------------------------------
 
 
 
