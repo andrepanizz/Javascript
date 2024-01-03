@@ -13,7 +13,10 @@ Previsão de realização do Exame: 01/03/2024
   - criamos um usuario - uma senha especifica
   - criamos um grupo de usuarios (add user group). the name and admin.
   - Na parte de Permissions Policy adicionamos a politica AdministratorAcess.
-  
+
+  - As Tags estão por toda a AWS, com elas podemos fornecer a muito de seus recursos.
+
+
 
 
 
