@@ -15,7 +15,9 @@ Previsão de realização do Exame: 01/03/2024
   - Na parte de Permissions Policy adicionamos a politica AdministratorAcess.
 
   - As Tags estão por toda a AWS, com elas podemos fornecer a muito de seus recursos.
-
+   - Quando criamos um group e ele tem Policys de AdministratorAcess. quando o meu
+   - usuario e Indexado dentro daquele group (admin) herda as politicas dele.
+   
 
 
 
