@@ -25,7 +25,8 @@ Vamos imaginar que tenho um grupo de desenvolvedores:
 -> Alice, Bob and Chales:
 Adicionaremos estes usuarios e eles terão acesso e herdem essa politica.
 Se por ventura tivermos um usuario somente, podemos adicionar uma politica (policy)
-chamada inline policy que possui uma politica que e anexada apenas a um Usuario (user)
+chamada inline policy que possui uma politica que e anexada apenas a um Usuario (user);
+
 
 
 
