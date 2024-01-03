@@ -32,9 +32,9 @@ no arquivo Json:
 -> Statement content:
 "Statement": [
     {
-        "Sid": "1",    -> e um ID de instrução, que e um indentificador para a instrução (optinal)
-        "Effect": "Allow",
-        "Principal": {
+        "Sid": "1",           -> e um ID de instrução, que e um indentificador para a instrução (optinal)
+        "Effect": "Allow",    -> O efeito da propria politica, se a instrução permite ou nega o acesso a uma API
+        "Principal": {        -> Consiste em Quais contas, usuarios ou Roles
             "AWS": ["arn:aws:iam::12345789012:root"]
         },
         "Action": [
