@@ -1,7 +1,7 @@
 <?php
 // exemplo de arrays no PHP:
 
-#arrays basicos:
+#basics arrays example:
 
 $array = array();
 // a function array_push adiciona itens ao final do array;

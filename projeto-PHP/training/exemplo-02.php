@@ -1,5 +1,5 @@
 <?php
-// variaveis e Tipos de dados, além de validações com isset e unset;
+// variable types with validation and elimination used Unset and isset with PHP 7 or hight
 
 
 
