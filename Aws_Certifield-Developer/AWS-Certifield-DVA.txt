@@ -57,3 +57,5 @@ criamos uma politica chamada MyIamPermission.
 ---------------------------------------------IAM MFA - MultiFactory Autenthicator----------------------------------
 IAM Policy Password
 
+
+
