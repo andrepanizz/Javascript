@@ -15,4 +15,5 @@
         "Resource": ["arn:aws:s3:::mybucket/*"]
     }
 ]
+
 }
