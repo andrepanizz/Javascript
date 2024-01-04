@@ -1,25 +1,14 @@
 {
-    "Version" : "2012-10-17",
-    "Statement" : [ 
+    "Version": "2012-10-17",
+    "Statement": [
         {
-            "effect" : "allow",
-            "action" : "ec2:Describe",
-            "Resource": " * "
-        },
-        {
-            "effect" : "allow",
-            "action" : "ec2:Describe",
-            "Resouce": " * " 
-        },
-        {
-            "effect": "allow",
-            "action": [
-                "cloudwatch:listMetrics",
-                "cloudwatch:GetMetricsStatistics",
-                "cloudwatch:Describe"
-                ],
-                "Resource": " * "
-            }         
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "iam:ListUsers",
+                "iam:GetUser"
+            ],
+            "Resource": "*"
+        }
     ]
-
 }
