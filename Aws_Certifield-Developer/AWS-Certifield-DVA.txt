@@ -52,5 +52,8 @@ no arquivo Json:
 IAM Roles in Details:
 Podemos criar nossas proprias policys, em create the Policy tanto com Json Document, Quanto em Visual.
 criamos uma politica chamada MyIamPermission.
+-> Attachment Policy Directly.
+
+---------------------------------------------IAM MFA - MultiFactory Autenthicator----------------------------------
 
 
