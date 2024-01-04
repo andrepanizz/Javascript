@@ -55,4 +55,5 @@ criamos uma politica chamada MyIamPermission.
 -> Attachment Policy Directly.
 
 ---------------------------------------------IAM MFA - MultiFactory Autenthicator----------------------------------
-IAM Policy Password
+IAM Policy Password:
+
