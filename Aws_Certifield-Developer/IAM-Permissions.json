@@ -4,12 +4,12 @@
         {
             "effect" : "allow",
             "action" : "ec2:Describe",
-            "Resource": "*"
+            "Resource": " * "
         },
         {
             "effect" : "allow",
             "action" : "ec2:Describe",
-            "Resouce": "*"
+            "Resouce": " * " 
         },
         {
             "effect": "allow",
@@ -18,8 +18,8 @@
                 "cloudwatch:GetMetricsStatistics",
                 "cloudwatch:Describe"
                 ],
-                "Resource": "*"
+                "Resource": " * "
             }         
     ]
-    
+
 }
