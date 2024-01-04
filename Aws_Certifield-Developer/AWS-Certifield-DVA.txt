@@ -50,7 +50,6 @@ no arquivo Json:
 ]
 ---------------------------------------------IAM Roles Hads on-------------------------------------------------------
 IAM Roles in Details:
-
 Podemos criar nossas proprias policys, em create the Policy tanto com Json Document, Quanto em Visual.
-criamos uma politica chamada MyIamPermission
+criamos uma politica chamada MyIamPermission.
 
