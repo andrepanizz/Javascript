@@ -50,3 +50,5 @@ no arquivo Json:
 ]
 ---------------------------------------------IAM Roles Hads on-------------------------------------------------------
 IAM Roles in Details:
+
+Podemos criar nossas proprias policys, em create the Policy.
