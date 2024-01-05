@@ -74,5 +74,7 @@ Importante que incluiremos novamente o usuario Stephane ao grupo admin, onde tem
 Policy group AdministratorAcess.
 
 -------------------------------------------AWS Cloud Shell-------------------------------------------------------
+Utilizando o AWS Cloud Shell temos 12 Regioes que estão disponivéis.
+na AWS Cloud Shell e um terminal como o CLI podemos utilizar comandos aws --version, aws aim list-usets.. etc.
 
 
