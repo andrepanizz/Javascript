@@ -60,5 +60,10 @@ criando Acess Key e Secret Key para acessar AWS CLI. através do CLI podemos ace
 fazendo a requisição através de uma API:
 command: aws iam list-user. tirando as permissions estamos sem acesso ao user Stephane, tanto pelo CLI
 quanto pelo console.
+aws configure: 
+its required:
+
+Acess Key:  *********************
+Secret Key:  *****************************
 
 
