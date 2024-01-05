@@ -73,4 +73,6 @@ Note que se removermos a permissão do user: Stephane, tanto no console, quanto 
 Importante que incluiremos novamente o usuario Stephane ao grupo admin, onde temos as politicas de grupo
 Policy group AdministratorAcess.
 
+-------------------------------------------AWS Cloud Shell-------------------------------------------------------
+
 
