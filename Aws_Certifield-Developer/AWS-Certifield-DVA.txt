@@ -65,5 +65,7 @@ its required:
 
 Acess Key:  *********************
 Secret Key:  *****************************
+region:     us-east-1
+text-format: []
 
 
