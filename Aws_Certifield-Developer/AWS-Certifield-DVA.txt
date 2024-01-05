@@ -79,6 +79,7 @@ na AWS Cloud Shell e um terminal como o CLI podemos utilizar comandos aws --vers
 Temos o recurso de Download e Upload de scripts e o que quisetmos fazer dentro do CloudShell.
 
 ------------------------------------------Iam Roles for Services--------------------------------------------------
+- Este e o ultimo componente do IAM, que e o IAM Roles.
 
 
 
