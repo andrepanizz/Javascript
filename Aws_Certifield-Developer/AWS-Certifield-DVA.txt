@@ -58,4 +58,4 @@ criamos uma politica chamada MyIamPermission.
 IAM Policy Password:
 criando Acess Key e Secret Key para acessar AWS CLI. através do CLI podemos acessar recursos da AWS.
 fazendo a requisição através de uma API:
-command: aws 
+command: aws iam list-user
