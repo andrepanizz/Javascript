@@ -68,5 +68,9 @@ Secret Key:  *****************************
 region:     us-east-1
 text-format: [press Enter]
 
-No terminal podemos utilizar o comando 
+No terminal podemos utilizar o comando aws iam list-users
+Note que se removermos a permissão do user: Stephane, tanto no console, quanto no CLI não teriamos acesso.
+Importante que incluiremos novamente o usuario Stephane ao grupo admin, onde temos as politicas de grupo
+Policy group AdministratorAcess.
+
 
