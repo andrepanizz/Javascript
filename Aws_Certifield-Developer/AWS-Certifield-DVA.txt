@@ -78,6 +78,7 @@ Utilizando o AWS Cloud Shell temos 12 Regioes que estão disponivéis.
 na AWS Cloud Shell e um terminal como o CLI podemos utilizar comandos aws --version, aws aim list-usets.. etc.
 Temos o recurso de Download e Upload de scripts e o que quisetmos fazer dentro do CloudShell.
 
+------------------------------------------Iam Roles for Services--------------------------------------------------
 
 
 
