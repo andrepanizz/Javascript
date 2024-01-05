@@ -68,5 +68,5 @@ Secret Key:  *****************************
 region:     us-east-1
 text-format: [press Enter]
 
-No terminal podemos utilizar o comando  
+No terminal podemos utilizar o comando 
 
