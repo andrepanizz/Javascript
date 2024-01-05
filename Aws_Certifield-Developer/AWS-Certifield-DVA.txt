@@ -59,4 +59,6 @@ IAM Policy Password:
 criando Acess Key e Secret Key para acessar AWS CLI. através do CLI podemos acessar recursos da AWS.
 fazendo a requisição através de uma API:
 command: aws iam list-user. tirando as permissions estamos sem acesso ao user Stephane, tanto pelo CLI
+quanto pelo console.
+
 
