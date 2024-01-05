@@ -56,4 +56,4 @@ criamos uma politica chamada MyIamPermission.
 
 ---------------------------------------------IAM MFA - MultiFactory Autenthicator----------------------------------
 IAM Policy Password:
-criando Acess Key e Secret Key para acessar AWS CLI
+criando Acess Key e Secret Key para acessar AWS CLI. através do CLI 
