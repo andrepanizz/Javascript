@@ -83,7 +83,7 @@ Temos o recurso de Download e Upload de scripts e o que quisetmos fazer dentro d
 Alguns serviços da AWS que lançaremos precisarão realizar ações em nosso nome, em nossa conta.
 Portanto precisamos atribuir permissões aos serviços da AWS para isto, vamos criar o que e chanadi de função IAM.
 Criaremos uma EC2 instance (Virtual Server) mais para que esta instancia EC2 queira realizar algumas ações na AWS
-e para juntos fazer eles vão fazer identidade.
+e para juntos eles vão fazer identidade.
 Digamos que a EC2 queira realizar algumas ações na AWS e para isso precisamos dar permissão para nossa instancia,
 Para fazer isto vamos criar uma IAM Roles e, juntos, eles vão fazer uma entidade.
 
