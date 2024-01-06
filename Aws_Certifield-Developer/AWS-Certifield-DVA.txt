@@ -88,5 +88,12 @@ Digamos que a EC2 queira realizar algumas ações na AWS e para isso precisamos 
 Para fazer isto vamos criar uma IAM Roles e, juntos, eles vão fazer uma entidade.
 
 E juntos, uma vez que a instancia EC2 esta tentando acessar algumas informações da AWS, ela usara a Função IAM!
-E se a permissão atribuida a função IAM estiver correta * 
+E se a permissão atribuida a função IAM estiver correta * (teremos acesso a chamada que estamos tentando fazer)
+
+- Portanto algumas funções comuns incluiem o funções:
+    -> EC2 Instance Roles
+    -> Lambda Functions Roles
+    -> Roles for CloudFormation
+------------------------------------IAM Roles Hands On-------------------------------------------------------------
+
 
