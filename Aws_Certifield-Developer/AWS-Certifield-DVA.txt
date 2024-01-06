@@ -85,4 +85,6 @@ Portanto precisamos atribuit permissões aos serviços da AWS para isto, vamos c
 Criaremos uma EC2 instance (Virtual Server) mais para que esta instancia EC2 queira realizar algumas ações na AWS
 e para juntos fazer eles vão fazer identidade.
 Digamos que a EC2 queira realizar algumas ações na AWS e para isso precisamos dar permissão para nossa instancia,
-Para fazer isto vamos criar uma IAM Roles e, 
+Para fazer isto vamos criar uma IAM Roles e, juntos, eles vão fazer uma entidade.
+
+
