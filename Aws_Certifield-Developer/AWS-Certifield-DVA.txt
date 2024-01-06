@@ -84,3 +84,4 @@ Alguns serviços da AWS que lançaremos precisarão realizar ações em nosso no
 Portanto precisamos atribuit permissões aos serviços da AWS para isto, vamos criar o que e chanadi de função IAM.
 Criaremos uma EC2 instance (Virtual Server) mais para que esta instancia EC2 queira realizar algumas ações na AWS
 e para juntos fazer eles vão fazer identidade.
+Digamos que a EC2 queira realizar algumas ações na AWS e para isso precisamos dar permissão para nossa instancia.
