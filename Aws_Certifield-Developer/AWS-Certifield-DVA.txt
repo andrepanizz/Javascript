@@ -95,5 +95,15 @@ E se a permissão atribuida a função IAM estiver correta * (teremos acesso a c
     -> Lambda Functions Roles
     -> Roles for CloudFormation
 ------------------------------------IAM Roles Hands On-------------------------------------------------------------
+Trusted Entity type
+
+-> AWS Services
+
+use Case:
+Qual serviço queremos que esta função se aplique:
+EC2
+
+-> para uma instancia do EC2, precisaremos anexar uma policy:
+
 
 
