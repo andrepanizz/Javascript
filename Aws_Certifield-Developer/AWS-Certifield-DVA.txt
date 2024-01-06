@@ -87,4 +87,6 @@ e para juntos eles vão fazer identidade.
 Digamos que a EC2 queira realizar algumas ações na AWS e para isso precisamos dar permissão para nossa instancia,
 Para fazer isto vamos criar uma IAM Roles e, juntos, eles vão fazer uma entidade.
 
-E juntos, uma vez que a instancia EC2 esta tentando acessar algumas informações da AWS, ela
+E juntos, uma vez que a instancia EC2 esta tentando acessar algumas informações da AWS, ela usara a Função IAM!
+E se a permissão atribuida a função IAM estiver correta * 
+
