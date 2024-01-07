@@ -129,6 +129,13 @@ Vamos gerar um Credenciais Reports, vamos em Credentials Report e Download.
 Analisando as informações:
 
 -Aqui podemos ver quando o usuario foi criado;
+-Se a senha foi ativada (password Enable) 
+-pela ultima vez que foi alterada
+-Se o MFA esta Ativo
+-Se as Chaves de Acesso são geradas ou não
+-Se as chaves de Acesso foram Rotacionadas pela ultima vez
+
+
 
 
 
