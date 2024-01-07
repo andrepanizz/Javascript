@@ -105,5 +105,12 @@ EC2
 
 -> para uma instancia do EC2, precisaremos anexar uma policy:
 
+Portanto vou adicionar uma politica para somente leitura do IAM
+- IAMReadOnlyAcess 
+para permitir que minha instancia do EC2 leia o que estiver no IAM.
+
+Em seguida precisamos inserir uma demonstração ou nome da Role (função)
+e selecionamos as Trust policys ou entidades confiavéis.
+
 
 
