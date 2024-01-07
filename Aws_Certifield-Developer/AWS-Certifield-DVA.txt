@@ -121,5 +121,10 @@ as permissões estão corretas.
 Podemos criar um relatorio de Credenciais (Credentials Report)
 Um relatorio de listas de todos os seus usuarios e contas de varias credenciais.
 
+-> A segunda ferramenta e o IAM Acess Advison ele mostrará as permissões de serviço concedidas,
+a um usuario e quando esses serviçoes foram acessados pela ultima vez
+
+-----------------------------------IAM Acess Advisor | Credentials Report-----------------------------------------
+Vamos gerar um Credenciais Reports
 
 
