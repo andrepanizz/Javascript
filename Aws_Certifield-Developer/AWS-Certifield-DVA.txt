@@ -111,6 +111,9 @@ para permitir que minha instancia do EC2 leia o que estiver no IAM.
 
 Em seguida precisamos inserir uma demonstração ou nome da Role (função)
 e selecionamos as Trust policys ou entidades confiavéis.
+pra finalizar Create Role.
 
+-> podemos observar que ela aparece em minhas listas de functions (Roles) e podemos verificar se
+as permissões estão corretas
 
 
