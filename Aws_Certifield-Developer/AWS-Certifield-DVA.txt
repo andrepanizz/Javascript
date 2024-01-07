@@ -137,6 +137,13 @@ Analisando as informações:
 
 Portanto este relatorio e extremamente util se quisermos examinar alguns usuarios que não estão alterando suas senhas
 
+Acess Advisor:
+
+ele vai me mostrar quais foram os serviços acessados pelo meu usuario e quando.
+Então utilizando o Acess Advisor, e possivel verificar se o usuario tem ou não permissão corretas.
+O Acess Adivisor e util quando precisamos fazer permissões granulares de acesso de usuarios na AWS.
+
+-------------------------------------Melhores Praticas gerais sobre o IAM AWS-------------------------------------
 
 
 
