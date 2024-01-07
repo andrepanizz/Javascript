@@ -114,6 +114,7 @@ e selecionamos as Trust policys ou entidades confiavéis.
 pra finalizar Create Role.
 
 -> podemos observar que ela aparece em minhas listas de functions (Roles) e podemos verificar se
-as permissões estão corretas
+as permissões estão corretas.
+
 
 
