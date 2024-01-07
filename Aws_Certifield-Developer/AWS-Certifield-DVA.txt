@@ -125,6 +125,9 @@ Um relatorio de listas de todos os seus usuarios e contas de varias credenciais.
 a um usuario e quando esses serviçoes foram acessados pela ultima vez
 
 -----------------------------------IAM Acess Advisor | Credentials Report-----------------------------------------
-Vamos gerar um Credenciais Reports
+Vamos gerar um Credenciais Reports, vamos em Credentials Report e Download.
+Analisando as informações:
+
+
 
 
