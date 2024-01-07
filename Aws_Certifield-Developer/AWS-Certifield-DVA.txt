@@ -135,6 +135,7 @@ Analisando as informações:
 -Se as Chaves de Acesso são geradas ou não
 -Se as chaves de Acesso foram Rotacionadas pela ultima vez
 
+Portanto este relatorio e extremamente util se quisermos examinar alguns usuarios que não estão alterando suas senhas
 
 
 
