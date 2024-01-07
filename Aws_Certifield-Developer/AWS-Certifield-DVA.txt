@@ -116,5 +116,10 @@ pra finalizar Create Role.
 -> podemos observar que ela aparece em minhas listas de functions (Roles) e podemos verificar se
 as permissões estão corretas.
 
+------------------------------------IAM Security Tools------------------------------------------------------------
+-> vamos falar sobre o tipo de ferramentas de segurança que temos no IAM:
+Podemos criar um relatorio de Credenciais (Credentials Report)
+Um relatorio de listas de todos os seus usuarios e contas de varias credenciais.
+
 
 
