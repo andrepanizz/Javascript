@@ -145,6 +145,3 @@ O Acess Adivisor e util quando precisamos fazer permissões granulares de acesso
 
 -------------------------------------Melhores Praticas gerais sobre o IAM AWS-------------------------------------
 
-
-
-
