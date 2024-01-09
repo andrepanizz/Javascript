@@ -153,6 +153,7 @@ O Acess Adivisor e util quando precisamos fazer permissões granulares de acesso
 - Para editar as permissões da conta, podemos usar o relatorios credenciais (Credenciais Report ou Acess Adivisor)
 - Important: Jamais compartilhe IAM suas chaves de acesso.
 
-------------------------------------
+------------------------------------Modelo de responsabilidade Compartilhada (exame)-------------------------------
+
 
 
