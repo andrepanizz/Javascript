@@ -185,5 +185,13 @@ CLI Podemos usar para gerenciar os serviços AWS, usando um linguagem de program
 E por fim podemo criar Acess Key e Secret Key  chaves de acesso, podemos criar um Credenciais Reports do IAM,
 e tambem um Acess Advisor services.
 
+Quiz AWS IAM Section:
+Questions IAM:
+
+1. What is a proper definition of an IAM Role? Correct
+2. Which of the followinf=g ins a IAM Security Tools? Correct
+3. Which answer is INCORRECT regarding IAM USERS? Correct
+4. What are IAM Policies? Correct
+5. 
 --------------------------------- Two Section EC2 Instance--------------------------------------------------------
 
