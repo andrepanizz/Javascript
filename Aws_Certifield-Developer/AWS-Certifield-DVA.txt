@@ -201,9 +201,4 @@ INCORRECT answer:
 9. Which of the following is an IAM best Practice? answer: Least Privilege.
 10. Which principle Should you apply regarding IAM Permissions? answer:  
 --------------------------------- AWS Budget Setup --------------------------------------------------------
-
 - AWS management Console:
-
-
-
-
