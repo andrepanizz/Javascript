@@ -154,6 +154,22 @@ O Acess Adivisor e util quando precisamos fazer permissões granulares de acesso
 - Important: Jamais compartilhe IAM suas chaves de acesso.
 
 ------------------------------------Modelo de responsabilidade Compartilhada (exame)-------------------------------
+Shared Responsability Model for IAM:
+como o modelo de responsabilidade funciona para a AWS
+
+->  A AWS e responsável por tudo o que faz, por exemplo sua infraestrutura e sua segurança de rede global,
+a configuração e a analise de vulnerabilidade dos serviços que oferecem e qualquer tipo de conformidade pela
+qual sejam responsaveis.
+
+-------Vou e responsavél:
+- Criar seus proprios usuarios
+- Seus Grupos
+- Suas Policys (politicas)
+- Suas Roles
+E por fim o gerenciamento (Managenment the Policys) das politicas, e o monitoramento delas.
+- Habilitar o MFA (Autenthicator in Accoynt) em todas as contas e aplica-las.
+- Responsavel por garantir que as chaves sejam giradas com frequencia.
+- Certificar de que estamos usando as ferramnetas para aplicar as permissões adequadas em suas contas
 
 
 
