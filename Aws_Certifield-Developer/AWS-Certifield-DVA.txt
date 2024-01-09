@@ -147,8 +147,12 @@ O Acess Adivisor e util quando precisamos fazer permissões granulares de acesso
 --> IAM Guidelines & Best Practices:
 - Devemos habilitar o MFA para usuarios.
 - Jamais utilizar a root account e sim criar um user.
-- para Acess Programmatic usando CLI/SDK nunca fornecer suas credenciais Acess Key / Secret Key
+- para Acess Programmatic usando CLI/SDK nunca fornecer suas credenciais Acess Key / Secret Key (senhas muito secretas)
 - Criar AIM Roles para dar permissões ao Virtual Server (EC2) Instance leia o IAM.
 - Adicionar Policys restringindo acessos e dando permissões para Grupos e usuarios (inline Permissions)
+- Para editar as permissões da conta, podemos usar o relatorios credenciais (Credenciais Report ou Acess Adivisor)
+- Important: Jamais compartilhe IAM suas chaves de acesso.
+
+------------------------------------
 
 
