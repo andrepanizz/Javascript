@@ -172,5 +172,18 @@ E por fim o gerenciamento (Managenment the Policys) das politicas, e o monitoram
 - Certificar de que estamos usando as ferramnetas para aplicar as permissões adequadas em suas contas
 ---------------------------------Resumo IAM ---------------------------------------------------------------------
 
+Vimos usuarios do IAM deve  ser mapeados para um usuario fisico real dentro da empresa
+e este usuario terá ua senha para o console AWS
+Agora podemos agrupar estes grupos e adicionar usuarios, podemos anexar politicas ao grupo ou indexar ao 
+usuario diretamente.
+E tambem podemos criar Roles, e estes papeis serão Identidades, mas desta vez talves para Instance Ec2, CloudFormation Roles,
+and Lamdda Functions Roles ou outros serviços.
 
+Sobre o principio de segurança, podemos permitir a autenticação multi-fator (MFA) e definir as politicas de senhas aos usuarios
+CLI Podemos usar para gerenciar os serviços AWS, usando um linguagem de programação
+
+E por fim podemo criar Acess Key e Secret Key  chaves de acesso, podemos criar um Credenciais Reports do IAM,
+e tambem um Acess Advisor services.
+
+--------------------------------- Two Section EC2 Instance--------------------------------------------------------
 
