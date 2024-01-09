@@ -170,6 +170,7 @@ E por fim o gerenciamento (Managenment the Policys) das politicas, e o monitoram
 - Habilitar o MFA (Autenthicator in Accoynt) em todas as contas e aplica-las.
 - Responsavel por garantir que as chaves sejam giradas com frequencia.
 - Certificar de que estamos usando as ferramnetas para aplicar as permissões adequadas em suas contas
+---------------------------------Resumo IAM ---------------------------------------------------------------------
 
 
 
