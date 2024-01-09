@@ -192,6 +192,13 @@ Questions IAM:
 2. Which of the followinf=g ins a IAM Security Tools? Correct
 3. Which answer is INCORRECT regarding IAM USERS? Correct
 4. What are IAM Policies? Correct
-5. 
+5. What Should you do to increase your root account security? Correct
+6. IAM User Groups can contains IAM Users and Other IAM Groups Correct
+7. an IAM policy consist of one or more Statement. A statement in an IAM Policy consists of the following Correct
+8. According to the AWS Shared Responsability Model, whitch of the following is AWS Responsability Correct.
+
+INCORRECT answer:
+9. Which of the following is an IAM best Practice? answer: Least Privilege.
+10. Which principle Should you apply regarding IAM Permissions? answer:  
 --------------------------------- Two Section EC2 Instance--------------------------------------------------------
 
