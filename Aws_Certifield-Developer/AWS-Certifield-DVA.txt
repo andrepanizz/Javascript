@@ -144,5 +144,6 @@ Então utilizando o Acess Advisor, e possivel verificar se o usuario tem ou não
 O Acess Adivisor e util quando precisamos fazer permissões granulares de acesso de usuarios na AWS.
 
 -------------------------------------Melhores Praticas gerais sobre o IAM AWS-------------------------------------
---> IAM 
+--> IAM Guidelines & Best Practices:
+
 
