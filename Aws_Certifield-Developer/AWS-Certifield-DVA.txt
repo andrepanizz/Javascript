@@ -202,4 +202,3 @@ INCORRECT answer:
 10. Which principle Should you apply regarding IAM Permissions? answer:  
 --------------------------------- AWS Budget Setup --------------------------------------------------------
 - AWS management Console:
-
