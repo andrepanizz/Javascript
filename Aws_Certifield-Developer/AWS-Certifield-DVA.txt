@@ -202,3 +202,5 @@ INCORRECT answer:
 10. Which principle Should you apply regarding IAM Permissions? answer:  
 --------------------------------- Two Section EC2 Instance--------------------------------------------------------
 
+- AWS management Console:
+Billing.
