@@ -145,5 +145,10 @@ O Acess Adivisor e util quando precisamos fazer permissões granulares de acesso
 
 -------------------------------------Melhores Praticas gerais sobre o IAM AWS-------------------------------------
 --> IAM Guidelines & Best Practices:
+- Devemos habilitar o MFA para usuarios.
+- Jamais utilizar a root account e sim criar um user.
+- para Acess Programmatic usando CLI/SDK nunca fornecer suas credenciais Acess Key / Secret Key
+- Criar AIM Roles para dar permissões ao Virtual Server (EC2) Instance leia o IAM.
+- Adicionar Policys restringindo acessos e dando permissões para Grupos e usuarios (inline Permissions)
 
 
